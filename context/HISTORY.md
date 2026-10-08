@@ -9,6 +9,11 @@
 
 ## 2026-10-08
 
+### Sauvegarde sur GitHub
+- Dépôt privé créé : https://github.com/nicobidax-hue/jarvis (branche `main` suivie sur `origin`)
+- Connexion GitHub enregistrée sur le PC, Claude peut désormais pousser les commits
+- `.env` vérifié non versionné avant le premier push
+
 ### Rangement des CV dans les livrables
 - Les 8 CV ciblés (.docx + .pdf) ont été copiés de `Bureau\CV 2026` vers `livrables/taff/2026-10-08_cv-cibles/` et renommés selon la convention (ex. `cv-administratif-adv_moderne.pdf`)
 - Les originaux sont restés sur le Bureau. La version de référence est désormais celle du workspace
