@@ -9,6 +9,9 @@
 
 ## 2026-10-08
 
+### Prochaine session (prévue le 2026-10-09)
+- Commencer par la recherche d'emploi : piste « postes de bureau dans des entreprises du bâtiment » autour de Villepreux, et suivi des 3 candidatures en cours (voir `livrables/taff/suivi-candidatures.md`)
+
 ### Langues : fiches de vocabulaire multilingues
 - Méthode choisie par Nicolas : fiches de vocabulaire par thème en 4 langues (FR, EN, ES, PT), complétées par de la conversation avec Claude. Temps disponible : 1 h ou plus par jour
 - Portugais : variante brésilienne retenue, les différences avec le portugais du Portugal sont signalées dans la colonne « Pièges »
