@@ -14,6 +14,7 @@
 - Niveaux de langues : espagnol courant, anglais intermédiaire, portugais scolaire
 - Formulations corrigées pour rester exactes : « négociation » devient « interface avec les fournisseurs », « suivi comptable » devient « suivi de la rentabilité, en lien avec l'expert-comptable »
 - Le fichier doublon n'a pas été modifié
+- CONTEXT.md mis à jour avec ces chiffres, les niveaux de langues, les outils maîtrisés et l'emplacement des CV
 
 ### Sauvegarde sur GitHub
 - Dépôt privé créé : https://github.com/nicobidax-hue/jarvis (branche `main` suivie sur `origin`)
