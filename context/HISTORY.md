@@ -14,7 +14,7 @@
 - Portugais : variante brésilienne retenue, les différences avec le portugais du Portugal sont signalées dans la colonne « Pièges »
 - Création de `livrables/langues/2026-10-08_fiches-vocabulaire/fiches-vocabulaire_v1.xlsx` : 4 onglets (Entretien d'embauche, Bâtiment et rénovation, IA et tech, Voyage et quotidien), 30 mots chacun, avec pièges/faux amis, phrase d'exemple en anglais et colonne « Acquis »
 - CONTEXT.md mis à jour : portugais brésilien, méthode et rythme d'apprentissage
-- Version LibreOffice `fiches-vocabulaire_v2.ods` : lignes colorées en alternance (bleu, vert, jaune), filtres, en-tête figé et répété à l'impression. Nicolas utilise LibreOffice pour ses tableurs
+- Version LibreOffice `fiches-vocabulaire_v2.ods` : lignes colorées en alternance (bleu, vert, jaune), filtres, en-tête figé et répété à l'impression. Nicolas utilise LibreOffice pour ses tableurs (ajouté dans CONTEXT.md : tableurs produits au format .ods)
 
 ### Recherche d'offres et candidature TMD Sécurité
 - Première recherche Indeed autour de Villepreux. Pistes retenues : TMD Sécurité (assistant administratif, Bois-d'Arcy, CDI dès janvier 2027, priorité), Bessière (assistant logistique, Méré), support EDI via Michael Page (Plaisir, plus difficile)

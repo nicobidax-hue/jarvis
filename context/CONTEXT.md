@@ -96,7 +96,8 @@ Projets prévus plus tard : choix et ouverture du statut juridique, lancement de
 ### Outils que j'utilise au quotidien
 
 - Gmail
-- Excel
+- Excel (compétence pro, citée dans les CV)
+- LibreOffice Calc : à utiliser pour les tableurs que Claude produit pour moi (format .ods)
 - Ouvert à d'autres outils s'ils sont réellement utiles
 
 ### Style de communication préféré
