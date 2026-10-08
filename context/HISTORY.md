@@ -9,6 +9,11 @@
 
 ## 2026-10-08
 
+### Langues : fiches de vocabulaire multilingues
+- Méthode choisie par Nicolas : fiches de vocabulaire par thème en 4 langues (FR, EN, ES, PT), complétées par de la conversation avec Claude. Temps disponible : 1 h ou plus par jour
+- Portugais : variante brésilienne retenue, les différences avec le portugais du Portugal sont signalées dans la colonne « Pièges »
+- Création de `livrables/langues/2026-10-08_fiches-vocabulaire/fiches-vocabulaire_v1.xlsx` : 4 onglets (Entretien d'embauche, Bâtiment et rénovation, IA et tech, Voyage et quotidien), 30 mots chacun, avec pièges/faux amis, phrase d'exemple en anglais et colonne « Acquis »
+
 ### Recherche d'offres et candidature TMD Sécurité
 - Première recherche Indeed autour de Villepreux. Pistes retenues : TMD Sécurité (assistant administratif, Bois-d'Arcy, CDI dès janvier 2027, priorité), Bessière (assistant logistique, Méré), support EDI via Michael Page (Plaisir, plus difficile)
 - Enseignement : les postes de bureau dans des entreprises du bâtiment valorisent le mieux le profil de Nicolas, piste à creuser
