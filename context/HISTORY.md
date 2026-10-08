@@ -15,6 +15,7 @@
 - Candidature TMD Sécurité préparée dans `livrables/taff/2026-10-08_candidature-tmd-securite/` : CV adapté (titre, profil, parkings mis en avant) et lettre de motivation, en .docx et .pdf
 - CV v2 plus attractif (`cv-nicolas-bideau_tmd-securite_v2`) : bandeau de chiffres clés, Batidax en tête dans « Expérience en gestion d'entreprise », accroche « 6 ans de gestion d'entreprise dans le bâtiment », postes anciens réduits à une ligne. La v1 est conservée
 - Mise en cohérence : CONTEXT.md corrigé de « 15 ans » à 12 ans d'expérience dans le bâtiment (comme les CV), relances clients chez Batidax confirmées par Nicolas
+- Candidature Bessière (assistant logistique, Méré) préparée dans `livrables/taff/2026-10-08_candidature-bessiere/` : CV au design v2 recentré sur la logistique et le planning de pose, et lettre de motivation
 - **Candidature TMD Sécurité envoyée le 2026-10-08**, relance prévue le 2026-10-15. Création de `livrables/taff/suivi-candidatures.md` pour suivre les envois et les pistes
 
 ### Compléments des CV ciblés
