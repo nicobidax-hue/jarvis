@@ -1,0 +1,41 @@
+# Workspace History
+
+> Journal chronologique de toutes les sessions et décisions importantes.
+> Le plus récent en haut. Mis à jour automatiquement par Claude.
+>
+> **Comment ça marche :** Quand je lance la commande `/update` après une session importante, ou quand je raconte un changement significatif, Claude ajoute une entrée ici automatiquement. Je n'ai pas à écrire ce fichier manuellement.
+
+---
+
+## 2026-10-08
+
+### Sortie du workspace de OneDrive
+- Workspace copié de `OneDrive\Bureau\jarvis\jarvis-starter-kit` vers `C:\Users\nicob\jarvis\` pour que `.env` ne soit plus synchronisé dans le cloud Microsoft
+- Sauvegarde désormais assurée par Git (dépôt initialisé, premier commit sans `.env`), dépôt GitHub privé à venir
+- Historique des conversations Claude Code copié vers le nouvel emplacement (mémoire Claude Code vide, rien à migrer)
+- `.claude/settings.local.json` ajouté au `.gitignore` (réglages propres à la machine)
+- Clés d'API à sauvegarder à part dans un gestionnaire de mots de passe
+
+### Organisation des livrables et gestion des clés d'API
+- Création de `livrables/` avec 6 sous-dossiers thématiques : `sites-web/`, `applications/`, `youtube/`, `reseaux/`, `batiment/`, `taff/` (noms sans accents pour éviter les soucis avec scripts, Git et synchro), chacun avec un README
+- Règle d'or documentée (livrables/README.md et CLAUDE.md) : inputs dans `context/import/`, outputs dans `livrables/`
+- Convention de nommage : un dossier par projet `AAAA-MM-JJ_nom-du-projet/`, minuscules, tirets, sans accents, versions `_v1`/`_v2`/`_final`
+- Création de `.env` (clés privées, à ne jamais commiter), `.env.exemple` (modèle public) et `.gitignore` (secrets, builds, éditeurs, logs, temporaires), testé dans un dépôt Git temporaire
+- Point d'attention : le workspace est sur OneDrive, donc `.env` est synchronisé dans le cloud Microsoft (réglé dans l'entrée suivante)
+- Les 8 CV ciblés restent dans `Bureau\CV 2026` (créés avant cette organisation)
+
+### Ajout du parcours professionnel
+- Recherche des CV existants : version la plus récente sur le Bureau (CV Bideau Nicolas, 11/05/2026), CV Indeed obsolète (s'arrête à 2008)
+- Parcours ajouté dans CONTEXT.md : ancien gérant de Batidax (2013-2019), responsable chantier/formateur chez AS Résine Pro Tech (2022-2026), logistique, informatique (BTS développement, bases de données)
+- Analyse du CV pour l'objectif poste de bureau, puis création de 8 CV ciblés dans `Bureau\CV 2026` (Administratif/ADV, Support informatique, Logistique/stocks, Bâtiment, chacun en version sobre et moderne, .docx + .pdf)
+- À compléter par Nicolas : niveaux de langues, chiffres clés (taille d'équipe, chantiers, stocks), vérification des missions reformulées
+
+### Installation initiale du Jarvis
+- Workspace personnalisé pour Nicolas, basé à Villepreux (Yvelines)
+- Profil principal : mix, en recherche d'emploi avec deux activités en développement (rénovation intérieure et freelance IA)
+- Activité : rénovation intérieure pour particuliers (spécialité sols résine et béton ciré, sans statut pour l'instant) et projet freelance IA en phase de formation
+- Objectifs court terme identifiés : poste de bureau à moins de 20 min cet hiver, statut ouvert et 5 chantiers résine/béton ciré avant l'été 2027, première mission d'automatisation IA d'ici 3 à 6 mois
+- Vision long terme : vivre du freelance (rénovation, IA, contenu Instagram/TikTok), devenir une référence IA pour les PME locales, parler couramment anglais, espagnol et portugais
+- Projets actifs au démarrage : apprentissage de l'IA, langues (anglais, espagnol, portugais), recherche d'emploi
+- Domaine d'aide prioritaire : recherche d'emploi (en premier), apprentissage de l'IA, apprentissage des langues
+- Style de communication choisi : mélange, direct et efficace ou détaillé et pédagogique selon le contexte
