@@ -13,6 +13,7 @@
 - Première recherche Indeed autour de Villepreux. Pistes retenues : TMD Sécurité (assistant administratif, Bois-d'Arcy, CDI dès janvier 2027, priorité), Bessière (assistant logistique, Méré), support EDI via Michael Page (Plaisir, plus difficile)
 - Enseignement : les postes de bureau dans des entreprises du bâtiment valorisent le mieux le profil de Nicolas, piste à creuser
 - Candidature TMD Sécurité préparée dans `livrables/taff/2026-10-08_candidature-tmd-securite/` : CV adapté (titre, profil, parkings mis en avant) et lettre de motivation, en .docx et .pdf
+- CV v2 plus attractif (`cv-nicolas-bideau_tmd-securite_v2`) : bandeau de chiffres clés, Batidax en tête dans « Expérience en gestion d'entreprise », accroche « 6 ans de gestion d'entreprise dans le bâtiment », postes anciens réduits à une ligne. La v1 est conservée
 
 ### Compléments des CV ciblés
 - Les 8 CV (.docx et .pdf) ont été enrichis avec des chiffres clés : CA Batidax d'environ 100 000 €/an, 2 à 3 sous-traitants, équipe de 3 à 6 personnes et 2 à 3 chantiers en parallèle chez AS Résine Pro Tech, environ 10 personnes formées par semaine pendant un an, 2 à 7 palettes/jour et 10 à 12 références chez Alperel (glaces artisanales)
