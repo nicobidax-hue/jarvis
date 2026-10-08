@@ -25,6 +25,7 @@ Un document fourni ne va jamais dans `livrables/`. Un document produit ne va jam
 | `reseaux/` | Livrables Instagram et TikTok |
 | `batiment/` | Livrables pour la branche rénovation (résine, béton ciré) |
 | `taff/` | Livrables pour la recherche d'emploi |
+| `langues/` | Apprentissage de l'anglais, de l'espagnol et du portugais |
 
 Les noms de dossiers sont volontairement sans accents, pour éviter les problèmes avec les scripts, Git et la synchronisation.
 

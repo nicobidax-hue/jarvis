@@ -73,7 +73,8 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 │   ├── youtube/                 # Briefs, scripts, hooks, calendrier éditorial
 │   ├── reseaux/                 # Instagram, TikTok
 │   ├── batiment/                # Branche rénovation
-│   └── taff/                    # Recherche d'emploi
+│   ├── taff/                    # Recherche d'emploi
+│   └── langues/                 # Anglais, espagnol, portugais
 ├── context/
 │   ├── CONTEXT.md               # Qui je suis, ce que je fais, mes objectifs
 │   ├── HISTORY.md               # Journal évolutif de mes sessions

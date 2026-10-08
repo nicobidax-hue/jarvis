@@ -15,6 +15,7 @@
 - Historique des conversations Claude Code copié vers le nouvel emplacement (mémoire Claude Code vide, rien à migrer)
 - `.claude/settings.local.json` ajouté au `.gitignore` (réglages propres à la machine)
 - Clés d'API à sauvegarder à part dans un gestionnaire de mots de passe
+- Ajout de `livrables/langues/` (anglais, espagnol, portugais), oublié dans l'organisation initiale
 
 ### Organisation des livrables et gestion des clés d'API
 - Création de `livrables/` avec 6 sous-dossiers thématiques : `sites-web/`, `applications/`, `youtube/`, `reseaux/`, `batiment/`, `taff/` (noms sans accents pour éviter les soucis avec scripts, Git et synchro), chacun avec un README
