@@ -18,7 +18,7 @@
 - Candidature Bessière (assistant logistique, Méré) préparée dans `livrables/taff/2026-10-08_candidature-bessiere/` : CV au design v2 recentré sur la logistique et le planning de pose, et lettre de motivation. **Envoyée le 2026-10-08**, relance prévue le 2026-10-15 (rappels Google Agenda pour TMD à 9h30 et Bessière à 10h00)
 
 
-- Offres de la mairie de Villepreux analysées : aucune ne colle (guichet unique réservé aux titulaires, agent polyvalent bâtiment = terrain). Choix d'une candidature spontanée pour un poste administratif aux services techniques, préparée dans `livrables/taff/2026-10-08_candidature-spontanee-mairie-villepreux/` (CV, lettre au Maire, texte du mail pour la DRH)
+- Offres de la mairie de Villepreux analysées : aucune ne colle (guichet unique réservé aux titulaires, agent polyvalent bâtiment = terrain). Choix d'une candidature spontanée pour un poste administratif aux services techniques, préparée dans `livrables/taff/2026-10-08_candidature-spontanee-mairie-villepreux/` (CV, lettre au Maire, texte du mail pour la DRH). **Envoyée par mail le 2026-10-08** (mairie fermée, pas d'appel préalable), appel de suivi à la DRH prévu le 2026-10-12
 - **Candidature TMD Sécurité envoyée le 2026-10-08**, relance prévue le 2026-10-15. Création de `livrables/taff/suivi-candidatures.md` pour suivre les envois et les pistes
 
 ### Compléments des CV ciblés

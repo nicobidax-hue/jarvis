@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|---|---|
 | 2026-10-08 | TMD Sécurité | Assistant administratif (CDI, janvier 2027) | Bois-d'Arcy | `2026-10-08_candidature-tmd-securite/` (CV v2 + lettre) | Envoyée | 2026-10-15 | [Annonce](https://to.indeed.com/aalswgf9b7b4) |
 | 2026-10-08 | Bessière | Assistant logistique (CDI, 1 900 à 2 200 €/mois) | Méré | `2026-10-08_candidature-bessiere/` (CV + lettre) | Envoyée | 2026-10-15 | [Annonce](https://to.indeed.com/aakryyyx6cz2) |
-| À envoyer | Mairie de Villepreux | Candidature spontanée, poste administratif aux services techniques | Villepreux | `2026-10-08_candidature-spontanee-mairie-villepreux/` (CV + lettre + mail) | Prête | | [Offres de la ville](https://www.villepreux.fr/offres-demploi/) |
+| 2026-10-08 | Mairie de Villepreux | Candidature spontanée, poste administratif aux services techniques | Villepreux | `2026-10-08_candidature-spontanee-mairie-villepreux/` (CV + lettre + mail) | Envoyée par mail (sans appel préalable) | 2026-10-12 (appel DRH) | [Offres de la ville](https://www.villepreux.fr/offres-demploi/) |
 
 ## Pistes à traiter
 
