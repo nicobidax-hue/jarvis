@@ -24,7 +24,7 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 
 - **2022-2026 :** Responsable chantier / Formateur, AS Résine Pro Tech (Les Clayes-sous-Bois). Équipe de 3 à 6 personnes, 2 à 3 chantiers en parallèle, environ 10 personnes formées par semaine pendant un an
 - **2019-2021 :** Responsable logistique, Alperel (Trappes), fabricant de glaces artisanales. Réception de 2 à 7 palettes/jour, stocks de matières premières et emballages (10 à 12 références) sur Excel puis un autre logiciel (nom oublié)
-- **2013-2019 :** Gérant de sa société Batidax (Bois-d'Arcy). Sols synthétiques et rénovation intérieure, CA d'environ 100 000 €/an, 2 à 3 sous-traitants réguliers, chantiers de 2 à 6 jours chez les particuliers et parkings sur plusieurs mois. Interface avec les fournisseurs, suivi de la rentabilité des chantiers (comptabilité tenue par un expert-comptable)
+- **2013-2019 :** Gérant de sa société Batidax (Bois-d'Arcy). Sols synthétiques et rénovation intérieure, CA d'environ 100 000 €/an, 2 à 3 sous-traitants réguliers, chantiers de 2 à 6 jours chez les particuliers et parkings sur plusieurs mois. Devis, facturation, suivi des paiements et relances clients, interface avec les fournisseurs, suivi de la rentabilité des chantiers (comptabilité tenue par un expert-comptable)
 - **2010-2012 :** Magasinier / Applicateur, Résine 2000 (Élancourt)
 - **2008-2009 :** Gestionnaire applicatif, Prosodie (Vélizy). Automatisation de serveurs
 - **2007-2008 :** Testeur / Développeur, ViaMichelin (Boulogne-Billancourt)
@@ -32,7 +32,7 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 - **Langues :** espagnol courant, anglais intermédiaire, portugais scolaire
 - **Outils :** Excel (pas d'expérience sur un logiciel de devis, de comptabilité ou un ERP)
 - **CV à jour :** `livrables/taff/2026-10-08_cv-cibles/` (8 versions ciblées)
-- **Atout :** double profil technique, informatique (base solide pour le projet IA) et bâtiment (15 ans d'expérience résine/sols)
+- **Atout :** double profil technique, informatique (base solide pour le projet IA) et bâtiment (12 ans d'expérience résine/sols : Résine 2000, Batidax, AS Résine Pro Tech)
 
 ### Rénovation intérieure
 
