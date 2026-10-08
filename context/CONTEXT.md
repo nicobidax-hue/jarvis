@@ -84,7 +84,7 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 Liste des projets ou chantiers actifs sur lesquels je veux que Claude m'aide :
 
 - **Apprentissage de l'IA** : formation en autodidacte, débutant
-- **Langues** : perfectionnement en anglais, espagnol et portugais
+- **Langues** : perfectionnement en anglais, espagnol et portugais (variante **brésilienne**). Méthode : fiches de vocabulaire par thème en 4 colonnes (FR, EN, ES, PT-BR) avec pièges et faux amis (`livrables/langues/2026-10-08_fiches-vocabulaire/`), plus de la conversation avec Claude. Environ 1 h par jour
 - **Recherche d'emploi** : poste de bureau proche de chez moi
 
 Projets prévus plus tard : choix et ouverture du statut juridique, lancement des comptes Instagram et TikTok.
