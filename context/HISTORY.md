@@ -9,6 +9,12 @@
 
 ## 2026-10-08
 
+### Compléments des CV ciblés
+- Les 8 CV (.docx et .pdf) ont été enrichis avec des chiffres clés : CA Batidax d'environ 100 000 €/an, 2 à 3 sous-traitants, équipe de 3 à 6 personnes et 2 à 3 chantiers en parallèle chez AS Résine Pro Tech, environ 10 personnes formées par semaine pendant un an, 2 à 7 palettes/jour et 10 à 12 références chez Alperel (glaces artisanales)
+- Niveaux de langues : espagnol courant, anglais intermédiaire, portugais scolaire
+- Formulations corrigées pour rester exactes : « négociation » devient « interface avec les fournisseurs », « suivi comptable » devient « suivi de la rentabilité, en lien avec l'expert-comptable »
+- Le fichier doublon n'a pas été modifié
+
 ### Sauvegarde sur GitHub
 - Dépôt privé créé : https://github.com/nicobidax-hue/jarvis (branche `main` suivie sur `origin`)
 - Connexion GitHub enregistrée sur le PC, Claude peut désormais pousser les commits
