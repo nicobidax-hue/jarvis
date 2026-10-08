@@ -9,6 +9,11 @@
 
 ## 2026-10-08
 
+### Rangement des CV dans les livrables
+- Les 8 CV ciblés (.docx + .pdf) ont été copiés de `Bureau\CV 2026` vers `livrables/taff/2026-10-08_cv-cibles/` et renommés selon la convention (ex. `cv-administratif-adv_moderne.pdf`)
+- Les originaux sont restés sur le Bureau. La version de référence est désormais celle du workspace
+- `cv-support-informatique_doublon.docx` correspond à « Support informatique (1).docx », une version en trop sans PDF, à trier
+
 ### Sortie du workspace de OneDrive
 - Workspace copié de `OneDrive\Bureau\jarvis\jarvis-starter-kit` vers `C:\Users\nicob\jarvis\` pour que `.env` ne soit plus synchronisé dans le cloud Microsoft
 - Sauvegarde désormais assurée par Git (dépôt initialisé, premier commit sans `.env`), dépôt GitHub privé à venir
