@@ -15,6 +15,12 @@
 - Continuer la prospection BTP (3 à 5 entreprises par jour)
 - 15/10 : relances TMD et Bessière ; 16/10 : relances Guy Hoquet, Fed Group, AGSE, Domaliance
 
+### Rénovation : nom de l'activité et maquette du site
+- Nom retenu : **Atelier Facette** (provisoire, susceptible de changer). Écartés : Atelier Minéral (déjà utilisé par une entreprise de sols à Paris, domaines pris, trop axé résine) et une quinzaine d'autres noms déjà pris par des entreprises du bâtiment ou dont le domaine était réservé
+- Maquette de site vitrine créée avec Claude Design à partir d'un prompt rédigé par Claude, puis corrigée : ambiance minérale chaleureuse (blanc cassé, sable, anthracite, terracotta), rénovation mise en avant avec la résine en signature, effets discrets
+- Prompts et lien dans `livrables/sites-web/2026-10-09_site-renovation/`
+- Avant la mise en ligne : choisir le titre (conseil : "Rénovation intérieure, finitions sur mesure."), vraies photos, avis réels, coordonnées, statut et assurance décennale
+
 ### Recherche d'emploi : 4 candidatures envoyées et prospection BTP
 - Recherche Indeed autour de Villepreux (administratif, ADV, logistique, support, assistant travaux)
 - Envoyées le 09/10 : Guy Hoquet Villepreux (assistant commercial), Fed Group (assistant ADV, Buc), AGSE (assistant administratif, Buc), Domaliance (assistant plannings, Le Chesnay). Total : 7 candidatures en cours
@@ -27,6 +33,7 @@
 ### Outils
 - Connecteur Canva autorisé. Gemini indisponible en France (prompts à copier à la main)
 - Rappels Google Agenda créés pour toutes les relances
+- Réglage `"language": "french"` ajouté dans les paramètres généraux de Claude Code. L'interface de l'extension VS Code reste en anglais (pas de traduction prévue)
 
 ## 2026-10-08
 

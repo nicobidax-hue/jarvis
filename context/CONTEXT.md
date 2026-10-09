@@ -42,6 +42,8 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 - **Clients types :** principalement des particuliers
 - **Saisonnalité :** activité variable, plus forte en période estivale
 - **Statut :** aucun statut juridique pour le moment, je cherche lequel ouvrir
+- **Nom de l'activité :** Atelier Facette (choisi le 2026-10-09, **provisoire, susceptible de changer**). Aucune entreprise du bâtiment à ce nom dans l'Annuaire des entreprises, atelierfacette.fr et .com a priori libres. Restent à vérifier : INPI, Instagram et TikTok
+- **Site vitrine :** maquette réalisée avec Claude Design (lien et reste à faire dans `livrables/sites-web/2026-10-09_site-renovation/`). Mise en ligne seulement après l'ouverture du statut et la souscription de l'assurance décennale
 
 ### Freelance IA
 
