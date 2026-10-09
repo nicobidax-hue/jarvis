@@ -58,6 +58,10 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 
 - **Poste recherché :** poste de bureau, du lundi au vendredi, domaine ouvert
 - **Critère principal :** proche de chez moi (moins de 20 minutes)
+- **Candidatures en cours (au 2026-10-09) :** 7 envoyées (TMD Sécurité, Bessière, mairie de Villepreux, Guy Hoquet, Fed Group, AGSE, Domaliance), suivies dans `livrables/taff/suivi-candidatures.md`
+- **Pistes :** prospection BTP par candidatures spontanées (15 entreprises de 20 salariés ou plus, liste dans `livrables/taff/2026-10-09_prospection-btp/`), en commençant par Central Pose (sols, Plaisir)
+- **CV disponibles par profil :** bâtiment (assistant travaux), ADV et administratif, commercial, plannings (dans les dossiers de candidature du 2026-10-09), en plus des 8 CV ciblés
+- **Règle :** les offres qui exigent un anglais courant sont écartées pour l'instant
 
 ---
 
@@ -98,6 +102,8 @@ Projets prévus plus tard : choix et ouverture du statut juridique, lancement de
 - Gmail
 - Excel (compétence pro, citée dans les CV)
 - LibreOffice Calc : à utiliser pour les tableurs que Claude produit pour moi (format .ods)
+- Google Agenda (rappels de relance) et Indeed (recherche d'offres), connectés à Claude
+- Canva connecté à Claude. Le connecteur Gemini n'est pas disponible en France : utiliser gemini.google.com à la main
 - Ouvert à d'autres outils s'ils sont réellement utiles
 
 ### Style de communication préféré

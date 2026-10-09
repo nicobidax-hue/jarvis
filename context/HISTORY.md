@@ -7,6 +7,27 @@
 
 ---
 
+## 2026-10-09
+
+### Prochaine session
+- 12/10 à 9h30 : appeler la DRH de la mairie de Villepreux
+- Central Pose : appeler l'agence de Plaisir pour avoir un nom, puis envoyer la candidature spontanée
+- Continuer la prospection BTP (3 à 5 entreprises par jour)
+- 15/10 : relances TMD et Bessière ; 16/10 : relances Guy Hoquet, Fed Group, AGSE, Domaliance
+
+### Recherche d'emploi : 4 candidatures envoyées et prospection BTP
+- Recherche Indeed autour de Villepreux (administratif, ADV, logistique, support, assistant travaux)
+- Envoyées le 09/10 : Guy Hoquet Villepreux (assistant commercial), Fed Group (assistant ADV, Buc), AGSE (assistant administratif, Buc), Domaliance (assistant plannings, Le Chesnay). Total : 7 candidatures en cours
+- Fed Group : appel à Laure Evain à 12h sans réponse, rappel prévu à 14h
+- Écartées : Vessel Europe et CRMA (anglais courant indispensable), TS Biotech (chinois exigé), Euretudes (annonce clôturée, lettre réutilisable)
+- Nouveaux CV : bâtiment (assistant travaux), ADV et administratif, commercial, plannings
+- Prospection BTP : 15 entreprises de 20 salariés et plus repérées via l'API de l'Annuaire des entreprises. Central Pose (sols, Plaisir) en tête, CV et lettre prêts
+- Enseignement : les postes de bureau dans le bâtiment passent souvent par des candidatures spontanées plutôt que par des annonces
+
+### Outils
+- Connecteur Canva autorisé. Gemini indisponible en France (prompts à copier à la main)
+- Rappels Google Agenda créés pour toutes les relances
+
 ## 2026-10-08
 
 ### Prochaine session (prévue le 2026-10-09)
@@ -17,7 +38,7 @@
 - Portugais : variante brésilienne retenue, les différences avec le portugais du Portugal sont signalées dans la colonne « Pièges »
 - Création de `livrables/langues/2026-10-08_fiches-vocabulaire/fiches-vocabulaire_v1.xlsx` : 4 onglets (Entretien d'embauche, Bâtiment et rénovation, IA et tech, Voyage et quotidien), 30 mots chacun, avec pièges/faux amis, phrase d'exemple en anglais et colonne « Acquis »
 - CONTEXT.md mis à jour : portugais brésilien, méthode et rythme d'apprentissage
-- Version LibreOffice `fiches-vocabulaire_v2.ods` : lignes colorées en alternance (bleu, vert, jaune), filtres, en-tête figé et répété à l'impression. Nicolas utilise LibreOffice pour ses tableurs (ajouté dans CONTEXT.md : tableurs produits au format .ods)
+- Version LibreOffice `fiches-vocabulaire_v2.ods` : lignes colorées en alternance (bleu, rose, jaune), filtres, en-tête figé et répété à l'impression. Nicolas utilise LibreOffice pour ses tableurs (ajouté dans CONTEXT.md : tableurs produits au format .ods)
 
 ### Recherche d'offres et candidature TMD Sécurité
 - Première recherche Indeed autour de Villepreux. Pistes retenues : TMD Sécurité (assistant administratif, Bois-d'Arcy, CDI dès janvier 2027, priorité), Bessière (assistant logistique, Méré), support EDI via Michael Page (Plaisir, plus difficile)
