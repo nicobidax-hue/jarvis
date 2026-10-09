@@ -13,7 +13,7 @@ Assistant(e) travaux, assistant(e) administratif(ve) et technique, métreur / ai
 
 | # | Entreprise | Activité | Adresse | Taille | Trajet | Pourquoi |
 |---|---|---|---|---|---|---|
-| 1 | **Central Pose** | Revêtements de sols et murs | 226 rue Jacques Monod, Plaisir | Groupe 100 à 199 sal. (site de Plaisir : 20 à 49, ouvert fin 2022 ; siège à Brie-Comte-Robert) | ~10 min | **Ta spécialité (sols)**. Ton expérience résine parle directement. CV + lettre prêts |
+| 1 | **Central Pose** | Travaux publics d'aménagement urbain : pavage, dallage, bétons décoratifs, tramway (code NAF « revêtements de sols » trompeur) | 226 rue Jacques Monod, bât. 5, Plaisir. Tél. 01 30 90 02 31 | Groupe 100 à 199 sal. (agence IDF Normandie : 20 à 49, ouverte fin 2022 ; siège à Brie-Comte-Robert) | ~10 min | Béton décoratif proche du béton ciré, administratif de chantier lourd. Dossier prêt : `2026-10-09_candidature-spontanee-central-pose/` |
 | 2 | **CIES** | Construction de bâtiments (siège) | 47 av. Jean Jaurès, Bois-d'Arcy | 20 à 49 sal. | ~8 min | Siège sur place, donc bureau administratif sur place |
 | 3 | **Rénovation Construction (RC)** | Travaux de bâtiment (siège) | 45 av. Pierre Curie, Saint-Cyr-l'École | 20 à 49 sal. | ~10 min | Rénovation, ton cœur de métier |
 | 4 | **3D Constructions** | Maçonnerie (siège) | 66 rue Gabriel Péri, Saint-Cyr-l'École | 20 à 49 sal. | ~10 min | Siège sur place |
