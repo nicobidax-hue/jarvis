@@ -18,7 +18,7 @@
 ### Recherche d'emploi : 4 candidatures envoyées et prospection BTP
 - Recherche Indeed autour de Villepreux (administratif, ADV, logistique, support, assistant travaux)
 - Envoyées le 09/10 : Guy Hoquet Villepreux (assistant commercial), Fed Group (assistant ADV, Buc), AGSE (assistant administratif, Buc), Domaliance (assistant plannings, Le Chesnay). Total : 7 candidatures en cours
-- Fed Group : appel à Laure Evain à 12h sans réponse, rappel prévu à 14h
+- Fed Group : appels à Laure Evain à 12h et 14h sans réponse. Pas d'autre appel, la candidature Indeed suffit, relance le 16/10
 - Écartées : Vessel Europe et CRMA (anglais courant indispensable), TS Biotech (chinois exigé), Euretudes (annonce clôturée, lettre réutilisable)
 - Nouveaux CV : bâtiment (assistant travaux), ADV et administratif, commercial, plannings
 - Prospection BTP : 15 entreprises de 20 salariés et plus repérées via l'API de l'Annuaire des entreprises. Central Pose (sols, Plaisir) en tête, CV et lettre prêts
