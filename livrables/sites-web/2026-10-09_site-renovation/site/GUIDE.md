@@ -65,8 +65,19 @@ Cherche **"À COMPLÉTER"** (`Ctrl+Maj+F` dans VS Code) : chaque endroit est sig
 - **Animations respectueuses** : elles se coupent si la personne a demandé à réduire les animations sur son téléphone ou son ordinateur.
 - **Accessibilité** : vrais boutons, textes alternatifs sur les images, lien "Aller au contenu", contrastes vérifiés.
 
-## 6. Prochaines étapes
+## 6. Mettre en ligne sur Netlify (test)
 
-1. **Mise en ligne de test** sur un hébergeur gratuit (Netlify ou Cloudflare Pages), à une adresse provisoire, invisible de Google
-2. **Formulaire de devis** : le relier à un service gratuit d'envoi d'emails (Web3Forms ou Formspree) pour recevoir les demandes dans ta boîte mail
-3. **Au lancement** (après statut et assurance décennale) : nom de domaine atelierfacette.fr, retirer le blocage Google (ligne `noindex` dans `index.html` et `robots.txt`), compléter les mentions légales
+1. Crée un compte gratuit sur netlify.com
+2. Va sur **app.netlify.com/drop** et fais glisser le dossier `site` (le dossier entier) depuis l'explorateur Windows
+3. Le site est en ligne à une adresse au hasard. Pour la changer : **Site configuration > Change site name**, par exemple `atelier-facette`
+4. Active le formulaire : menu **Forms > Enable form detection**
+5. Redéploie pour que Netlify détecte le formulaire : onglet **Deploys**, refais glisser le dossier `site` dans la zone prévue
+6. Pour recevoir les demandes par email : **Site configuration > Notifications > Emails and webhooks > Form submission notifications > Add notification**
+7. Teste depuis ton téléphone : envoie-toi une demande de devis
+
+À chaque modification du site, refais l'étape 5 pour mettre la nouvelle version en ligne.
+
+## 7. Prochaines étapes
+
+1. **Relier le site à son propre dépôt GitHub** : chaque sauvegarde met le site à jour automatiquement, sans glisser-déposer
+2. **Au lancement** (après statut et assurance décennale) : nom de domaine atelierfacette.fr, retirer le blocage Google (ligne `noindex` dans `index.html` et `robots.txt`), compléter les mentions légales

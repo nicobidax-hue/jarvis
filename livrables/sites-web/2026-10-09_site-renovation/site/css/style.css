@@ -249,6 +249,11 @@ a{color:var(--ink)}a:hover{color:var(--terra-dark)}
 .drop span{font-size:16px;font-weight:600;text-transform:none;letter-spacing:0}
 .drop small{display:block;color:var(--pebble);font-size:13.5px;font-weight:400}
 .drop input{position:absolute;width:1px;height:1px;opacity:0}
+.drop:focus-within{outline:2px solid var(--terra);outline-offset:4px;border-radius:4px}
+.photos{gap:10px}
+.photos .ph-t{font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.photos .ph-t small{text-transform:none;letter-spacing:0;font-weight:400;color:var(--pebble);font-size:13px}
+.sent.err{background:var(--terra-dark)}
 .f-go{grid-column:1/-1;padding:14px}
 .f-go .btn{width:100%}
 .sent{grid-column:1/-1;background:var(--ink);color:var(--cream);padding:16px 22px;font-size:15px}

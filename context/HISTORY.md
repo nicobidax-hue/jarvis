@@ -14,7 +14,14 @@
 - Central Pose : appeler l'agence de Plaisir pour avoir un nom, puis envoyer la candidature spontanée
 - Continuer la prospection BTP (3 à 5 entreprises par jour)
 - 15/10 : relances TMD et Bessière ; 16/10 : relances Guy Hoquet, Fed Group, AGSE, Domaliance
-- Site Atelier Facette (quand Nicolas le souhaite) : chercher des photos de chantiers, mise en ligne de test (Netlify ou Cloudflare Pages), brancher le formulaire, aperçu des pages sur l'accueil
+- Site Atelier Facette (quand Nicolas le souhaite) : chercher des photos de chantiers, trouver le réglage des notifications email de Netlify, aperçu des pages sur l'accueil, plus tard dépôt GitHub dédié au site
+
+### Rénovation : site en ligne de test sur Netlify
+- Site déployé par glisser-déposer (Netlify Drop) : **https://atelier-facette.netlify.app** (sans www), passé en public pour les tests, toujours bloqué pour Google
+- Formulaire de devis relié à Netlify Forms : 3 champs photo (un fichier par champ, 8 Mo au total, vérifié avant envoi), piège anti-robots, page `merci.html`. Détection activée puis redéploiement : envoi testé avec succès depuis le téléphone
+- Enseignements : les sites Netlify Drop sont privés par défaut ; la détection des formulaires ne s'applique qu'au déploiement suivant son activation ; le nom du dossier déposé n'a aucune importance
+- Réglage des notifications email des demandes introuvable dans la nouvelle interface Netlify, à chercher (les demandes restent visibles dans Forms)
+- Choix d'hébergement au lancement encore ouvert : OVH (domaine, emails pro, FTP) ou GitHub + Netlify avec domaine acheté à part
 
 ### Rénovation : site vitrine Atelier Facette (option A, site codé)
 - Choix de l'option A (site statique codé, hébergement gratuit) plutôt qu'un créateur de site ou WordPress : coût quasi nul, fidèle à la maquette, et objectif de formation de Nicolas

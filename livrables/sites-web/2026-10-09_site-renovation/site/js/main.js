@@ -112,19 +112,36 @@ if (!reduceMotion && counters.length && stats && 'IntersectionObserver' in windo
 }
 
 /* ---------- Formulaire de devis (page Contact) ---------- */
-// Pour l'instant, il n'envoie rien : il affiche un message de test.
-// À la mise en ligne, il sera relié à un service d'envoi d'emails.
+// En ligne, le formulaire est envoyé à Netlify Forms (voir contact.html).
+// Ouvert directement depuis le PC (adresse en file://), aucun envoi n'est possible : on affiche un message de test.
 const form = document.getElementById('devis');
 if (form) {
-  const photos = document.getElementById('f-photos');
-  const photosNote = form.querySelector('.drop-n');
-  photos.addEventListener('change', () => {
-    const n = photos.files.length;
-    photosNote.textContent = n ? n + (n > 1 ? ' photos sélectionnées' : ' photo sélectionnée') : 'Photos de la pièce ou du sol actuel';
-  });
+  const MAX_TOTAL = 8 * 1024 * 1024; // limite de Netlify : 8 Mo par envoi
+  const fileInputs = form.querySelectorAll('input[type="file"]');
+  const message = form.querySelector('.sent');
+  const say = (text, isError) => {
+    message.textContent = text;
+    message.classList.toggle('err', isError);
+    message.hidden = false;
+  };
+
+  // Affiche le nom de la photo choisie sous chaque champ
+  fileInputs.forEach((input) => input.addEventListener('change', () => {
+    const note = input.closest('.drop').querySelector('.drop-n');
+    note.textContent = input.files.length ? input.files[0].name : 'Choisir une photo';
+  }));
+
   form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    form.querySelector('.sent').hidden = false;
+    const total = [...fileInputs].reduce((sum, i) => sum + (i.files[0] ? i.files[0].size : 0), 0);
+    if (total > MAX_TOTAL) {
+      e.preventDefault();
+      say('Les photos dépassent 8 Mo au total (' + (total / 1048576).toFixed(1) + ' Mo). Retirez une photo ou envoyez des photos plus légères.', true);
+      return;
+    }
+    if (location.protocol === 'file:') {
+      e.preventDefault();
+      say('Version de test sur l’ordinateur : le formulaire sera réellement envoyé une fois le site en ligne.', false);
+    }
   });
 }
 
