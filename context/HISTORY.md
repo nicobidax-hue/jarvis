@@ -14,7 +14,13 @@
 - Central Pose : appeler l'agence de Plaisir pour avoir un nom, puis envoyer la candidature spontanée
 - Continuer la prospection BTP (3 à 5 entreprises par jour)
 - 15/10 : relances TMD et Bessière ; 16/10 : relances Guy Hoquet, Fed Group, AGSE, Domaliance
+- Statut : dire depuis quand Nicolas est inscrit à France Travail (droit à l'ACRE), réunion d'information de la Chambre de métiers des Yvelines, devis d'assurance décennale
 - Site Atelier Facette (quand Nicolas le souhaite) : chercher des photos de chantiers, trouver le réglage des notifications email de Netlify, aperçu des pages sur l'accueil, plus tard dépôt GitHub dédié au site
+
+### Rénovation : comparatif des statuts juridiques
+- Comparatif micro-entreprise, EI au réel, EURL et SASU avec les chiffres 2026 (plafond prestations 83 600 €, cotisations 21,2 %, franchise de TVA 37 500 €, ACRE ramenée à 25 % au 1er juillet 2026) dans `livrables/batiment/2026-10-09_statuts-juridiques/comparatif-statuts.md`
+- Analyse : la micro-entreprise colle le mieux au démarrage (emploi salarié en parallèle, petit chiffre d'affaires, clients particuliers sans TVA). Point faible : les matériaux, à facturer séparément de la pose. Décision laissée à Nicolas
+- Nicolas ne touche pas d'ARE : ni cumul ni ARCE. ACRE possible s'il est inscrit à France Travail depuis 6 mois sur les 18 derniers mois (à confirmer)
 
 ### Rénovation : site en ligne de test sur Netlify
 - Site déployé par glisser-déposer (Netlify Drop) : **https://atelier-facette.netlify.app** (sans www), passé en public pour les tests, toujours bloqué pour Google
