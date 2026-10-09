@@ -14,6 +14,20 @@
 - Central Pose : appeler l'agence de Plaisir pour avoir un nom, puis envoyer la candidature spontanée
 - Continuer la prospection BTP (3 à 5 entreprises par jour)
 - 15/10 : relances TMD et Bessière ; 16/10 : relances Guy Hoquet, Fed Group, AGSE, Domaliance
+- Site Atelier Facette (quand Nicolas le souhaite) : chercher des photos de chantiers, mise en ligne de test (Netlify ou Cloudflare Pages), brancher le formulaire, aperçu des pages sur l'accueil
+
+### Rénovation : site vitrine Atelier Facette (option A, site codé)
+- Choix de l'option A (site statique codé, hébergement gratuit) plutôt qu'un créateur de site ou WordPress : coût quasi nul, fidèle à la maquette, et objectif de formation de Nicolas
+- Site construit dans `livrables/sites-web/2026-10-09_site-renovation/site/` à partir de la maquette Claude Design : polices hébergées sur le site (RGPD), pas de cookies, animations désactivables, bloqué pour Google pendant les tests, page mentions légales à trous
+- Passage d'une page unique à 7 pages séparées à la demande de Nicolas (bandeau et pied de page communs, page en cours soulignée, fondu entre les pages). Version une page sauvegardée dans `index-une-page_sauvegarde.html`
+- `GUIDE.md` écrit pour apprendre : structure, rôle HTML / CSS / JavaScript, modifier un texte. Premier exercice fait par Nicolas (modification du surtitre)
+- Reste à faire : vraies photos (paysage, 2000 px minimum), téléphone et email, délai de devis, nombre d'applicateurs formés, avis réels, mise en ligne de test, formulaire branché
+
+### Rénovation : logo Atelier Facette
+- Prompts Gemini (Nano Banana) rédigés et affinés en plusieurs tours : pierre irrégulière (effet "fissuré" écarté), puis exploration "joyau" (émeraude, brillant, hexagone). Brillant écarté (cliché bijouterie, proche du logo Sketch)
+- Émeraude et hexagone redessinés en vectoriel et comparés en situation (`comparaison-logos_v1.html`). **Hexagone retenu** : le plus lisible en petit
+- Fichiers finaux dans `livrables/batiment/2026-10-09_logo-atelier-facette/final/` : photo de profil, icône, logos horizontal et empilé (clair et sombre), en SVG et PNG. Texte en Fraunces intégré mais pas vectorisé (pas de Python sur le PC)
+- Nouveau logo intégré dans la maquette Claude Design et dans le site
 
 ### Rénovation : nom de l'activité et maquette du site
 - Nom retenu : **Atelier Facette** (provisoire, susceptible de changer). Écartés : Atelier Minéral (déjà utilisé par une entreprise de sols à Paris, domaines pris, trop axé résine) et une quinzaine d'autres noms déjà pris par des entreprises du bâtiment ou dont le domaine était réservé

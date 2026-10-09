@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demande de devis gratuit · Atelier Facette</title>
+<meta name="description" content="Demandez votre devis gratuit pour vos travaux de béton ciré, sol résine ou rénovation intérieure dans les Yvelines.">
+<!-- PHASE DE TEST : le site ne doit pas apparaître sur Google. Retirer cette ligne au lancement. -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#F5F1EA">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="images/icone-512.png">
+<meta property="og:title" content="Atelier Facette, rénovation intérieure et béton ciré dans les Yvelines">
+<meta property="og:description" content="Béton ciré, sol résine et rénovation intérieure à Villepreux et dans les Yvelines (78).">
+<meta property="og:image" content="images/salon-beton-cire.jpg">
+<meta property="og:locale" content="fr_FR">
+<link rel="preload" href="fonts/Fraunces.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<!-- ================= BARRE DE NAVIGATION ================= -->
+<div class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="index.html" aria-label="Atelier Facette, accueil">
+      <span class="logo-mk"><svg viewBox="0 0 100 100" aria-hidden="true"><g stroke="#F5F1EA" stroke-width="3"><polygon points="50,2 91.57,26 70.78,38 50,26" fill="#C29A5B"/><polygon points="91.57,26 91.57,74 70.78,62 70.78,38" fill="#2A2724"/><polygon points="91.57,74 50,98 50,74 70.78,62" fill="#2A2724"/><polygon points="50,98 8.43,74 29.22,62 50,74" fill="#C29A5B"/><polygon points="8.43,74 8.43,26 29.22,38 29.22,62" fill="#2A2724"/><polygon points="8.43,26 50,2 50,26 29.22,38" fill="#2A2724"/><polygon points="50,26 70.78,38 70.78,62 50,74 29.22,62 29.22,38" fill="#A65A36"/></g></svg></span>
+      <span class="logo-tx">Atelier Facette</span>
+    </a>
+    <nav class="nav" id="menu" aria-label="Menu principal">
+      <a href="beton-cire-resine.html">Résine &amp; béton ciré</a>
+      <a href="services.html">Services</a>
+      <a href="realisations.html">Réalisations</a>
+      <a href="methode.html">Méthode</a>
+      <a href="a-propos.html">À propos</a>
+      <a class="btn btn-ink" href="contact.html" style="min-height:44px;padding:0 18px">Devis gratuit</a>
+    </nav>
+    <button class="burger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu"><svg viewBox="0 0 24 24" class="ic"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</div>
+
+<main id="contenu">
+
+<section class="sec sand grain" id="contact">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <p class="lbl" style="margin:0 0 18px">Contact</p>
+        <h1 class="h2">Votre devis,<br><em>gratuit.</em></h1>
+      </div>
+      <p class="intro">Décrivez votre projet en quelques mots. Des photos de la pièce m’aident à vous répondre plus précisément.</p>
+    </div>
+    <div class="ct-g">
+      <div class="rv">
+        <!-- À COMPLÉTER : téléphone et email -->
+        <a class="ct-line" href="tel:06XXXXXXXX"><svg viewBox="0 0 24 24" class="ic"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><small>Téléphone</small><strong>06 XX XX XX XX</strong></span></a>
+        <a class="ct-line" href="mailto:contact@atelierfacette.fr"><svg viewBox="0 0 24 24" class="ic"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="M3 7l9 6 9-6"/></svg><span><small>Email</small><strong class="mail">contact@atelierfacette.fr</strong></span></a>
+        <div class="ct-line"><svg viewBox="0 0 24 24" class="ic"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span><small>Basé à</small><strong>Villepreux (78)</strong></span></div>
+      </div>
+      <!-- Formulaire : pas encore branché. À la mise en ligne, il sera relié à un service d'envoi d'emails. -->
+      <form class="form rv" id="devis">
+        <div class="f"><label for="f-nom">Nom</label><input id="f-nom" name="nom" type="text" autocomplete="name" placeholder="Votre nom" required></div>
+        <div class="f"><label for="f-tel">Téléphone</label><input id="f-tel" name="telephone" type="tel" autocomplete="tel" placeholder="06 …" required></div>
+        <div class="f"><label for="f-ville">Ville</label><input id="f-ville" name="ville" type="text" placeholder="Ex. Plaisir"></div>
+        <div class="f"><label for="f-type">Type de travaux</label>
+          <select id="f-type" name="type">
+            <option>Sol en résine</option>
+            <option>Béton ciré</option>
+            <option>Cuisine</option>
+            <option>Salle de bain</option>
+            <option>Murs (enduits, peinture)</option>
+            <option>Sols (PVC, parquet, carrelage)</option>
+            <option>Rénovation complète</option>
+            <option>Autre</option>
+          </select></div>
+        <div class="f full"><label for="f-surf">Surface approximative</label><input id="f-surf" name="surface" type="text" inputmode="numeric" placeholder="Ex. 25 m²"></div>
+        <div class="f full"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="Votre projet en quelques mots"></textarea></div>
+        <div class="f full"><label class="drop" for="f-photos"><svg viewBox="0 0 24 24" class="ic"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></svg><span>Ajouter des photos<small class="drop-n">Photos de la pièce ou du sol actuel</small></span><input id="f-photos" name="photos" type="file" accept="image/*" multiple></label></div>
+        <div class="f-go"><button class="btn btn-acc" type="submit">Envoyer ma demande de devis <svg viewBox="0 0 24 24" class="ic arr"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+        <div class="sent" role="status" hidden>Version de test : l’envoi du formulaire sera branché à la mise en ligne.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= PIED DE PAGE ================= -->
+<footer class="foot dark grain">
+  <div class="wrap">
+    <div class="foot-g">
+      <div>
+        <a class="logo" href="index.html" aria-label="Atelier Facette, accueil" style="color:#F5F1EA">
+          <span class="logo-mk"><svg viewBox="0 0 100 100" aria-hidden="true"><g stroke="#2A2724" stroke-width="3"><polygon points="50,2 91.57,26 70.78,38 50,26" fill="#C29A5B"/><polygon points="91.57,26 91.57,74 70.78,62 70.78,38" fill="#F5F1EA"/><polygon points="91.57,74 50,98 50,74 70.78,62" fill="#F5F1EA"/><polygon points="50,98 8.43,74 29.22,62 50,74" fill="#C29A5B"/><polygon points="8.43,74 8.43,26 29.22,38 29.22,62" fill="#F5F1EA"/><polygon points="8.43,26 50,2 50,26 29.22,38" fill="#F5F1EA"/><polygon points="50,26 70.78,38 70.78,62 50,74 29.22,62 29.22,38" fill="#A65A36"/></g></svg></span>
+          <span class="logo-tx">Atelier Facette</span>
+        </a>
+        <p class="foot-txt">Rénovation intérieure, béton ciré et sol résine à Villepreux et dans les Yvelines (78).</p>
+      </div>
+      <div><h2 class="lbl">Contact</h2><ul><li><a href="tel:06XXXXXXXX">06 XX XX XX XX</a></li><li><a href="mailto:contact@atelierfacette.fr">contact@atelierfacette.fr</a></li><li>Villepreux (78)</li></ul></div>
+      <div><h2 class="lbl">Suivre</h2><ul><li>Instagram<span class="soon">à venir</span></li><li>TikTok<span class="soon">à venir</span></li></ul></div>
+      <div><h2 class="lbl">Infos</h2><ul><li><a href="mentions-legales.html">Mentions légales</a></li><li><a href="a-propos.html#zone">Zone d’intervention</a></li><li><a href="methode.html#faq">Questions fréquentes</a></li></ul></div>
+    </div>
+    <div class="foot-big" aria-hidden="true">Atelier <em>Facette</em></div>
+    <div class="foot-b"><span>© <span class="year">2026</span> Atelier Facette</span><span>Site en cours de construction</span></div>
+  </div>
+</footer>
+
+<!-- Barre d'appel fixée en bas de l'écran, sur téléphone uniquement -->
+<div class="callbar">
+  <a class="btn btn-acc" href="tel:06XXXXXXXX"><svg viewBox="0 0 24 24" class="ic"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Appeler</a>
+  <a class="btn btn-ink" href="contact.html">Devis gratuit</a>
+</div>
+
+</body>
+</html>

@@ -43,7 +43,9 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 - **Saisonnalité :** activité variable, plus forte en période estivale
 - **Statut :** aucun statut juridique pour le moment, je cherche lequel ouvrir
 - **Nom de l'activité :** Atelier Facette (choisi le 2026-10-09, **provisoire, susceptible de changer**). Aucune entreprise du bâtiment à ce nom dans l'Annuaire des entreprises, atelierfacette.fr et .com a priori libres. Restent à vérifier : INPI, Instagram et TikTok
-- **Site vitrine :** maquette réalisée avec Claude Design (lien et reste à faire dans `livrables/sites-web/2026-10-09_site-renovation/`). Mise en ligne seulement après l'ouverture du statut et la souscription de l'assurance décennale
+- **Logo :** symbole hexagonal à facettes (anthracite, ocre, terracotta) et texte en Fraunces. Fichiers SVG et PNG dans `livrables/batiment/2026-10-09_logo-atelier-facette/final/`
+- **Site vitrine :** site statique de 7 pages (HTML, CSS, JavaScript) construit à partir de la maquette Claude Design, dans `livrables/sites-web/2026-10-09_site-renovation/site/` (mode d'emploi : `GUIDE.md`). Pour l'instant uniquement sur le PC, bloqué pour Google. Mise en ligne publique seulement après l'ouverture du statut et la souscription de l'assurance décennale
+- **Objectif d'apprentissage :** Nicolas construit ce site avec Claude Code pour se former (compétence réutilisable pour le freelance IA), donc expliquer les choix techniques au fil de l'eau
 
 ### Freelance IA
 

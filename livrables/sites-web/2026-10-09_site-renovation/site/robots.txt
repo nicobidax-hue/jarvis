@@ -1,0 +1,6 @@
+# Phase de test : le site ne doit pas être indexé par les moteurs de recherche.
+# Au lancement, remplacer par :
+# User-agent: *
+# Allow: /
+User-agent: *
+Disallow: /
