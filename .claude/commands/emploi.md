@@ -95,7 +95,7 @@ Pour chaque offre retenue, crée le dossier `livrables/taff/AAAA-MM-JJ_candidatu
 - **Mail** `mail.txt` : seulement si la candidature part par mail. Objet en 1re ligne (`Objet : ...`), puis le corps (court, vouvoiement, signature « Nicolas Bideau »)
 - **Fiche** `offre.md` : intitulé, entreprise, lieu, salaire, lien, mode de candidature (mail à telle adresse, ou dépôt sur tel site), points clés de l'offre
 
-Fabrication des fichiers : Word est installé. Modifier les `.docx` et exporter en PDF par Word via PowerShell (COM `Word.Application`, `ExportAsFixedFormat` ou `SaveAs2` format 17), puis vérifier que le PDF fait une page pour la lettre et une ou deux pages pour le CV.
+Fabrication des fichiers : utiliser `livrables/applications/2026-10-12_adapter-docx/adapter-docx.ps1` (copie le modèle, remplace des paragraphes entiers listés dans un JSON `{ "texte exact d'origine": "nouveau texte" }`, garde la mise en page, exporte le PDF avec Word et donne le nombre de pages). Pour connaître le texte exact des paragraphes d'un modèle, extraire le texte du `.docx` d'abord. Ne pas remplacer un paragraphe qui mélange plusieurs mises en forme (date en gras + intitulé). Vérifier ensuite le PDF : une page pour la lettre, une ou deux pour le CV.
 
 ---
 
