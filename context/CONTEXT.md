@@ -94,8 +94,10 @@ Liste des projets ou chantiers actifs sur lesquels je veux que Claude m'aide :
 - **Apprentissage de l'IA** : formation en autodidacte, débutant
 - **Langues** : perfectionnement en anglais, espagnol et portugais (variante **brésilienne**). Méthode : fiches de vocabulaire par thème en 4 colonnes (FR, EN, ES, PT-BR) avec pièges et faux amis (`livrables/langues/2026-10-08_fiches-vocabulaire/`), plus de la conversation avec Claude. Environ 1 h par jour
 - **Recherche d'emploi** : poste de bureau proche de chez moi
+- **Atelier Facette (rénovation)** : logo finalisé, site vitrine en ligne de test sur Netlify, mise en ligne publique après l'ouverture du statut et l'assurance décennale
+- **Statut juridique** : comparatif fait (`livrables/batiment/2026-10-09_statuts-juridiques/`), micro-entreprise la plus adaptée au démarrage, décision à prendre. Démarches en cours : vérifier le droit à l'ACRE (date d'inscription à France Travail), réunion d'information de la Chambre de métiers des Yvelines, devis d'assurance décennale
 
-Projets prévus plus tard : choix et ouverture du statut juridique, lancement des comptes Instagram et TikTok.
+Projets prévus plus tard : lancement des comptes Instagram et TikTok.
 
 ---
 
@@ -108,6 +110,8 @@ Projets prévus plus tard : choix et ouverture du statut juridique, lancement de
 - LibreOffice Calc : à utiliser pour les tableurs que Claude produit pour moi (format .ods)
 - Google Agenda (rappels de relance) et Indeed (recherche d'offres), connectés à Claude
 - Canva connecté à Claude. Le connecteur Gemini n'est pas disponible en France : utiliser gemini.google.com à la main
+- **Routine `/mails`** (créée le 2026-10-12) : tri du matin de Gmail. Pubs marquées comme lues, mails IA rangés (non lus) dans les libellés **IA/Formation** et **IA/Outils** hors de la boîte de réception, suivi des candidatures mis à jour, rappels Agenda, brouillons de réponse. Ne supprime et n'envoie jamais rien. Notification téléphone via Remote Control (`/rc` dans VS Code avant de lancer `/mails`). Règles et expéditeurs connus dans `.claude/commands/mails.md`
+- Les mails Opodo adressés à « Maria » viennent de billets pris pour son ex : du bruit, rien de suspect
 - Ouvert à d'autres outils s'ils sont réellement utiles
 
 ### Style de communication préféré

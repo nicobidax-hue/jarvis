@@ -83,7 +83,8 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 │   ├── commands/
 │   │   ├── prime.md             # /prime pour démarrer une session
 │   │   ├── update.md            # /update pour mettre à jour le contexte
-│   │   └── morning.md           # /morning pour démarrer la journée
+│   │   ├── morning.md           # /morning pour démarrer la journée
+│   │   └── mails.md             # /mails pour trier la boîte mail
 │   └── skills/
 │       └── recherche-actualites/ # Skill veille personnalisée
 └── module-installs/
@@ -129,6 +130,12 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 **Objectif :** Démarrer ma journée avec une veille personnalisée en 30 secondes.
 
 Claude va effectuer une veille des actualités du jour, filtrée selon mon contexte personnel (mes objectifs, mes projets), et me proposer un focus pour la journée. Cette commande utilise la skill `recherche-actualites-contextualisees`.
+
+### /mails
+
+**Objectif :** Trier ma boîte mail chaque matin et ne me montrer que l'important.
+
+Claude lit les mails des dernières 24 h (ou de la période donnée, ex. `/mails 3d` le lundi), marque les pubs et newsletters comme lues, met à jour `livrables/taff/suivi-candidatures.md`, crée les rappels datés dans Google Agenda et prépare des brouillons de réponse dans Gmail. Il ne supprime rien, n'envoie rien et signale ses doutes au lieu d'agir.
 
 ---
 

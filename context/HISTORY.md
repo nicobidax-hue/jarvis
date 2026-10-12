@@ -7,6 +7,25 @@
 
 ---
 
+## 2026-10-12
+
+### Prochaine session
+- Confirmer l'appel à la DRH de la mairie de Villepreux (prévu le 12/10 à 9h30) et y évoquer l'offre Indeed « Agent du Guichet Unique » (CDD, alors qu'on la croyait réservée aux titulaires)
+- Répondre à la convocation SportEasy du mercredi 14/10
+- Affiner plus tard : désabonnements restants (via « Gérer les abonnements » de Gmail), réglages SportEasy (couper les mails de forum), configurer Remote Control et tester la notification téléphone de `/mails`
+
+### Routine `/mails` : tri automatique de Gmail
+- Commande `.claude/commands/mails.md` créée à partir du cahier des charges de Nicolas : lecture des mails des dernières 24 h (`/mails 3d` le lundi), pubs marquées comme lues, suivi des candidatures mis à jour, rappels Google Agenda, brouillons de réponse. Règles : ne rien supprimer, ne répondre à personne, en cas de doute ne rien faire et le signaler. Autonomie totale via `allowed-tools` (l'envoi et la suppression ne sont pas autorisés, donc bloqués par l'outil)
+- Sortie WhatsApp écartée (pas de connecteur) au profit d'une notification téléphone via Remote Control, qui ne part pas quand Nicolas est devant l'écran
+- Premier test : 17 mails, 12 pubs et notifications lues, rien d'urgent. Règles validées ensuite : commentaires de forum SportEasy, rapports automatiques (Voltalis) et alertes emploi hors critères traités comme des pubs ; convocations SportEasy gardées
+- Libellés Gmail **IA/Formation** (newsletter de Yass, Communauté IA Skool) et **IA/Outils** (Claude, n8n, Notion, Perplexity) créés : 39 mails rangés hors de la boîte de réception, laissés non lus. La routine range désormais les nouveaux mails IA
+- Boîte de réception de 14 500 conversations (13 900 non lus) : tri complet trop lourd via Claude (un appel par mail). Grand ménage fait par Nicolas dans Gmail avec des recherches groupées (Promotions, non lus de plus de 6 mois, expéditeurs de bruit). Listes d'expéditeurs de bruit et d'expéditeurs à toujours garder ajoutées dans la commande
+- Désabonnement de SeLoger fait. Opodo « Maria » : billets pris pour son ex, rien de suspect. Pas de workflow n8n à sauvegarder
+
+### Contexte
+- CONTEXT.md, rubrique « Mes projets en cours » : ajout d'Atelier Facette et du statut juridique (déjà lancés), retirés des « projets prévus plus tard »
+- CONTEXT.md, rubrique « Mes outils » : ajout de la routine `/mails` et des libellés IA
+
 ## 2026-10-09
 
 ### Prochaine session
