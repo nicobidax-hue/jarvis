@@ -62,7 +62,7 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 
 - **Poste recherché :** poste de bureau, du lundi au vendredi, domaine ouvert
 - **Critère principal :** proche de chez moi (moins de 20 minutes)
-- **Candidatures (au 2026-10-12) :** 10 envoyées, 2 refus (Guy Hoquet, Domaliance), 8 en cours : TMD Sécurité (message du recruteur reçu sur Indeed), Bessière, mairie de Villepreux, Fed Group, AGSE, Sol pro, MO Ingénierie, O'TOMAT. Suivi dans `livrables/taff/suivi-candidatures.md`
+- **Candidatures (au 2026-10-12) :** 10 envoyées, 2 refus (Guy Hoquet, Domaliance), 8 en cours : TMD Sécurité (accusé de réception de Frédéric Letifi), Bessière, mairie de Villepreux, Fed Group, AGSE, Sol pro, MO Ingénierie, O'TOMAT. Suivi dans `livrables/taff/suivi-candidatures.md`
 - **Pistes :** prospection BTP par candidatures spontanées (15 entreprises de 20 salariés ou plus, liste dans `livrables/taff/2026-10-09_prospection-btp/`), en commençant par Central Pose (sols, Plaisir)
 - **CV disponibles par profil :** bâtiment (assistant travaux), ADV et administratif, commercial, plannings (dans les dossiers de candidature du 2026-10-09), en plus des 8 CV ciblés
 - **Règle :** les offres qui exigent un anglais courant sont écartées pour l'instant

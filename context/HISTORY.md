@@ -13,13 +13,13 @@
 - Confirmer l'appel à la DRH de la mairie de Villepreux (prévu le 12/10 à 9h30) et y évoquer l'offre Indeed « Agent du Guichet Unique » (CDD, alors qu'on la croyait réservée aux titulaires)
 - Répondre à la convocation SportEasy du mercredi 14/10
 - Affiner plus tard : désabonnements restants (via « Gérer les abonnements » de Gmail), réglages SportEasy (couper les mails de forum), configurer Remote Control et tester la notification téléphone de `/mails`
-- **TMD Sécurité : lire et répondre au message de Frédéric Letifi reçu sur Indeed le 08/10** (piste la plus avancée)
+- TMD Sécurité : le message de Frédéric Letifi (08/10) était un accusé de réception. Relance le 15/10 en citant son nom
 - 15/10 : relances TMD et Bessière ; 16/10 : relances Fed Group et AGSE ; 19/10 : relances Sol pro, MO Ingénierie, O'TOMAT (rappels dans l'agenda)
 - Central Pose : appeler l'agence de Plaisir puis envoyer la candidature spontanée (toujours en attente)
 - API France Travail : retrouver l'API « Offres d'emploi » dans le catalogue francetravail.io (chercher « offre » ou « recherche », ou écrire au support), l'ajouter à l'application « jarvis », puis tester `chercher-offres.ps1`
 
 ### Premier lancement de `/emploi` : 3 candidatures déposées
-- Suivi : refus de Guy Hoquet (12/10) et de Domaliance (09/10, CV conservé). Message du recruteur de TMD Sécurité (Frédéric Letifi) reçu sur Indeed le 08/10, lisible seulement sur Indeed
+- Suivi : refus de Guy Hoquet (12/10) et de Domaliance (09/10, CV conservé). Message de TMD Sécurité (Frédéric Letifi) reçu sur Indeed le 08/10 : simple accusé de réception (vérifié par Nicolas)
 - Recherche Indeed (environ 30 offres analysées, recherche web sans résultat récent) : 3 retenues, préparées (CV + lettre adaptés, fiche `offre.md`) et **déposées sur Indeed par Nicolas le 12/10** : Sol pro (assistant administratif, Trappes, très petite entreprise de sols, le meilleur match), MO Ingénierie (assistant polyvalent BE + bâtiment, Guyancourt, salaire bas 1 700 à 1 800 €), O'TOMAT (assistant commercial, Noisy-le-Roi). Relance commune le 19/10
 - 5 offres écartées avec la raison dans le suivi, FRANKLAB (Le Perray, ~25 min) ajoutée aux pistes
 - Nouvel outil `livrables/applications/2026-10-12_adapter-docx/adapter-docx.ps1` : copie un modèle Word, remplace des paragraphes entiers depuis un JSON sans casser la mise en page, exporte le PDF. Piège rencontré : les espaces insécables avant « : » dans les modèles empêchaient la correspondance, l'outil les gère désormais
