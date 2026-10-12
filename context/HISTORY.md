@@ -13,6 +13,15 @@
 - Confirmer l'appel à la DRH de la mairie de Villepreux (prévu le 12/10 à 9h30) et y évoquer l'offre Indeed « Agent du Guichet Unique » (CDD, alors qu'on la croyait réservée aux titulaires)
 - Répondre à la convocation SportEasy du mercredi 14/10
 - Affiner plus tard : désabonnements restants (via « Gérer les abonnements » de Gmail), réglages SportEasy (couper les mails de forum), configurer Remote Control et tester la notification téléphone de `/mails`
+- Premier lancement de `/emploi` (conseil : `/emploi recherche`, les relances tombent les 15 et 16/10)
+- API France Travail : retrouver l'API « Offres d'emploi » dans le catalogue francetravail.io (chercher « offre » ou « recherche », ou écrire au support), l'ajouter à l'application « jarvis », puis tester `chercher-offres.ps1`
+
+### Assistant `/emploi` : recherche d'emploi de bout en bout
+- Commande `.claude/commands/emploi.md` créée à partir du cahier des charges de Nicolas : suivi des candidatures en cours (réponses dans Gmail, relances dues avec 2 relances maximum, entretiens), recherche de nouvelles offres (Indeed, France Travail, HelloWork, APEC, prospection BTP) dans 15 communes à moins de 20 min, préparation de 3 à 5 candidatures (CV et lettre adaptés depuis les modèles existants via Word, mail, fiche de l'offre), récapitulatif numéroté
+- Décision : pas d'envoi automatique. Claude prépare tout, **rien ne part sans « go » + numéros**. Raisons : petit bassin d'employeurs local, risque d'erreur en son nom, candidatures de masse peu efficaces. Pas de dépôt automatique sur Indeed ou France Travail (pas d'outil, robots interdits) : Claude donne le lien, Nicolas clique
+- Envoi des pièces jointes impossible via le connecteur Gmail (PDF de 300 Ko) : script `livrables/applications/2026-10-12_envoi-candidatures/envoyer-candidature.ps1` (Gmail SMTP, mode `-Test`, refuse les repères entre crochets). Validation en deux étapes activée sur le compte Google, mot de passe d'application dans `.env`. **Test d'envoi à soi-même réussi**. Le script n'est pas pré-autorisé : Claude Code demande la permission à chaque envoi (deuxième sécurité)
+- API France Travail : application « jarvis » créée sur francetravail.io, identifiants dans `.env`, script `livrables/applications/2026-10-12_api-france-travail/chercher-offres.ps1` prêt (OAuth2, Villepreux code INSEE 78674, rayon 15 km). **Bloqué** : `invalid_client`, aucune API autorisée sur l'application, et l'API « Offres d'emploi » introuvable dans le catalogue actuel
+- Enseignement : un rappel Google Agenda créé sans `timeZone` est enregistré en UTC (2 h de décalage en été). Consigne ajoutée dans `/mails` et `/emploi`
 
 ### Routine `/mails` : tri automatique de Gmail
 - Commande `.claude/commands/mails.md` créée à partir du cahier des charges de Nicolas : lecture des mails des dernières 24 h (`/mails 3d` le lundi), pubs marquées comme lues, suivi des candidatures mis à jour, rappels Google Agenda, brouillons de réponse. Règles : ne rien supprimer, ne répondre à personne, en cas de doute ne rien faire et le signaler. Autonomie totale via `allowed-tools` (l'envoi et la suppression ne sont pas autorisés, donc bloqués par l'outil)

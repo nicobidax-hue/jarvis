@@ -111,6 +111,7 @@ Projets prévus plus tard : lancement des comptes Instagram et TikTok.
 - Google Agenda (rappels de relance) et Indeed (recherche d'offres), connectés à Claude
 - Canva connecté à Claude. Le connecteur Gemini n'est pas disponible en France : utiliser gemini.google.com à la main
 - **Routine `/mails`** (créée le 2026-10-12) : tri du matin de Gmail. Pubs marquées comme lues, mails IA rangés (non lus) dans les libellés **IA/Formation** et **IA/Outils** hors de la boîte de réception, suivi des candidatures mis à jour, rappels Agenda, brouillons de réponse. Ne supprime et n'envoie jamais rien. Notification téléphone via Remote Control (`/rc` dans VS Code avant de lancer `/mails`). Règles et expéditeurs connus dans `.claude/commands/mails.md`
+- **Assistant `/emploi`** (créé le 2026-10-12) : suivi des candidatures, recherche d'offres, préparation de CV, lettres et mails, envoi seulement après « go » + numéros (script Gmail SMTP, identifiants dans `.env`). API France Travail en cours de branchement
 - Les mails Opodo adressés à « Maria » viennent de billets pris pour son ex : du bruit, rien de suspect
 - Ouvert à d'autres outils s'ils sont réellement utiles
 

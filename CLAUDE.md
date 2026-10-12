@@ -84,7 +84,8 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 │   │   ├── prime.md             # /prime pour démarrer une session
 │   │   ├── update.md            # /update pour mettre à jour le contexte
 │   │   ├── morning.md           # /morning pour démarrer la journée
-│   │   └── mails.md             # /mails pour trier la boîte mail
+│   │   ├── mails.md             # /mails pour trier la boîte mail
+│   │   └── emploi.md            # /emploi pour la recherche d'emploi
 │   └── skills/
 │       └── recherche-actualites/ # Skill veille personnalisée
 └── module-installs/
@@ -136,6 +137,12 @@ Claude va effectuer une veille des actualités du jour, filtrée selon mon conte
 **Objectif :** Trier ma boîte mail chaque matin et ne me montrer que l'important.
 
 Claude lit les mails des dernières 24 h (ou de la période donnée, ex. `/mails 3d` le lundi), marque les pubs et newsletters comme lues, met à jour `livrables/taff/suivi-candidatures.md`, crée les rappels datés dans Google Agenda et prépare des brouillons de réponse dans Gmail. Il ne supprime rien, n'envoie rien et signale ses doutes au lieu d'agir.
+
+### /emploi
+
+**Objectif :** Assistant de recherche d'emploi, du suivi des candidatures jusqu'à l'envoi.
+
+Claude suit les candidatures en cours (réponses dans Gmail, relances dues, entretiens), cherche de nouvelles offres (Indeed, France Travail, HelloWork, APEC, prospection BTP) selon mes critères, prépare 3 à 5 candidatures personnalisées (CV, lettre, mail), puis présente un récapitulatif numéroté. **Rien ne part sans mon « go » + numéros.** Envoi par le script `livrables/applications/2026-10-12_envoi-candidatures/envoyer-candidature.ps1` (Gmail SMTP, identifiants dans `.env`). `/emploi suivi` ou `/emploi recherche` pour une seule partie.
 
 ---
 
