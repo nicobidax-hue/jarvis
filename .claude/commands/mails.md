@@ -101,6 +101,7 @@ Pour chaque mail important lié à une candidature (entreprise présente dans `s
 Quand un mail demande une action datée (entretien, rendez-vous, appel, document à envoyer avant une date, relance) :
 - vérifie d'abord avec `search_events` qu'un événement équivalent n'existe pas déjà (les relances de candidatures sont souvent déjà dans l'agenda)
 - crée l'événement : titre clair (« Entretien Bessière », « Envoyer pièces France Travail »), lieu si connu, description avec le résumé du mail et son lien, rappel popup 1 jour avant et 1 h avant
+- toujours passer `timeZone: "Europe/Paris"` à `create_event`, sinon l'heure est enregistrée en UTC (décalage de 2 h en été)
 - une heure précise donnée dans le mail : événement à cette heure (1 h par défaut). Une date sans heure : événement de 9h30 à 10h00
 - date ambiguë (« la semaine prochaine », « rapidement ») : ne crée rien, mets-le dans « Doutes »
 
