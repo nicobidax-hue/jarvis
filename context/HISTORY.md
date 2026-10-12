@@ -16,6 +16,7 @@
 - TMD Sécurité : le message de Frédéric Letifi (08/10) était un accusé de réception. Relance le 15/10 en citant son nom
 - 15/10 : relances TMD et Bessière ; 16/10 : relances Fed Group et AGSE ; 19/10 : relances Sol pro, MO Ingénierie, O'TOMAT (rappels dans l'agenda)
 - Central Pose : appeler l'agence de Plaisir puis envoyer la candidature spontanée (toujours en attente)
+- Routine du matin conseillée : `/mails` (ou `/mails 3d` le lundi), puis `/emploi suivi` chaque jour, `/emploi` complet lundi, mercredi et vendredi, `/morning` en option. Idée retenue pour plus tard : une commande `/matin` qui enchaîne le tout avec un résumé unique
 - API France Travail : retrouver l'API « Offres d'emploi » dans le catalogue francetravail.io (chercher « offre » ou « recherche », ou écrire au support), l'ajouter à l'application « jarvis », puis tester `chercher-offres.ps1`
 
 ### Premier lancement de `/emploi` : 3 candidatures déposées
