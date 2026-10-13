@@ -7,6 +7,26 @@
 
 ---
 
+## 2026-10-13
+
+### Prochaine session
+- Créer des alertes mail dans l'espace France Travail (assistant administratif, ADV, logistique, autour de Villepreux) : `/emploi` les lira dans Gmail comme les alertes Indeed
+- Attendre la réponse de France Travail sur l'accès à l'API. Si accordé : ajouter l'API à l'application « jarvis » et tester `chercher-offres.ps1`
+- 15/10 : relances TMD (citer Frédéric Letifi) et Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone)
+- Prochain `/emploi recherche` : analyser les alertes Indeed PRETTRE Espaces Verts (assistant bureau d'études, travaux paysagers, 24 000 à 29 000 €/an) et Culligan (relation client grands comptes, Versailles)
+- Central Pose : appel et candidature spontanée toujours en attente
+
+### `/emploi suivi` et relance de la mairie de Villepreux
+- Aucune nouvelle réponse des employeurs. Les 3 mails Indeed du 12/10 sont de simples confirmations de dépôt (Sol pro, MO Ingénierie, O'TOMAT)
+- DRH de la mairie de Villepreux injoignable (12/10 et 13/10) : mail de suivi envoyé le 13/10 en réponse à la candidature du 08/10, avec la question sur l'offre « Agent du Guichet Unique » (annonce marquée à la fois « Fonctionnaire » et « CDD » : ouverte aux contractuels ?). Ancien brouillon supprimé, rappel du 20/10 créé dans l'agenda
+- Mairie des Clayes-sous-Bois, « Technicien informatique, référent progiciels » : offre clôturée le 06/09/2026 et dépubliée, piste abandonnée par Nicolas. Le portail de recrutement de la mairie (lesclayessousbois.nous-recrutons.fr) est désormais suivi par `/emploi`
+
+### API France Travail : cause du blocage trouvée
+- Trouvé par Nicolas sur data.gouv.fr : l'API « Offres d'emploi » n'est plus exposée sur francetravail.io, à la suite d'usages automatisés massifs par des solutions d'IA. Accès **restreint**, sur demande via le formulaire de contact (particuliers éligibles). Cela explique l'`invalid_client` et l'absence de l'API dans le catalogue
+- Demande d'accès envoyée par Nicolas le 13/10 (usage personnel, une requête par jour, pas de rediffusion)
+- `/emploi` mis à jour : alertes mail Indeed et France Travail ajoutées aux sources, ainsi que l'emploi public (choisirleservicepublic.gouv.fr, portails des mairies) ; statut de l'API noté
+- CONTEXT.md : statut de l'API mis à jour
+
 ## 2026-10-12
 
 ### Prochaine session

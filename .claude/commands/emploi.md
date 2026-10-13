@@ -75,8 +75,10 @@ Sources, dans cet ordre :
 1. **Indeed** (`search_jobs`, `country_code: "FR"`) : plusieurs recherches combinant
    - postes : assistant administratif, assistant ADV, assistant travaux, assistant logistique, gestionnaire de stocks, assistant plannings, assistant commercial, support informatique, métreur, gestionnaire administratif BTP
    - lieux : Villepreux, Plaisir, Les Clayes-sous-Bois, Bois-d'Arcy, Saint-Cyr-l'École, Fontenay-le-Fleury, Versailles, Trappes, Élancourt, Guyancourt, Montigny-le-Bretonneux, Buc, Le Chesnay, Noisy-le-Roi, Chavenay
-2. **France Travail, HelloWork, APEC** par recherche web (en attendant l'API France Travail)
-3. **Prospection BTP** : entreprises de `livrables/taff/2026-10-09_prospection-btp/` pas encore contactées (candidature spontanée par mail)
+2. **Alertes mail reçues depuis la dernière session** : recherche Gmail `from:match.indeed.com OR from:francetravail.fr` (alertes Indeed et France Travail). Ouvrir chaque offre qui correspond aux critères, ignorer les codes de connexion et notifications de compte
+3. **France Travail, HelloWork, APEC** par recherche web. L'API « Offres d'emploi » de France Travail est en accès restreint depuis 2026 (retirée du catalogue public de francetravail.io) : accès demandé le 2026-10-13 pour l'application « jarvis ». Si l'accès est accordé, utiliser `livrables/applications/2026-10-12_api-france-travail/chercher-offres.ps1` à la place de la recherche web
+4. **Emploi public** : choisirleservicepublic.gouv.fr et les portails de recrutement des mairies du secteur (ex. lesclayessousbois.nous-recrutons.fr). Vérifier la date limite de candidature, les offres restent souvent visibles après clôture sur les agrégateurs (Talent.com, etc.)
+5. **Prospection BTP** : entreprises de `livrables/taff/2026-10-09_prospection-btp/` pas encore contactées (candidature spontanée par mail)
 
 ### B2. Trier
 
