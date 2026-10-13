@@ -91,7 +91,7 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 
 Liste des projets ou chantiers actifs sur lesquels je veux que Claude m'aide :
 
-- **Apprentissage de l'IA** : formation en autodidacte, débutant
+- **Apprentissage de l'IA** : formation en autodidacte, débutant. Parcours de 24 séances en 3 phases (fondations, projets vitrines, offre et vente) vers une première mission vendue vers mi-janvier 2027, outils gratuits, n8n en local (téléchargé, à installer ensemble en séance 3). Document de référence, à relire au début de chaque « séance IA » : https://claude.ai/code/artifact/da149d5d-e515-4484-8b93-05a3bfe1c55f. Complément : Communauté IA sur Skool
 - **Langues** : perfectionnement en anglais, espagnol et portugais (variante **brésilienne**). Méthode : fiches de vocabulaire par thème en 4 colonnes (FR, EN, ES, PT-BR) avec pièges et faux amis (`livrables/langues/2026-10-08_fiches-vocabulaire/`), plus de la conversation avec Claude. Environ 1 h par jour
 - **Recherche d'emploi** : poste de bureau proche de chez moi
 - **Atelier Facette (rénovation)** : logo finalisé, site vitrine en ligne de test sur Netlify, mise en ligne publique après l'ouverture du statut et l'assurance décennale
