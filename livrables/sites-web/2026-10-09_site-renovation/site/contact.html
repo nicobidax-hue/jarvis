@@ -65,10 +65,13 @@
       <form class="form rv" id="devis" name="devis" method="POST" action="/merci.html" enctype="multipart/form-data" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="devis">
         <p hidden><label>Ne pas remplir : <input name="bot-field"></label></p>
-        <div class="f"><label for="f-nom">Nom</label><input id="f-nom" name="nom" type="text" autocomplete="name" placeholder="Votre nom" required></div>
+        <!-- Mise en page : class="g" = champ de la colonne de gauche, class="full" = pleine largeur -->
+        <div class="f g"><label for="f-nom">Nom</label><input id="f-nom" name="nom" type="text" autocomplete="name" placeholder="Votre nom" required></div>
         <div class="f"><label for="f-tel">Téléphone</label><input id="f-tel" name="telephone" type="tel" autocomplete="tel" placeholder="06 …" required></div>
-        <div class="f"><label for="f-ville">Ville</label><input id="f-ville" name="ville" type="text" placeholder="Ex. Plaisir"></div>
-        <div class="f"><label for="f-type">Type de travaux</label>
+        <div class="f full"><label for="f-mail">Email</label><input id="f-mail" name="email" type="email" autocomplete="email" placeholder="vous@exemple.fr" required></div>
+        <div class="f g"><label for="f-cp">Code postal</label><input id="f-cp" name="code_postal" type="text" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" title="5 chiffres, ex. 78450" placeholder="Ex. 78370" required></div>
+        <div class="f"><label for="f-ville">Ville</label><input id="f-ville" name="ville" type="text" autocomplete="address-level2" placeholder="Ex. Plaisir"></div>
+        <div class="f g"><label for="f-type">Type de travaux</label>
           <select id="f-type" name="type">
             <option>Sol en résine</option>
             <option>Béton ciré</option>
@@ -79,7 +82,7 @@
             <option>Rénovation complète</option>
             <option>Autre</option>
           </select></div>
-        <div class="f full"><label for="f-surf">Surface approximative</label><input id="f-surf" name="surface" type="text" inputmode="numeric" placeholder="Ex. 25 m²"></div>
+        <div class="f"><label for="f-surf">Surface approximative</label><input id="f-surf" name="surface" type="text" inputmode="numeric" placeholder="Ex. 25 m²"></div>
         <div class="f full"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="Votre projet en quelques mots"></textarea></div>
         <!-- Netlify n'accepte qu'un fichier par champ : 3 champs photo, 8 Mo au total -->
         <div class="f full photos">
