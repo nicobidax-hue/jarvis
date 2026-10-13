@@ -24,7 +24,9 @@
 - Leçon sur l'anatomie d'un agent à partir de `/mails` et `/emploi` : modèle, instructions (commandes), outils (locaux, connecteurs MCP, web), boucle d'agent, mémoire par fichiers, garde-fous (règle écrite + `allowed-tools` + validation humaine), scripts pour les tâches mécaniques. Précision : un outil absent de `allowed-tools` n'est pas bloqué, il demande une permission
 - Lecture commentée de `mails.md` (moindre privilège, porte de sortie « en cas de doute », itérations, idempotence, modèle de sortie)
 - **Première modification de prompt faite par Nicolas** dans `mails.md` : les alertes Indeed (`donotreply@match.indeed.com`) sont citées dans « Pour info » puis marquées comme lues, les mails Indeed sur ses candidatures restent Important. Méthode retenue : une règle doit s'appuyer sur un critère qui distingue vraiment les cas (l'adresse exacte, pas le mot « indeed ») et répondre à : quels mails, quoi faire, et si l'information manque
-- Suite : lecture commentée de `emploi.md`
+- Lecture commentée de `emploi.md` : modularité (parties A à D choisies par l'argument), point d'arrêt et protocole « go » + numéros, double sécurité (PowerShell hors `allowed-tools`), ancrage dans des sources (« ne rien inventer »), entonnoir de tri, suivi des candidatures comme machine à états (un petit CRM)
+- **Deuxième modification de prompt par Nicolas** dans `emploi.md` : en A1, recherche des réponses aussi par intitulé du poste et par la plateforme indiquée dans le Statut (exemples d'expéditeurs Indeed, HelloWork, DLSI, L'industrie recrute), un accusé de réception n'est pas une réponse ; en D, statut « Déposée sur <nom du site> ». Méthode retenue : un principe général + quelques exemples plutôt qu'une liste exhaustive. Petit réflexe à prendre : pas de ligne vide entre deux puces
+- Suite possible : parcours de formation IA sur 3 mois
 
 ### `/emploi` complet : refus de TMD et 3 nouvelles candidatures
 - **Refus de TMD Sécurité** le 13/10 (mail Indeed), rappel de relance du 15/10 supprimé

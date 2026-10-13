@@ -48,7 +48,7 @@ Pour chaque ligne du tableau « Suivi des candidatures » dont le statut n'est n
 
 ### A1. Chercher une réponse
 
-- Recherche Gmail depuis la date d'envoi : nom de l'entreprise, nom du contact, domaine de son adresse mail, et mails Indeed qui la mentionnent (`indeedapply@indeed.com`, messages d'employeurs)
+- Recherche Gmail depuis la date d'envoi : nom de l'entreprise, intitulé du poste, nom du contact, domaine de son adresse mail, et mails de la plateforme indiquée dans la colonne Statut (« Déposée sur ... »). Exemples d'expéditeurs : Indeed (`indeedapply@indeed.com` pour les confirmations, `noreply@indeed.com` pour les réponses), HelloWork (`hellowork.com`), DLSI (`dlsi-emploi.com`), L'industrie recrute (`lindustrie-recrute.fr`). Une simple confirmation de dépôt n'est pas une réponse : la noter comme « accusé de réception », sans changer la relance prévue
 - Si une réponse existe, mets à jour la colonne **Statut** en datant l'information :
   - **entretien** : statut « Entretien le JJ/MM à HHhMM », événement dans Google Agenda (`timeZone: "Europe/Paris"`, rappels 1 jour et 2 h avant, vérifier qu'il n'existe pas déjà), et propose dans le récapitulatif une fiche de préparation d'entretien
   - **refus** : « Refus le AAAA-MM-JJ », relance prévue vidée
@@ -142,7 +142,7 @@ Seulement pour les numéros validés :
 
 ### Dépôt sur un site
 
-Donne le lien direct et les deux PDF à joindre. Quand je confirme que c'est déposé (« posté 3 »), mets à jour le suivi (statut « Déposée sur Indeed ») et crée le rappel de relance à J+7.
+Donne le lien direct et les deux PDF à joindre. Quand je confirme que c'est déposé (« posté 3 »), mets à jour le suivi (statut « Déposée sur <nom du site> ») et crée le rappel de relance à J+7.
 
 ### Numéros non validés
 
