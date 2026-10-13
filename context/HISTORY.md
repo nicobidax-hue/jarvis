@@ -37,6 +37,7 @@
 - Convocation SportEasy du 14/10 : répondu par Nicolas le 13/10
 - Champ « Message » : exemple grisé adapté au type de travaux choisi (`js/main.js`, bloc `const exemples`), jamais envoyé. Pas encore redéployé
 - **À faire le 14/10 :** exercice de Nicolas (modifier lui-même un exemple dans `main.js`, test en local en ouvrant `contact.html`), puis ajout d'un champ conditionnel « Support actuel » (chape béton, carrelage, parquet ou plancher bois, PVC ou moquette, placo, béton, je ne sais pas), affiché surtout pour les sols, facultatif. Décision de Nicolas : la visite avant devis est importante pour éviter les surprises, à intégrer (champ de disponibilités ou étape du trieur), puis redéploiement sur Netlify
+- À développer sur le site (demande de Nicolas) : l'offre résine, aujourd'hui trop généraliste. Gammes à présenter : peinture de sol, autolissant (2 à 5 mm), semi-lisse (sol antidérapant), moquette de pierre, résine décorative, etc. Contenu technique à fournir par Nicolas (usage, support, épaisseur, rendu, photos). Impacts : page `beton-cire-resine.html`, choix du formulaire, trieur de devis, fichier de prix
 - Idée pour plus tard : une base de données pour Atelier Facette (demandes de devis et leur statut, fichier de prix, puis clients et chantiers). Piste conseillée pour démarrer : Google Sheets ou Notion, à relier au trieur en phase 2 du parcours IA
 
 ### `/emploi` complet : refus de TMD et 3 nouvelles candidatures
