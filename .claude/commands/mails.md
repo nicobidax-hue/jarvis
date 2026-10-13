@@ -66,6 +66,7 @@ Lis silencieusement `context/CONTEXT.md` et `livrables/taff/suivi-candidatures.m
 **Cas particuliers validés par Nicolas (à traiter comme Pubs / Newsletters, donc marqués comme lus) :**
 - les commentaires de forum SportEasy (« Forum : ... »). Les **convocations** SportEasy (« Dispo pour... ? ») restent Important, dans « À traiter »
 - les rapports automatiques sans action à faire (ex. rapport de consommation Voltalis)
+- les alertes d'offres Indeed (`donotreply@match.indeed.com`) ne sont pas des candidatures : les citer en une ligne dans « Pour info » (poste, entreprise, ville), puis les marquer comme lues. Ne pas vérifier les critères ici : c'est `/emploi recherche` qui ouvrira les offres et les triera. Les mails d'Indeed sur mes candidatures (`indeedapply@indeed.com`, `noreply@indeed.com`) restent Important.
 - les alertes emploi de sites agrégateurs (CV.fr, etc.) : les lire, et ne les garder en Important que si une offre correspond à mes critères (poste de bureau à moins de 20 min de Villepreux). Sinon, marquer comme lu
 
 **Expéditeurs de bruit connus** (repérés lors du grand ménage du 2026-10-12, à marquer comme lus sans hésiter) : Temu, Shein, Uber et Uber Eats (promos et reçus), Opodo, easyJet, Ticketmaster, FFF, Samsung, Microsoft Store, Cultura, Chess.com, Blizzard, Avast, SilkHair, Lavignery, notifications LinkedIn, alertes SeLoger (désabonné le 2026-10-12). Les mails Opodo adressés à « Maria » sont du bruit (billets pris pour une proche), pas du phishing.

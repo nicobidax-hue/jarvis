@@ -20,6 +20,12 @@
 - DRH de la mairie de Villepreux injoignable (12/10 et 13/10) : mail de suivi envoyé le 13/10 en réponse à la candidature du 08/10, avec la question sur l'offre « Agent du Guichet Unique » (annonce marquée à la fois « Fonctionnaire » et « CDD » : ouverte aux contractuels ?). Ancien brouillon supprimé, rappel du 20/10 créé dans l'agenda
 - Mairie des Clayes-sous-Bois, « Technicien informatique, référent progiciels » : offre clôturée le 06/09/2026 et dépubliée, piste abandonnée par Nicolas. Le portail de recrutement de la mairie (lesclayessousbois.nous-recrutons.fr) est désormais suivi par `/emploi`
 
+### Apprentissage de l'IA : comprendre ses propres agents
+- Leçon sur l'anatomie d'un agent à partir de `/mails` et `/emploi` : modèle, instructions (commandes), outils (locaux, connecteurs MCP, web), boucle d'agent, mémoire par fichiers, garde-fous (règle écrite + `allowed-tools` + validation humaine), scripts pour les tâches mécaniques. Précision : un outil absent de `allowed-tools` n'est pas bloqué, il demande une permission
+- Lecture commentée de `mails.md` (moindre privilège, porte de sortie « en cas de doute », itérations, idempotence, modèle de sortie)
+- **Première modification de prompt faite par Nicolas** dans `mails.md` : les alertes Indeed (`donotreply@match.indeed.com`) sont citées dans « Pour info » puis marquées comme lues, les mails Indeed sur ses candidatures restent Important. Méthode retenue : une règle doit s'appuyer sur un critère qui distingue vraiment les cas (l'adresse exacte, pas le mot « indeed ») et répondre à : quels mails, quoi faire, et si l'information manque
+- Suite : lecture commentée de `emploi.md`
+
 ### `/emploi` complet : refus de TMD et 3 nouvelles candidatures
 - **Refus de TMD Sécurité** le 13/10 (mail Indeed), rappel de relance du 15/10 supprimé
 - Recherche Indeed + HelloWork (environ 40 offres vues). HelloWork, filtré sur 15 km autour de Villepreux et la dernière semaine, a été bien plus riche que la recherche web sur France Travail
