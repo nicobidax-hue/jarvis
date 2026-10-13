@@ -11,19 +11,26 @@
 
 ### Prochaine session
 - Créer des alertes mail dans l'espace France Travail (assistant administratif, ADV, logistique, autour de Villepreux) : `/emploi` les lira dans Gmail comme les alertes Indeed
-- Attendre la réponse de France Travail sur l'accès à l'API. Si accordé : ajouter l'API à l'application « jarvis » et tester `chercher-offres.ps1`
-- 15/10 : relances TMD (citer Frédéric Letifi) et Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone)
-- Prochain `/emploi recherche` : analyser les alertes Indeed PRETTRE Espaces Verts (assistant bureau d'études, travaux paysagers, 24 000 à 29 000 €/an) et Culligan (relation client grands comptes, Versailles)
+- Finaliser l'espace candidat DLSI (disponibilités, CV) et, si souhaité, confirmer la visibilité du profil HelloWork
+- 15/10 : relance Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell
+- Prochain `/emploi recherche` : alertes Indeed Culligan (relation client, Versailles) et Groupe ECS (exploitant transport), pistes Proxiserve, Citya, Storengy, Jungheinrich, PRETTRE ; emploi public (portails des mairies) pas encore exploré
 - Central Pose : appel et candidature spontanée toujours en attente
-
 ### `/emploi suivi` et relance de la mairie de Villepreux
 - Aucune nouvelle réponse des employeurs. Les 3 mails Indeed du 12/10 sont de simples confirmations de dépôt (Sol pro, MO Ingénierie, O'TOMAT)
 - DRH de la mairie de Villepreux injoignable (12/10 et 13/10) : mail de suivi envoyé le 13/10 en réponse à la candidature du 08/10, avec la question sur l'offre « Agent du Guichet Unique » (annonce marquée à la fois « Fonctionnaire » et « CDD » : ouverte aux contractuels ?). Ancien brouillon supprimé, rappel du 20/10 créé dans l'agenda
 - Mairie des Clayes-sous-Bois, « Technicien informatique, référent progiciels » : offre clôturée le 06/09/2026 et dépubliée, piste abandonnée par Nicolas. Le portail de recrutement de la mairie (lesclayessousbois.nous-recrutons.fr) est désormais suivi par `/emploi`
 
+### `/emploi` complet : refus de TMD et 3 nouvelles candidatures
+- **Refus de TMD Sécurité** le 13/10 (mail Indeed), rappel de relance du 15/10 supprimé
+- Recherche Indeed + HelloWork (environ 40 offres vues). HelloWork, filtré sur 15 km autour de Villepreux et la dernière semaine, a été bien plus riche que la recherche web sur France Travail
+- 3 candidatures préparées avec `adapter-docx.ps1` (CV et lettre d'une page chacun) et **déposées par Nicolas le 13/10** : DLSI (assistant BTP, intérim pour une entreprise du bâtiment, Trappes, devis + planification + suivi de chantiers, le meilleur match), Telstar (assistant ADV et approvisionnement, CDI, Trappes), Airwell (assistant services généraux, CDI, Montigny-le-Bretonneux, via L'industrie recrute avec création d'un profil UIMM). Accusés de réception reçus pour les trois, relances le 20/10 dans l'agenda
+- 5 offres écartées (expérience ou diplôme exigé, anglais impératif, ancienneté, offre clôturée), 5 pistes ajoutées (Proxiserve, Citya, Storengy, Jungheinrich, PRETTRE)
+- Piège repéré : après une candidature HelloWork, la page « postuler à plusieurs offres » pré-coche d'autres annonces (ex. poste de terrain à Rambouillet). Tout décocher avant de quitter
+- Total au 13/10 : 13 candidatures, 3 refus, 10 en cours
+
 ### API France Travail : cause du blocage trouvée
 - Trouvé par Nicolas sur data.gouv.fr : l'API « Offres d'emploi » n'est plus exposée sur francetravail.io, à la suite d'usages automatisés massifs par des solutions d'IA. Accès **restreint**, sur demande via le formulaire de contact (particuliers éligibles). Cela explique l'`invalid_client` et l'absence de l'API dans le catalogue
-- Demande d'accès envoyée par Nicolas le 13/10 (usage personnel, une requête par jour, pas de rediffusion)
+- Demande d'accès envoyée par Nicolas le 13/10 (usage personnel, une requête par jour, pas de rediffusion). **Réponse le jour même** (ticket INC2756918) : API suspendue à titre conservatoire, nouveau cadre d'accès en préparation, pas de date, demande conservée
 - `/emploi` mis à jour : alertes mail Indeed et France Travail ajoutées aux sources, ainsi que l'emploi public (choisirleservicepublic.gouv.fr, portails des mairies) ; statut de l'API noté
 - CONTEXT.md : statut de l'API mis à jour
 
