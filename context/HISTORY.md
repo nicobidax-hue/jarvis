@@ -33,7 +33,8 @@
 ### Site Atelier Facette : formulaire et espacements
 - Formulaire de devis : champs **e-mail** (obligatoire) et **code postal** (obligatoire, 5 chiffres) ajoutés, mentions légales (RGPD) mises à jour. La bordure entre colonnes passe d'un comptage de positions (`nth-child`) à une classe explicite `g`, plus solide quand on ajoute un champ
 - Espacements : écart réduit entre le menu et le début de chaque page (`main > .sec:first-child` et accueil), pied de page resserré (grand nom à 72 px). Sur téléphone, 120 px gardés sous le pied de page pour la barre d'appel
-- Champ e-mail vérifié en ligne par Nicolas. Redéployer le dossier `site` sur Netlify pour les derniers réglages d'espacement
+- Champ e-mail vérifié en ligne par Nicolas. Site redéployé sur Netlify le 13/10 avec tous les changements
+- Convocation SportEasy du 14/10 : répondu par Nicolas le 13/10
 
 ### `/emploi` complet : refus de TMD et 3 nouvelles candidatures
 - **Refus de TMD Sécurité** le 13/10 (mail Indeed), rappel de relance du 15/10 supprimé
