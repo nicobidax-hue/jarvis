@@ -35,6 +35,8 @@
 - Espacements : écart réduit entre le menu et le début de chaque page (`main > .sec:first-child` et accueil), pied de page resserré (grand nom à 72 px). Sur téléphone, 120 px gardés sous le pied de page pour la barre d'appel
 - Champ e-mail vérifié en ligne par Nicolas. Site redéployé sur Netlify le 13/10 avec tous les changements
 - Convocation SportEasy du 14/10 : répondu par Nicolas le 13/10
+- Champ « Message » : exemple grisé adapté au type de travaux choisi (`js/main.js`, bloc `const exemples`), jamais envoyé. Pas encore redéployé
+- **À faire le 14/10 :** exercice de Nicolas (modifier lui-même un exemple dans `main.js`, test en local en ouvrant `contact.html`), puis ajout d'un champ conditionnel « Support actuel » (chape béton, carrelage, parquet ou plancher bois, PVC ou moquette, placo, béton, je ne sais pas), affiché surtout pour les sols, facultatif. Décision de Nicolas : la visite avant devis est importante pour éviter les surprises, à intégrer (champ de disponibilités ou étape du trieur), puis redéploiement sur Netlify
 
 ### `/emploi` complet : refus de TMD et 3 nouvelles candidatures
 - **Refus de TMD Sécurité** le 13/10 (mail Indeed), rappel de relance du 15/10 supprimé

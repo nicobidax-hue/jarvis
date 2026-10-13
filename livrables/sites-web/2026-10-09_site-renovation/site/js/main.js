@@ -125,6 +125,24 @@ if (form) {
     message.hidden = false;
   };
 
+  // Exemple de message adapté au type de travaux choisi (texte grisé, jamais envoyé)
+  // Pour modifier un exemple : changer le texte entre guillemets ci-dessous.
+  const exemples = {
+    'Sol en résine': 'Ex. : garage de 40 m², sol actuel en chape béton brute (ou carrelage, ancien PVC…). Usage : voiture, atelier, pièce de vie ? Délai souhaité ?',
+    'Béton ciré': 'Ex. : salon et cuisine ouverte de 30 m², sol actuel en carrelage (ou chape béton, parquet…). Sol, murs ou plan de travail ? Teinte envisagée ? Délai souhaité ?',
+    'Cuisine': 'Ex. : cuisine de 12 m² à refaire, dépose de l’ancienne, plan de travail et crédence. Murs en placo ou en béton ? Arrivées d’eau ou prises à déplacer ?',
+    'Salle de bain': 'Ex. : salle de bain de 6 m², baignoire à remplacer par une douche à l’italienne, carrelage au sol et aux murs. Murs en placo ou en béton ? Plomberie à déplacer ?',
+    'Murs (enduits, peinture)': 'Ex. : salon de 25 m², murs en placo (ou béton, plâtre ancien). Fissures, trous, papier peint à retirer ? Finition souhaitée : peinture, enduit, béton ciré ?',
+    'Sols (PVC, parquet, carrelage)': 'Ex. : chambre de 14 m², sol actuel en moquette sur chape béton (ou plancher bois, ancien carrelage). Revêtement souhaité : parquet, PVC, carrelage ? Plinthes à changer ?',
+    'Rénovation complète': 'Ex. : appartement de 60 m², sols, murs, cuisine et salle de bain. Logement habité pendant les travaux ? Date de début souhaitée ?',
+    'Autre': 'Décrivez votre projet : la pièce, la surface, le matériau actuel (chape béton, carrelage, placo, béton…) et le résultat souhaité.'
+  };
+  const typeSelect = form.querySelector('#f-type');
+  const projet = form.querySelector('#f-msg');
+  const majExemple = () => { projet.placeholder = exemples[typeSelect.value] || exemples['Autre']; };
+  typeSelect.addEventListener('change', majExemple);
+  majExemple();
+
   // Affiche le nom de la photo choisie sous chaque champ
   fileInputs.forEach((input) => input.addEventListener('change', () => {
     const note = input.closest('.drop').querySelector('.drop-n');
