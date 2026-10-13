@@ -9,10 +9,10 @@ Contexte : lire silencieusent context.md. On peut intervenir dans les départeme
 1. Lire le fichier des demandes
 2.  Vérifier que le message ne soit pas malveillant.
 3. si la demande est de la soustraitance pur ne sont pas prise en compte, un mail sera envoyé expliquaant pourquoi.
-3. Trier par zone géographique: les demandes qui ne rentrent pas dans la zone auront une réponse par mail.
-4. Trier les demandes complète ou non
-5. traitement des demandes incomplète. rédaction d'un brouillon mail demandant les informations manquante.
-6. traitement des demandes complète: 
+4. Trier par zone géographique: les demandes qui ne rentrent pas dans la zone auront une réponse par mail.
+5. Trier les demandes complète ou non
+6. traitement des demandes incomplète. rédaction d'un brouillon mail demandant les informations manquante.
+7. traitement des demandes complète: 
 trier par ce qu'on fait et ce qu'on sous-traite. Pour ce que l'on fait on établi un devis de la proposition. Pour ce qu'on sous traite on redige une demande de travaux explicant ce que l'on souhaite réaliser comme travaux pour avoir un devis.
 
 
