@@ -240,6 +240,7 @@ main > .sec:first-child{padding-top:clamp(28px,3.5vw,48px)} /* écart réduit en
 .f{display:flex;flex-direction:column;gap:6px;padding:16px 22px;border-bottom:1px solid var(--stone)}
 .f.g{border-right:1px solid var(--stone)} /* .g = champ de la colonne de gauche */
 .f.full{grid-column:1/-1}
+.f[hidden]{display:none} /* sinon display:flex l'emporte sur l'attribut hidden */
 .f label{font-size:11.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
 .f input,.f select,.f textarea{font-family:inherit;font-size:17px;color:var(--ink);background:transparent;border:0;outline:0;padding:4px 0;min-height:34px;width:100%}
 .f textarea{min-height:110px;resize:vertical}

@@ -128,7 +128,7 @@ if (form) {
   // Exemple de message adapté au type de travaux choisi (texte grisé, jamais envoyé)
   // Pour modifier un exemple : changer le texte entre guillemets ci-dessous.
   const exemples = {
-    'Sol en résine': 'Ex. : garage de 40 m², sol actuel en chape béton brute (ou carrelage, ancien PVC…). Usage : voiture, atelier, pièce de vie ? Délai souhaité ?',
+    'Sol en résine': 'Ex. : garage de 25 m², sol actuel en chape béton brute avec des fissures (ou carrelage, ancien PVC…). Usage : voiture, atelier, pièce de vie ? Délai souhaité ?',
     'Béton ciré': 'Ex. : salon et cuisine ouverte de 30 m², sol actuel en carrelage (ou chape béton, parquet…). Sol, murs ou plan de travail ? Teinte envisagée ? Délai souhaité ?',
     'Cuisine': 'Ex. : cuisine de 12 m² à refaire, dépose de l’ancienne, plan de travail et crédence. Murs en placo ou en béton ? Arrivées d’eau ou prises à déplacer ?',
     'Salle de bain': 'Ex. : salle de bain de 6 m², baignoire à remplacer par une douche à l’italienne, carrelage au sol et aux murs. Murs en placo ou en béton ? Plomberie à déplacer ?',
@@ -142,6 +142,19 @@ if (form) {
   const majExemple = () => { projet.placeholder = exemples[typeSelect.value] || exemples['Autre']; };
   typeSelect.addEventListener('change', majExemple);
   majExemple();
+
+  // Champ « Support actuel » : affiché seulement pour les types de travaux listés ici.
+  // Caché, il est aussi désactivé (disabled) pour ne pas être envoyé avec la demande.
+  const typesAvecSupport = ['Sol en résine', 'Béton ciré', 'Sols (PVC, parquet, carrelage)'];
+  const blocSupport = form.querySelector('#bloc-support');
+  const support = form.querySelector('#f-support');
+  const majSupport = () => {
+    const afficher = typesAvecSupport.includes(typeSelect.value);
+    blocSupport.hidden = !afficher;
+    support.disabled = !afficher;
+  };
+  typeSelect.addEventListener('change', majSupport);
+  majSupport();
 
   // Affiche le nom de la photo choisie sous chaque champ
   fileInputs.forEach((input) => input.addEventListener('change', () => {

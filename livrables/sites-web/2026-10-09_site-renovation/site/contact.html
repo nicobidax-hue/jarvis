@@ -49,7 +49,7 @@
         <p class="lbl" style="margin:0 0 18px">Contact</p>
         <h1 class="h2">Votre devis,<br><em>gratuit.</em></h1>
       </div>
-      <p class="intro">Décrivez votre projet en quelques mots. Des photos de la pièce m’aident à vous répondre plus précisément.</p>
+      <p class="intro">Décrivez votre projet en quelques mots. Des photos de la pièce m’aident à vous répondre plus précisément. Une fois votre demande complète, je vous propose une visite gratuite sur place pour établir un devis précis.</p>
     </div>
     <div class="ct-g">
       <div class="rv">
@@ -83,6 +83,17 @@
             <option>Autre</option>
           </select></div>
         <div class="f"><label for="f-surf">Surface approximative</label><input id="f-surf" name="surface" type="text" inputmode="numeric" placeholder="Ex. 25 m²"></div>
+        <!-- Affiché seulement pour les sols et le béton ciré (voir js/main.js, bloc « Support actuel ») -->
+        <div class="f full" id="bloc-support" hidden><label for="f-support">Support actuel (facultatif)</label>
+          <select id="f-support" name="support">
+            <option value="">Choisir si vous le savez</option>
+            <option>Chape / dalle béton en bon état</option>
+            <option>Chape / dalle béton fissurée</option>
+            <option>Carrelage</option>
+            <option>Parquet / plancher bois</option>
+            <option>PVC / moquette</option>
+            <option>Je ne sais pas</option>
+          </select></div>
         <div class="f full"><label for="f-msg">Message</label><textarea id="f-msg" name="message" placeholder="Votre projet en quelques mots"></textarea></div>
         <!-- Netlify n'accepte qu'un fichier par champ : 3 champs photo, 8 Mo au total -->
         <div class="f full photos">

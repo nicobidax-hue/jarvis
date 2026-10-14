@@ -12,7 +12,7 @@
 ### Prochaine session
 - 15/10 : relance Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell ; 21/10 : FAB Group, Eiffage, Sovitrat, Equipages, Eberspächer (un seul rappel dans l'agenda)
 - Toujours en attente : appel et candidature spontanée Central Pose, espace candidat DLSI, visibilité du profil HelloWork, alertes mail France Travail
-- Site Atelier Facette : l'exercice dans `main.js`, le champ « Support actuel » et le redéploiement prévus ce jour n'ont pas été faits
+- Prochaine séance IA : mettre à jour le prompt du trieur (champ `support` facultatif, règle « demande complète » à revoir, étape « proposer une visite quand la demande est complète »), modification à faire par Nicolas
 - Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
 
 ### `/morning` : première veille
@@ -27,6 +27,13 @@
 - 7 offres écartées, 2 pistes ajoutées (Adsearch à Montigny, Talents ADV & Supply à Buc)
 - Pièges rencontrés : `adapter-docx.ps1` attend un chemin de sortie **relatif** (il le colle au dossier courant) ; un sous-titre de CV plus long que l'original passe sur 2 lignes, à vérifier sur le PDF
 - Total au 14/10 : 18 candidatures, 3 refus, 15 en cours
+
+### Site Atelier Facette : champ « Support actuel » et visite
+- **Exercice fait par Nicolas** dans `main.js` : exemple « Sol en résine » réécrit (garage de 25 m², chape fissurée). Leçon : un objet JavaScript (clé exacte = option de la liste, valeur = texte), la virgule entre les paires, le piège de l'apostrophe droite dans un texte entre `'...'` (utiliser `’` ou `\'`), la console F12 pour lire les erreurs
+- Champ facultatif « Support actuel » ajouté, affiché seulement pour Sol en résine, Béton ciré et Sols (liste `typesAvecSupport` dans `main.js`), désactivé quand il est caché pour ne pas être envoyé. Choix arrêtés par Nicolas : Chape / dalle béton en bon état, Chape / dalle béton fissurée, Carrelage, Parquet / plancher bois, PVC / moquette, Je ne sais pas (placo et béton de mur retirés, « / » plutôt que « ou »). Piège CSS : `.f{display:flex}` l'emportait sur l'attribut `hidden`, corrigé par `.f[hidden]{display:none}`
+- Visite avant devis : décision de Nicolas, une phrase sur la page Contact annonce une visite gratuite une fois la demande complète ; la prise de rendez-vous se fera dans le trieur, pour éviter les visites pour rien
+- Mentions légales : liste des données collectées complétée (type de travaux, surface, support)
+- Site redéployé sur Netlify le 14/10 par Nicolas
 
 ### Divers
 - Trieur de devis : numérotation des étapes de la v3 corrigée par Nicolas (commit du 13/10, absent de l'historique jusqu'ici)
