@@ -26,7 +26,7 @@
 | Entreprise | Poste | Lieu | CV conseillé | Lien |
 |---|---|---|---|---|
 | Michael Page (client IT) | Technicien support EDI | Plaisir | Support informatique | [Annonce](https://to.indeed.com/aahbzqpvmcqh) |
-| Central Pose (agence IDF Normandie, 01 30 90 02 31) | Candidature spontanée : assistant travaux ou administratif (travaux publics, bétons décoratifs) | Plaisir | `2026-10-09_candidature-spontanee-central-pose/` (CV + lettre + mail prêts, appeler d'abord pour avoir un nom) | [Site](https://www.centralpose.fr) |
+| Central Pose (agence IDF Normandie, 01 30 90 02 31) | Candidature spontanée : assistant travaux ou administratif (travaux publics, bétons décoratifs) | Plaisir | `2026-10-09_candidature-spontanee-central-pose/` (CV + lettre + mail prêts). **Appel abandonné le 2026-10-14** : envoyer la candidature sans nom de contact au prochain `/emploi` (adapter la formule d'appel du mail et de la lettre) | [Site](https://www.centralpose.fr) |
 | FRANKLAB (groupe SteriFrance) | Assistant(e) achats et logistique (CDI, 24 000 à 28 000 €/an), repérée le 2026-10-12 | Le Perray-en-Yvelines (~25 min, au-delà de la limite de 20 min) | Logistique/stocks | [Annonce](https://to.indeed.com/aahsjzktypfy) |
 | JPB Audiovisuel | Gestionnaire atelier & stock décor (CDI, 30 000 à 33 000 €/an, pas un poste de bureau) | Plaisir | Logistique/stocks | [Annonce](https://to.indeed.com/aa2vctbft9lh) |
 | Proxiserve | Assistant(e) de planification (CDD, prise d'appels des locataires et planning des techniciens eau/chauffage), publiée le 2026-09-17, repérée le 2026-10-13 | Élancourt | Plannings | [Annonce](https://to.indeed.com/aa6ncv7p6dd9) |
