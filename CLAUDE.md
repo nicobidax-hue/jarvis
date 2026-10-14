@@ -69,7 +69,8 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 ├── .gitignore                   # Exclut .env, secrets, builds, logs...
 ├── livrables/                   # Tout ce que Claude produit pour moi
 │   ├── sites-web/               # Sites internet
-│   ├── applications/            # Outils, scripts, automatisations
+│   ├── ia/                      # Parcours IA : prompts, workflows n8n, démos
+│   ├── applications/            # Outils et scripts sans IA
 │   ├── youtube/                 # Briefs, scripts, hooks, calendrier éditorial
 │   ├── reseaux/                 # Instagram, TikTok
 │   ├── batiment/                # Branche rénovation

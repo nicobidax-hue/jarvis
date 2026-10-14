@@ -17,6 +17,11 @@
 - Trieur de devis : mise à jour **reportée après les pages résine** (décision du 14/10), pour ne modifier le prompt qu'une fois. Ordre retenu : contenu technique des gammes fourni par Nicolas, page résine, formulaire (types de résine, `typesAvecSupport`), puis trieur mis à jour par Nicolas (gammes, champ `support` facultatif, règle « demande complète », proposition de visite une fois la demande complète) et fichier de prix par gamme
 - Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
 
+### Rangement des livrables : nouveau dossier `ia/`
+- Incohérence repérée par Nicolas : les projets IA étaient rangés dans `applications/`. Nouveau dossier `livrables/ia/` (parcours IA, prompts, workflows n8n, démos clients), où ont été déplacés `2026-10-13_trieur-devis` et `2026-10-14_n8n`. `applications/` garde les scripts sans IA (`adapter-docx`, `envoi-candidatures`, `api-france-travail`), `sites-web/` ne change pas. Les chemins plus bas dans cet historique sont les anciens
+- n8n arrêté avant le déplacement puis relancé depuis le nouveau dossier (`docker compose up -d`) : même volume de données, workflows conservés. Leçon : un dossier monté dans un conteneur ne se déplace pas pendant que le conteneur tourne
+- README, CLAUDE.md et CONTEXT.md mis à jour
+
 ### Séance IA 3 faite : n8n installé avec Docker, premier workflow publié
 - Choix de Nicolas : **n8n avec Docker** plutôt qu'avec Node.js, parce que c'est la méthode standard pour déployer chez un client. WSL installé par Nicolas en mode administrateur, puis redémarrage
 - **Disque C: plein (0 Go libre)**, cause de l'échec de Docker. Supprimés avec l'accord de Nicolas : 8 copies d'une ISO Debian, 3 ISO Windows Server, 37 vieux installateurs (environ 50 Go). Gardés : GNS3, les machines virtuelles VirtualBox (40 Go, à trier un jour), 3 fichiers `Gmail.zip` à vérifier par Nicolas (exports de mails ?). Environ 42 Go libres ensuite. Le fichier d'échange de Windows grossit quand Docker tourne : surveiller l'espace (alerte sous 15 à 20 Go)

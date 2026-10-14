@@ -20,7 +20,8 @@ Un document fourni ne va jamais dans `livrables/`. Un document produit ne va jam
 | Dossier | Contenu |
 |---------|---------|
 | `sites-web/` | Sites internet (vitrine, landing pages, portfolio) |
-| `applications/` | Outils, scripts, automatisations |
+| `ia/` | Parcours IA et freelance IA : prompts, workflows n8n, outils IA, démos clients |
+| `applications/` | Outils et scripts classiques, sans IA |
 | `youtube/` | Briefs vidéo, scripts, hooks, calendrier éditorial |
 | `reseaux/` | Livrables Instagram et TikTok |
 | `batiment/` | Livrables pour la branche rénovation (résine, béton ciré) |
@@ -51,7 +52,7 @@ Exemples :
 livrables/taff/2026-10-08_cv-cibles-2026/
 livrables/batiment/2026-11-02_devis-beton-cire-cuisine/
 livrables/sites-web/2026-12-01_site-vitrine-resine/
-livrables/applications/2027-01-15_automatisation-relance-devis/
+livrables/ia/2027-01-15_automatisation-relance-devis/
 ```
 
 ### Fichiers à l'intérieur d'un projet
