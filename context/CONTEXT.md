@@ -62,7 +62,7 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 
 - **Poste recherché :** poste de bureau, du lundi au vendredi, domaine ouvert
 - **Critère principal :** proche de chez moi (moins de 20 minutes)
-- **Candidatures (au 2026-10-13) :** 13 envoyées, 3 refus (Guy Hoquet, Domaliance, TMD Sécurité), 10 en cours : Bessière, mairie de Villepreux (relancée le 13/10), Fed Group, AGSE, Sol pro, MO Ingénierie, O'TOMAT, DLSI (assistant BTP, intérim, Trappes), Telstar (assistant ADV, Trappes), Airwell (services généraux, Montigny). Suivi dans `livrables/taff/suivi-candidatures.md`
+- **Candidatures (au 2026-10-14) :** 18 envoyées, 3 refus (Guy Hoquet, Domaliance, TMD Sécurité), 15 en cours : Bessière, mairie de Villepreux (relancée le 13/10), Fed Group, AGSE, Sol pro, MO Ingénierie, O'TOMAT, DLSI (assistant BTP, intérim, Trappes), Telstar (assistant ADV, Trappes), Airwell (services généraux, Montigny), FAB Group (ADV planification, Montigny), Eiffage Énergie Systèmes (assistant administratif travaux, Vélizy), Sovitrat (ADV bilingue espagnol, Guyancourt), Equipages (ADV, Voisins-le-Bretonneux), Eberspächer (assistant commercial, CDD, Élancourt). Suivi dans `livrables/taff/suivi-candidatures.md`
 - **Pistes :** prospection BTP par candidatures spontanées (15 entreprises de 20 salariés ou plus, liste dans `livrables/taff/2026-10-09_prospection-btp/`), en commençant par Central Pose (sols, Plaisir)
 - **CV disponibles par profil :** bâtiment (assistant travaux), ADV et administratif, commercial, plannings (dans les dossiers de candidature du 2026-10-09), en plus des 8 CV ciblés
 - **Règle :** les offres qui exigent un anglais courant sont écartées pour l'instant

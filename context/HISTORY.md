@@ -7,6 +7,31 @@
 
 ---
 
+## 2026-10-14
+
+### Prochaine session
+- 15/10 : relance Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell ; 21/10 : FAB Group, Eiffage, Sovitrat, Equipages, Eberspächer (un seul rappel dans l'agenda)
+- Toujours en attente : appel et candidature spontanée Central Pose, espace candidat DLSI, visibilité du profil HelloWork, alertes mail France Travail
+- Site Atelier Facette : l'exercice dans `main.js`, le champ « Support actuel » et le redéploiement prévus ce jour n'ont pas été faits
+- Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
+
+### `/morning` : première veille
+- Projet de budget 2027 en débat : plafonds de la micro-entreprise figés jusqu'en 2028, mais la franchise de TVA (article 293 B du CGI) doit être réécrite au 1er janvier 2027, et la FFB demande un seuil plus bas pour le BTP. Conseil : poser la question à la réunion de la Chambre de métiers et ne pas trancher le statut avant le vote du budget (décembre)
+- Baromètre Coface : 60 % des entreprises françaises n'ont pas de règles pour l'IA, et Gartner prévoit plus de 40 % de projets d'IA agentique annulés d'ici fin 2027. Argument pour l'offre IA de Nicolas : des automatisations simples, encadrées, avec validation humaine
+- Recherches web (n8n, actualité IA datée) peu fructueuses : sources souvent anciennes ou secondaires
+
+### `/emploi` complet : 5 nouvelles candidatures
+- Suivi : aucune réponse d'employeur depuis le 13/10 (seulement des accusés de réception et des alertes d'offres)
+- Sources : les alertes HelloWork dans Gmail ont été la source la plus riche, devant Indeed
+- 5 candidatures préparées avec `adapter-docx.ps1` (modèle Telstar pour l'ADV, modèle DLSI pour le BTP) et **déposées par Nicolas le 14/10** : FAB Group (ADV planification pour un client IRVE, Montigny, le meilleur match), Eiffage Énergie Systèmes (assistant administratif travaux, Vélizy, à la limite des 20 min), Sovitrat (ADV pour un client espagnol de l'alimentaire, Guyancourt, profil linguistique exactement demandé), Equipages (ADV chez un intégrateur informatique, Voisins, anglais professionnel au téléphone demandé), Eberspächer (assistant commercial back office, CDD, Élancourt). Relances le 21/10
+- 7 offres écartées, 2 pistes ajoutées (Adsearch à Montigny, Talents ADV & Supply à Buc)
+- Pièges rencontrés : `adapter-docx.ps1` attend un chemin de sortie **relatif** (il le colle au dossier courant) ; un sous-titre de CV plus long que l'original passe sur 2 lignes, à vérifier sur le PDF
+- Total au 14/10 : 18 candidatures, 3 refus, 15 en cours
+
+### Divers
+- Trieur de devis : numérotation des étapes de la v3 corrigée par Nicolas (commit du 13/10, absent de l'historique jusqu'ici)
+- CONTEXT.md : nombre de candidatures mis à jour
+
 ## 2026-10-13
 
 ### Prochaine session

@@ -15,6 +15,11 @@
 | 2026-10-13 | DLSI France (intérim, agence d'Orsay, client du bâtiment non nommé) | Assistant BTP (intérim, 2 000 à 2 300 €/mois, réf. 330307) | Trappes | `2026-10-13_candidature-dlsi-assistant-btp-trappes/` (CV + lettre) | Déposée sur HelloWork. Accusé de réception DLSI le 2026-10-13 (invitation à finaliser l'espace candidat DLSI) | 2026-10-20 | [Annonce](https://www.hellowork.com/fr-fr/emplois/84170196.html) |
 | 2026-10-13 | Telstar | Assistant ADV et approvisionnement (CDI, 13e mois) | Trappes | `2026-10-13_candidature-telstar-trappes/` (CV + lettre) | Déposée sur HelloWork. Accusé de réception de Telstar le 2026-10-13 | 2026-10-20 | [Annonce](https://www.hellowork.com/fr-fr/emplois/84210324.html) |
 | 2026-10-13 | Airwell | Assistant services généraux (CDI) | Montigny-le-Bretonneux | `2026-10-13_candidature-airwell-montigny/` (CV + lettre) | Déposée sur L'industrie recrute (lien depuis Indeed), profil UIMM créé avec accord de contact. Confirmation d'enregistrement le 2026-10-13 (offre n° 835353) | 2026-10-20 | [Annonce](https://to.indeed.com/aa74z66ks2zs) |
+| 2026-10-14 | FAB Group (cabinet, client IRVE non nommé) | Assistant ADV - planification (CDI, 25 000 à 35 000 €/an, réf. 31171016 2026-07792) | Montigny-le-Bretonneux | `2026-10-14_candidature-fab-group-montigny/` (CV + lettre) | Déposée sur HelloWork | 2026-10-21 | [Annonce](https://www.hellowork.com/fr-fr/emplois/84147243.html) |
+| 2026-10-14 | Eiffage Énergie Systèmes (agence d'Orsay) | Assistant administratif travaux (CDI, réf. JR2026-4726) | Vélizy-Villacoublay | `2026-10-14_candidature-eiffage-velizy/` (CV + lettre) | Déposée sur le site carrières Eiffage (lien depuis HelloWork) | 2026-10-21 | [Annonce](https://www.hellowork.com/fr-fr/emplois/83254852.html) |
+| 2026-10-14 | Sovitrat (client espagnol de l'alimentaire non nommé) | Assistant ADV bilingue espagnol (CDI, 30 000 à 35 000 € brut/an, 39 h) | Guyancourt | `2026-10-14_candidature-sovitrat-guyancourt/` (CV + lettre) | Déposée sur HelloWork | 2026-10-21 | [Annonce](https://www.hellowork.com/fr-fr/emplois/83977798.html) |
+| 2026-10-14 | Equipages | Assistant ADV (CDI, 22 950 à 25 040 €/an) | Voisins-le-Bretonneux | `2026-10-14_candidature-equipages-voisins/` (CV + lettre) | Déposée sur Indeed | 2026-10-21 | [Annonce](https://to.indeed.com/aasz9x8lry8m) |
+| 2026-10-14 | Eberspächer | Assistant commercial back office (CDD, 34 000 €/an) | Élancourt | `2026-10-14_candidature-eberspacher-elancourt/` (CV + lettre) | Déposée sur Indeed | 2026-10-21 | [Annonce](https://to.indeed.com/aa9gq77prpk2) |
 
 ## Pistes à traiter
 
@@ -29,6 +34,8 @@
 | Storengy (ENGIE) | Technicien(ne) support puits (CDI, véhicules, maintenance du site, achats et prestataires, **en partie terrain** avec déplacements), repérée le 2026-10-13 | Beynes | Logistique/stocks | [Annonce](https://to.indeed.com/aaxz2cqywqpr) |
 | Jungheinrich | Assistant planning / assistant service SAV (CDI, 2 à 5 ans d'expérience administrative, SAP), repérée le 2026-10-13 | Vélizy-Villacoublay (~20 à 25 min, limite) | ADV | [Annonce HelloWork](https://www.hellowork.com/fr-fr/emplois/84225122.html) |
 | PRETTRE Espaces Verts | Assistant(e) bureau d'études travaux paysagers (CDI, 24 000 à 29 000 €/an, bureau + chantier), alerte Indeed du 2026-10-12, détail de l'offre introuvable | Méré | Bâtiment | Alerte Indeed dans Gmail (12/10) |
+| Adsearch (client digitalisation du retail) | Assistant ADV (CDI, 30 000 à 33 000 €/an, 2 ans d'ADV demandés, 1 jour de télétravail), publiée le 2026-09-30, repérée le 2026-10-14 | Montigny-le-Bretonneux | ADV | [Annonce HelloWork](https://www.hellowork.com/fr-fr/emplois/83943500.html) |
+| Talents ADV & Supply (client industriel) | Gestionnaire de stock (intérim d'un mois renouvelable, remplacement, 2 500 à 2 900 € brut/mois, en partie magasin), repérée le 2026-10-14 | Buc | Logistique/stocks | [Annonce](https://to.indeed.com/aabbstv9kyvj) |
 | Prospection BTP (15 entreprises) | Candidatures spontanées : assistant travaux, administratif, métreur | Secteur Villepreux | Bâtiment | `2026-10-09_prospection-btp/entreprises-cibles.md` |
 
 ## Pistes écartées
@@ -48,4 +55,8 @@
 | Adecco (client médico-social) | Secrétaire de direction | Trappes | BTS assistant de direction impératif + 3 ans de secrétariat de direction (2026-10-13) |
 | Sovitrat (intérim) | Assistant de gestion (propriété intellectuelle, renouvellement de titres) | Plaisir | Anglais écrit impératif, domaine éloigné du profil (2026-10-13) |
 | Hachette Livre (MDS) | Assistant commercial et support opérationnel (CDD) | Maurepas | Publiée le 11/09, plus de 30 jours (2026-10-13) |
+| Adsearch (client solutions numériques) | Gestionnaire ADV | Voisins-le-Bretonneux / Guyancourt | Anglais professionnel écrit et oral, 3 ans d'ADV, Bac+2/3 (2026-10-14) |
+| Robert Walters (client chimie) | Assistant ADV (CDD) | Montigny-le-Bretonneux | 5 ans d'ADV, SAP et anglais exigés (2026-10-14) |
+| Expertnet (intérim) | Assistante travaux BTP | Vélizy-Villacoublay | Offre déjà retirée (2026-10-14) |
+| Veolia Eau, LTD | Agents de travaux réseaux | Rambouillet | Postes de terrain, trop loin (2026-10-14) |
 | Euretudes (cabinet) | Assistant technique travaux | Saint-Cyr-l'École | Annonce clôturée (constaté le 2026-10-09). Lettre prête dans `2026-10-09_candidature-euretudes-saint-cyr/`, réutilisable pour un poste similaire |
