@@ -28,6 +28,14 @@ Conséquence pratique : supprimer ou mettre à jour le conteneur ne fait **pas**
 
 3. Ouvrir **http://localhost:5678** dans le navigateur
 
+## Avast et les certificats (piège rencontré le 14/10)
+
+Le Bouclier Courrier d'Avast intercepte les connexions vers les serveurs de mail et présente son propre certificat à la place de celui de Google. Windows lui fait confiance, le conteneur n8n (un Linux isolé) non : erreur « unable to verify the first certificate ».
+
+Solution retenue : le certificat **public** d'Avast est copié dans `certs/avast-root.pem` et donné à n8n (`NODE_EXTRA_CA_CERTS` dans `docker-compose.yml`). Dans n8n, le compte SMTP Gmail utilise le **port 587, SSL/TLS désactivé** (la connexion est quand même chiffrée, via STARTTLS). Le port 465 ne marche pas : Avast y présente une racine « Untrusted ».
+
+Si Avast est réinstallé ou change de certificat, réexporter le certificat « Avast Web/Mail Shield Root » depuis Windows. Le même problème se rencontre dans les PME équipées d'un antivirus ou d'un proxy qui inspecte le trafic.
+
 ## Bon à savoir
 
 - n8n n'est accessible que depuis ce PC (`127.0.0.1` dans le fichier). Pour recevoir des données d'Internet (webhooks, séance 7), il faudra un tunnel ou un serveur.

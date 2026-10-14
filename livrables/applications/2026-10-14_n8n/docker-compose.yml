@@ -14,8 +14,10 @@ services:
       - GENERIC_TIMEZONE=Europe/Paris        # heure utilisée par les déclencheurs planifiés
       - TZ=Europe/Paris
       - N8N_DIAGNOSTICS_ENABLED=false        # pas d'envoi de statistiques d'usage à n8n
+      - NODE_EXTRA_CA_CERTS=/certs/avast-root.pem   # fait confiance à Avast, qui intercepte les mails sortants (voir GUIDE.md)
     volumes:
       - n8n_data:/home/node/.n8n             # workflows, identifiants et réglages, conservés hors du conteneur
+      - ./certs/avast-root.pem:/certs/avast-root.pem:ro   # certificat public d'Avast, en lecture seule
 
 volumes:
   n8n_data:

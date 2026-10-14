@@ -12,15 +12,19 @@
 ### Prochaine session
 - 15/10 : relance Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell ; 21/10 : FAB Group, Eiffage, Sovitrat, Equipages, Eberspächer (un seul rappel dans l'agenda)
 - Toujours en attente : appel et candidature spontanée Central Pose, espace candidat DLSI, visibilité du profil HelloWork, alertes mail France Travail
-- Prochaine séance IA : séance 3, installer n8n ensemble
+- Prochaine séance IA : séance 4, les API (n8n installé le 14/10, voir plus bas)
 - Trieur de devis : mise à jour **reportée après les pages résine** (décision du 14/10), pour ne modifier le prompt qu'une fois. Ordre retenu : contenu technique des gammes fourni par Nicolas, page résine, formulaire (types de résine, `typesAvecSupport`), puis trieur mis à jour par Nicolas (gammes, champ `support` facultatif, règle « demande complète », proposition de visite une fois la demande complète) et fichier de prix par gamme
 - Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
 
-### Séance IA 3 : installer n8n (en cours)
-- Choix de Nicolas : **n8n avec Docker** plutôt qu'avec Node.js, parce que c'est la méthode standard pour déployer chez un client (Docker Desktop était déjà installé le 17/09)
-- Bloquant trouvé : **WSL absent**, Docker Desktop ne peut pas démarrer. Node.js absent aussi (inutile avec Docker)
-- Préparé : `livrables/applications/2026-10-14_n8n/` (`docker-compose.yml` : image officielle, port limité au PC, fuseau Europe/Paris, volume `n8n_data` ; `GUIDE.md` : image, conteneur, volume, commandes)
-- **Reprise après le redémarrage :** vérifier WSL (`wsl --status`), lancer Docker Desktop, `docker compose up -d` dans le dossier, créer le compte propriétaire sur http://localhost:5678, puis premier workflow (message « bonjour » chaque matin)
+### Séance IA 3 faite : n8n installé avec Docker, premier workflow publié
+- Choix de Nicolas : **n8n avec Docker** plutôt qu'avec Node.js, parce que c'est la méthode standard pour déployer chez un client. WSL installé par Nicolas en mode administrateur, puis redémarrage
+- **Disque C: plein (0 Go libre)**, cause de l'échec de Docker. Supprimés avec l'accord de Nicolas : 8 copies d'une ISO Debian, 3 ISO Windows Server, 37 vieux installateurs (environ 50 Go). Gardés : GNS3, les machines virtuelles VirtualBox (40 Go, à trier un jour), 3 fichiers `Gmail.zip` à vérifier par Nicolas (exports de mails ?). Environ 42 Go libres ensuite. Le fichier d'échange de Windows grossit quand Docker tourne : surveiller l'espace (alerte sous 15 à 20 Go)
+- **Piège Avast** : le Bouclier Courrier intercepte les connexions SMTP avec son propre certificat, accepté par Windows mais refusé par le conteneur. Certificat public d'Avast exporté dans `certs/avast-root.pem` et donné à n8n (`NODE_EXTRA_CA_CERTS`). Gmail SMTP dans n8n : port 587, SSL/TLS désactivé (STARTTLS). Le port 465 ne marche pas (racine « Untrusted » d'Avast). Leçon pour le freelance : antivirus et proxys d'entreprise font pareil chez les PME
+- Autres pièges : mot de passe d'application collé avec ses espaces ou en double ; SSL/TLS activé sur le port 587
+- **Premier workflow « bonjour »** (Schedule Trigger à 8 h, Edit Fields avec une expression de date en français, Send Email) testé, mail reçu, publié. Signature n8n à retirer (option « Append n8n Attribution »). Docker Desktop démarre avec Windows
+- Notions vues : image, conteneur, volume (garde-meuble), `docker-compose.yml`, expressions `{{ }}`, `$now`, `$json`, identifiants chiffrés séparés du workflow, SSL/TLS implicite ou STARTTLS, versions publiées d'un workflow, licence fair-code
+- Livrable : `livrables/applications/2026-10-14_n8n/` (`docker-compose.yml`, `GUIDE.md`). Document de parcours mis à jour (3 séances sur 24), question « n8n ou Make » close
+- Prochaine séance IA : séance 4, les API sans jargon (API de l'Annuaire des entreprises depuis n8n)
 
 ### `/morning` : première veille
 - Projet de budget 2027 en débat : plafonds de la micro-entreprise figés jusqu'en 2028, mais la franchise de TVA (article 293 B du CGI) doit être réécrite au 1er janvier 2027, et la FFB demande un seuil plus bas pour le BTP. Conseil : poser la question à la réunion de la Chambre de métiers et ne pas trancher le statut avant le vote du budget (décembre)
