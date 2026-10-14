@@ -36,7 +36,7 @@
 | PRETTRE Espaces Verts | Assistant(e) bureau d'études travaux paysagers (CDI, 24 000 à 29 000 €/an, bureau + chantier), alerte Indeed du 2026-10-12, détail de l'offre introuvable | Méré | Bâtiment | Alerte Indeed dans Gmail (12/10) |
 | Adsearch (client digitalisation du retail) | Assistant ADV (CDI, 30 000 à 33 000 €/an, 2 ans d'ADV demandés, 1 jour de télétravail), publiée le 2026-09-30, repérée le 2026-10-14 | Montigny-le-Bretonneux | ADV | [Annonce HelloWork](https://www.hellowork.com/fr-fr/emplois/83943500.html) |
 | Talents ADV & Supply (client industriel) | Gestionnaire de stock (intérim d'un mois renouvelable, remplacement, 2 500 à 2 900 € brut/mois, en partie magasin), repérée le 2026-10-14 | Buc | Logistique/stocks | [Annonce](https://to.indeed.com/aabbstv9kyvj) |
-| Prospection BTP (15 entreprises) | Candidatures spontanées : assistant travaux, administratif, métreur | Secteur Villepreux | Bâtiment | `2026-10-09_prospection-btp/entreprises-cibles.md` |
+| Prospection BTP (17 entreprises) | Candidatures spontanées : assistant travaux, administratif, métreur. Ajoutées le 2026-10-14 : Sols Jeux Entretien (Auteuil-le-Roi) et Qualitec (Louveciennes), spécialistes des sols | Secteur Villepreux | Bâtiment | `2026-10-09_prospection-btp/entreprises-cibles.md` |
 
 ## Pistes écartées
 

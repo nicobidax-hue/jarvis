@@ -34,6 +34,15 @@ Assistant(e) travaux, assistant(e) administratif(ve) et technique, métreur / ai
 | 14 | **Darbois** | Menuiserie (siège) | 11 av. des 3 Peuples, Montigny-le-Bretonneux | 20 à 49 sal. | ~20 min | Second œuvre, siège sur place |
 | 15 | **Bouygues Construction (Challenger)** | Siège du groupe | 1 av. Eugène Freyssinet, Guyancourt | 250 sal. et plus | ~20 min | Très nombreux postes administratifs, mais candidature uniquement via leur site carrières |
 
+## Ajouts du 2026-10-14 : spécialistes des sols (séance IA 4)
+
+> Source : workflow n8n « Séance 4 - API Annuaire » (revêtement des sols et des murs, code NAF 43.33Z, Yvelines, 20 à 199 salariés). Activité réelle à vérifier avant d'appeler.
+
+| # | Entreprise | Activité | Adresse | Taille | Trajet | Pourquoi |
+|---|---|---|---|---|---|---|
+| 16 | **Sols Jeux Entretien** | Revêtement des sols et des murs (siège, créée en 1996) | Le Poste Blanc, route de Thoiry, Auteuil-le-Roi | 20 à 49 sal. | ~15-20 min | Ton métier, siège et seul établissement sur place |
+| 17 | **Qualitec** | Revêtement des sols et des murs (siège, créée en 1992) | 64 route de Versailles, Louveciennes | 20 à 49 sal. | ~20-25 min | Ton métier, siège et seul établissement sur place. Trajet à vérifier, à la limite des 20 min |
+
 ## À ne pas oublier : ton réseau
 
 - **AS Résine Pro Tech** (Les Clayes-sous-Bois) et **Résine 2000** (Élancourt) : tu les connais déjà. Un appel à ton ancien responsable peut ouvrir une porte (poste de bureau, ou au moins des noms de clients et de fournisseurs qui recrutent).
