@@ -79,6 +79,7 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 ├── context/
 │   ├── CONTEXT.md               # Qui je suis, ce que je fais, mes objectifs
 │   ├── HISTORY.md               # Journal évolutif de mes sessions
+│   ├── archives/                # Anciennes entrées de HISTORY.md (non lues par /prime)
 │   └── import/                  # Documents externes à analyser
 ├── .claude/
 │   ├── commands/
@@ -96,6 +97,7 @@ Une fois que je confirme, Claude met à jour le fichier en question et ajoute un
 | Dossier | Utilité |
 |---------|---------|
 | `context/` | Tout ce qui me concerne et que Claude doit savoir |
+| `context/archives/` | Anciennes entrées de HISTORY.md, à lire seulement pour retrouver le détail d'une ancienne décision |
 | `context/import/` | Documents externes (PDFs, exports, notes) à analyser |
 | `.claude/commands/` | Commandes personnalisées de mon Jarvis |
 | `.claude/skills/` | Skills (super-pouvoirs) de mon Jarvis |
