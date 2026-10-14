@@ -13,9 +13,16 @@
 - 15/10 : relance Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell ; 21/10 : FAB Group, Eiffage, Sovitrat, Equipages, Eberspächer (un seul rappel dans l'agenda)
 - Central Pose : **appel abandonné** (décision du 14/10), la candidature spontanée part sans nom de contact au prochain `/emploi`
 - Toujours en attente : espace candidat DLSI, visibilité du profil HelloWork, alertes mail France Travail
-- Prochaine séance IA : séance 4, les API (n8n installé le 14/10, voir plus bas)
+- Prochaine séance IA : séance 5, brancher Gmail dans n8n (lire les mails d'un libellé et les filtrer)
 - Trieur de devis : mise à jour **reportée après les pages résine** (décision du 14/10), pour ne modifier le prompt qu'une fois. Ordre retenu : contenu technique des gammes fourni par Nicolas, page résine, formulaire (types de résine, `typesAvecSupport`), puis trieur mis à jour par Nicolas (gammes, champ `support` facultatif, règle « demande complète », proposition de visite une fois la demande complète) et fichier de prix par gamme
 - Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
+
+### Séance IA 4 faite : les API sans jargon
+- Notions : une API comme un comptoir de fournisseur (URL, paramètres `clé=valeur` après `?` et séparés par `&`, clé, réponse en JSON), objets `{ }` et listes `[ ]`, notation `siege.libelle_commune` et `[0]`, pagination (`per_page` 25 au maximum, `total_results`, `total_pages`), codes à traduire avec la documentation (NAF 43.33Z, tranches d'effectif INSEE : 12 = 20 à 49, 21 = 50 à 99, 22 = 100 à 199, NN = non renseigné), entreprise (SIREN) et établissements (SIRET)
+- Exercice à la main dans le navigateur, puis workflow n8n « Séance 4 - API Annuaire » : déclencheur manuel, HTTP Request (GET), Split Out sur `results`, Edit Fields (entreprise, ville du siège, code effectif, adresse locale)
+- Défi réussi seul : entreprises de revêtement de sols des Yvelines de 20 à 199 salariés, 6 trouvées. Erreurs corrigées par Nicolas : `yvelines` au lieu de `78`, séparateur point au lieu de virgule, `per_page` à 1. Leçons : l'API attend des codes exacts, les paramètres s'additionnent (ET), dépanner en remontant la chaîne nœud par nœud, la vue Table d'un paquet non découpé n'affiche que la première fiche
+- Résultat utile pour l'emploi : 4 entreprises absentes de la liste de prospection du 09/10, dont Sols Jeux Entretien (Auteuil-le-Roi) et Qualitec (Louveciennes), sièges sur place. Central Pose : siège à Brie-Comte-Robert, les décisions RH s'y prennent sans doute
+- Document de parcours mis à jour (4 séances sur 24)
 
 ### Rangement des livrables : nouveau dossier `ia/`
 - Incohérence repérée par Nicolas : les projets IA étaient rangés dans `applications/`. Nouveau dossier `livrables/ia/` (parcours IA, prompts, workflows n8n, démos clients), où ont été déplacés `2026-10-13_trieur-devis` et `2026-10-14_n8n`. `applications/` garde les scripts sans IA (`adapter-docx`, `envoi-candidatures`, `api-france-travail`), `sites-web/` ne change pas. Les chemins plus bas dans cet historique sont les anciens
