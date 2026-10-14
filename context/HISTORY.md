@@ -7,6 +7,14 @@
 
 ---
 
+## Points ouverts (repris des sessions du 08/10 au 12/10)
+
+- Site Atelier Facette : trouver le réglage des notifications email des demandes dans Netlify ; choisir l'hébergement au lancement (OVH ou GitHub + Netlify avec domaine acheté à part) ; vraies photos (paysage, 2000 px minimum), téléphone et email, avis réels ; plus tard, dépôt GitHub dédié au site
+- `/mails` : configurer Remote Control et tester la notification téléphone ; désabonnements restants (« Gérer les abonnements » de Gmail) ; réglages SportEasy (couper les mails de forum)
+- Idée : une commande `/matin` qui enchaîne `/mails`, `/emploi suivi` et `/morning` avec un résumé unique
+- CV : `livrables/taff/2026-10-08_cv-cibles/cv-support-informatique_doublon.docx` toujours à trier
+- Clés d'API : sauvegarde dans un gestionnaire de mots de passe à confirmer par Nicolas
+
 ## 2026-10-14
 
 ### Prochaine session
