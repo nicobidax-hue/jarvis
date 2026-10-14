@@ -12,7 +12,8 @@
 ### Prochaine session
 - 15/10 : relance Bessière ; 16/10 : Fed Group et AGSE ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell ; 21/10 : FAB Group, Eiffage, Sovitrat, Equipages, Eberspächer (un seul rappel dans l'agenda)
 - Toujours en attente : appel et candidature spontanée Central Pose, espace candidat DLSI, visibilité du profil HelloWork, alertes mail France Travail
-- Prochaine séance IA : mettre à jour le prompt du trieur (champ `support` facultatif, règle « demande complète » à revoir, étape « proposer une visite quand la demande est complète »), modification à faire par Nicolas
+- Prochaine séance IA : séance 3, installer n8n ensemble
+- Trieur de devis : mise à jour **reportée après les pages résine** (décision du 14/10), pour ne modifier le prompt qu'une fois. Ordre retenu : contenu technique des gammes fourni par Nicolas, page résine, formulaire (types de résine, `typesAvecSupport`), puis trieur mis à jour par Nicolas (gammes, champ `support` facultatif, règle « demande complète », proposition de visite une fois la demande complète) et fichier de prix par gamme
 - Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
 
 ### `/morning` : première veille
@@ -34,6 +35,11 @@
 - Visite avant devis : décision de Nicolas, une phrase sur la page Contact annonce une visite gratuite une fois la demande complète ; la prise de rendez-vous se fera dans le trieur, pour éviter les visites pour rien
 - Mentions légales : liste des données collectées complétée (type de travaux, surface, support)
 - Site redéployé sur Netlify le 14/10 par Nicolas
+
+### Organisation des sessions
+- Conseil retenu : une session par sujet plutôt qu'une par jour (le matin, `/prime`, `/mails`, `/emploi` ; puis une nouvelle session pour le site, une séance IA ou les langues). Raison : chaque message relit toute la conversation, donc une longue session consomme plus et finit résumée automatiquement. Changer de sujet : « sauvegarde tout », puis `/clear` et `/prime`
+- Consommation visible avec `/usage` dans Claude Code, ou sur claude.ai dans Paramètres, puis Utilisation
+- Idée pour plus tard : archiver les anciennes entrées de HISTORY.md pour alléger `/prime`
 
 ### Divers
 - Trieur de devis : numérotation des étapes de la v3 corrigée par Nicolas (commit du 13/10, absent de l'historique jusqu'ici)
