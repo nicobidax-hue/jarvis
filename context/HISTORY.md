@@ -16,6 +16,12 @@
 - Trieur de devis : mise à jour **reportée après les pages résine** (décision du 14/10), pour ne modifier le prompt qu'une fois. Ordre retenu : contenu technique des gammes fourni par Nicolas, page résine, formulaire (types de résine, `typesAvecSupport`), puis trieur mis à jour par Nicolas (gammes, champ `support` facultatif, règle « demande complète », proposition de visite une fois la demande complète) et fichier de prix par gamme
 - Sovitrat : prévoir de pouvoir se présenter et décrire Batidax en espagnol si un entretien est proposé
 
+### Séance IA 3 : installer n8n (en cours)
+- Choix de Nicolas : **n8n avec Docker** plutôt qu'avec Node.js, parce que c'est la méthode standard pour déployer chez un client (Docker Desktop était déjà installé le 17/09)
+- Bloquant trouvé : **WSL absent**, Docker Desktop ne peut pas démarrer. Node.js absent aussi (inutile avec Docker)
+- Préparé : `livrables/applications/2026-10-14_n8n/` (`docker-compose.yml` : image officielle, port limité au PC, fuseau Europe/Paris, volume `n8n_data` ; `GUIDE.md` : image, conteneur, volume, commandes)
+- **Reprise après le redémarrage :** vérifier WSL (`wsl --status`), lancer Docker Desktop, `docker compose up -d` dans le dossier, créer le compte propriétaire sur http://localhost:5678, puis premier workflow (message « bonjour » chaque matin)
+
 ### `/morning` : première veille
 - Projet de budget 2027 en débat : plafonds de la micro-entreprise figés jusqu'en 2028, mais la franchise de TVA (article 293 B du CGI) doit être réécrite au 1er janvier 2027, et la FFB demande un seuil plus bas pour le BTP. Conseil : poser la question à la réunion de la Chambre de métiers et ne pas trancher le statut avant le vote du budget (décembre)
 - Baromètre Coface : 60 % des entreprises françaises n'ont pas de règles pour l'IA, et Gartner prévoit plus de 40 % de projets d'IA agentique annulés d'ici fin 2027. Argument pour l'offre IA de Nicolas : des automatisations simples, encadrées, avec validation humaine

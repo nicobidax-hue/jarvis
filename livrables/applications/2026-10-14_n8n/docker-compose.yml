@@ -1,0 +1,21 @@
+# n8n en local avec Docker (séance IA 3)
+# Démarrer : docker compose up -d   (depuis ce dossier)
+# Arrêter  : docker compose down
+# Ouvrir   : http://localhost:5678
+
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n:latest   # l'image officielle de n8n
+    container_name: n8n
+    restart: unless-stopped                  # redémarre avec Docker, sauf si on l'a arrêté
+    ports:
+      - "127.0.0.1:5678:5678"                # accessible depuis ce PC uniquement, pas depuis le réseau
+    environment:
+      - GENERIC_TIMEZONE=Europe/Paris        # heure utilisée par les déclencheurs planifiés
+      - TZ=Europe/Paris
+      - N8N_DIAGNOSTICS_ENABLED=false        # pas d'envoi de statistiques d'usage à n8n
+    volumes:
+      - n8n_data:/home/node/.n8n             # workflows, identifiants et réglages, conservés hors du conteneur
+
+volumes:
+  n8n_data:
