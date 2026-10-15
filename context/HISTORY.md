@@ -25,8 +25,7 @@
 - Robert Half demande Excel avancé (tableaux croisés dynamiques, RechercheV) : à réviser avant un éventuel entretien
 - AGSE : si entretien, préparer une courte présentation en anglais (parcours, Batidax, motivation)
 - Pistes non ouvertes : alertes Indeed IVS France (ADV, 31 000 €) et La Foncière du Parc (gestion locative), lieu inconnu
-- Qonto : vérifier auprès du chat que l'acompte et la « Partial invoice » sont dans l'offre gratuite
-- Demander l'accord du gérant d'AS Résine Pro Tech pour l'utilisation de son SIRET
+- Qonto : confirmer à l'ouverture d'un compte réel (avec le SIRET de Nicolas) que la facture d'acompte et la facture de situation sont dans l'offre gratuite
 - Séances IA : séance 5 (Gmail dans n8n), puis branchement de n8n sur l'API Qonto
 
 ### Offre IA : facturation électronique et sandbox Qonto
@@ -36,6 +35,8 @@
 - Test dans le sandbox : client particulier, facture d'acompte, TVA 10 % et 5,5 %, « Partial invoice » pour les situations. Première facture d'acompte créée
 - Automatisations repérées : acompte de 30 % calculé et réparti selon la TVA du devis (le formulaire n'a qu'un seul taux), relances (payantes chez Qonto). Qonto a déjà un assistant IA de création de factures, à ne pas vendre
 - Piège : le parcours « Création de micro-entreprise » de Qonto est payant et immatricule l'entreprise, à ne pas confondre avec la facturation gratuite
+- Point clos : l'accord du gérant d'AS Résine Pro Tech n'est pas nécessaire, le SIRET ne sert qu'au compte de test (décision de Nicolas)
+- Chat Qonto interrogé par Nicolas sur l'acompte et la « Partial invoice » dans l'offre gratuite : pas de réponse claire. Pages publiques lues ensuite : acompte et situation « en illimité » sur la page bâtiment, très probablement dans l'offre gratuite (non écrit en toutes lettres) ; relance manuelle « en un clic » gratuite, relance automatique décrite comme un add-on payant par une autre page Qonto et un site tiers. Argument pour l'offre : les relances automatiques via n8n et l'API restent une vraie valeur ajoutée à 0 € pour l'artisan
 
 ### `/morning`
 - Baromètre France Num 2026 : 40 % des TPE-PME utilisent l'IA (53 % des PME), seulement 19 % paient, et l'IA arrive dernière des priorités numériques (18 %) loin derrière la facturation électronique (39 %). Idée retenue pour la phase 3 du parcours IA : une offre d'automatisation autour des factures (tri, classement, relances)
