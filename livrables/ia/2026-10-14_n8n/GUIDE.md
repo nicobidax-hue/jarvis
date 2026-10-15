@@ -72,6 +72,37 @@ poste      {{ $json.Subject.split(' recrute ')[1].replace(/^une? /, '').trim() }
 
 Limite : l'objet ne montre que la première des 3 à 14 offres d'une alerte, et deux alertes peuvent avoir le même objet (doublons). Lire le corps du mail, ce sera la séance 6 (IA).
 
+## Ajouter l'IA : Gemini (séance IA 6, 15/10)
+
+Fournisseur : **Google Gemini**, offre gratuite. Clé créée sur aistudio.google.com/apikey dans le projet `n8n-local` (sans facturation : refuser « Set up billing »). Clé rangée dans `.env` (`GEMINI_API_KEY`) et dans le credential n8n **Google Gemini(PaLM) Api**. Contrepartie du gratuit : Google peut utiliser les données envoyées, donc uniquement des données publiques (jamais celles d'un client).
+
+Pièges rencontrés :
+- **Mistral** : son offre gratuite ne donne plus accès à l'API (clés grisées, plans payants à 15 ou 24 €)
+- **Modèles** : `gemini-2.5-flash` et `-lite` fermés aux nouveaux comptes (erreur 404), `gemini-3-flash-preview` surchargé (erreur 503). Modèle retenu : **`gemini-3.5-flash-lite`**. Jamais de modèle « preview » dans un workflow qui tourne seul
+- **Prompt en mode Fixed** : `{{ $json.texte }}` envoyé tel quel, l'IA ne reçoit pas le mail (sortie vide). Le champ doit être en **Expression** (texte vert). Indice : un nombre de tokens trop bas
+- Un nœud amont modifié (Simplify désactivé) casse les nœuds aval : `Subject` devient `subject`
+
+Workflow « Séance 6 - Offres HelloWork par l'IA » :
+
+1. **Gmail Get many**, **Simplify désactivé** (sinon pas de corps du mail), Limit 2 pendant les tests
+2. **Edit Fields « nettoyeur »** : retirer les liens avant d'envoyer à l'IA (17 096 → 2 318 caractères, environ 86 % de tokens en moins)
+   ```
+   subject  {{ $json.subject }}
+   texte    {{ $json.text.replace(/\[https?:[^\]]*\]/g, '').replace(/https?:\S+/g, '').replace(/\n{2,}/g, '\n') }}
+   gain     {{ $json.text.length }} → {{ …même chaîne que texte… .length }}
+   ```
+   Dans une chaîne de méthodes, `.length` (propriété, sans parenthèses) se met toujours en dernier : il transforme le texte en nombre
+3. **Basic LLM Chain** : message **System** (rôle, contexte, tâche, règles, exemples) et **User Message** en mode Expression (`Voici le texte de l'alerte : {{ $json.texte }}`), **Require Specific Output Format** activé
+   - Chat Model : **Google Gemini Chat Model**, `gemini-3.5-flash-lite`
+   - Output Parser : **Structured Output Parser**, exemple JSON `{"offres":[{"poste","entreprise","ville","departement","contrat","salaire","bloc"}]}`
+4. **Split Out** sur `output.offres` : une ligne par offre
+
+Résultat : 25 offres extraites de 2 alertes (11 + 14, vérifié à la main), au lieu de 2 avec l'objet. Environ 840 tokens par alerte. Règle ajoutée ensuite dans le message système : retirer les retours à la ligne et les badges HelloWork (« Super recruteur ») du nom de l'entreprise, avec l'exemple « Groupe OSMAIA ». Le badge est parti, pas le retour à la ligne.
+
+Ratés restants : « CDD - Correspondant Administratif » et « … - Arbres et Paysages - 91 » gardent contrat ou lieu, « Groupe\nOSMAIA » garde son retour à la ligne. L'IA n'est pas déterministe : contrôler sur plusieurs exécutions, et faire dans un nœud après l'IA ce qu'un `replace` fait à coup sûr.
+
+À faire : nettoyage après l'IA, doublons d'une alerte à l'autre, filtre par poste et par département.
+
 ## Bon à savoir
 
 - n8n n'est accessible que depuis ce PC (`127.0.0.1` dans le fichier). Pour recevoir des données d'Internet (webhooks, séance 7), il faudra un tunnel ou un serveur.
