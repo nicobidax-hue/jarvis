@@ -17,6 +17,30 @@
 - CV : `livrables/taff/2026-10-08_cv-cibles/cv-support-informatique_doublon.docx` toujours à trier
 - Clés d'API : sauvegarde dans un gestionnaire de mots de passe à confirmer par Nicolas
 
+## 2026-10-15
+
+### Prochaine session
+- 16/10 : relance Fed Group (seule, AGSE reportée) ; 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar, Airwell ; 21/10 : FAB Group, Sovitrat, Equipages, Eberspächer ; 22/10 : Central Pose, Bessière (2e et dernière), Valorem, Robert Half, AGSE
+- Toujours en attente : espace candidat DLSI, visibilité du profil HelloWork, confirmation du compte candidat Eiffage (inutile depuis le refus)
+- Robert Half demande Excel avancé (tableaux croisés dynamiques, RechercheV) : à réviser avant un éventuel entretien
+- AGSE : si entretien, préparer une courte présentation en anglais (parcours, Batidax, motivation)
+- Pistes non ouvertes : alertes Indeed IVS France (ADV, 31 000 €) et La Foncière du Parc (gestion locative), lieu inconnu
+
+### `/morning`
+- Baromètre France Num 2026 : 40 % des TPE-PME utilisent l'IA (53 % des PME), seulement 19 % paient, et l'IA arrive dernière des priorités numériques (18 %) loin derrière la facturation électronique (39 %). Idée retenue pour la phase 3 du parcours IA : une offre d'automatisation autour des factures (tri, classement, relances)
+- PLF 2027 déposé le 1er octobre, en commission des finances : rien de visible sur la franchise de TVA des micro-entrepreneurs, article 293 B toujours abrogé au 1er janvier 2027. Le conseil d'attendre le vote de décembre avant de choisir le statut tient toujours
+
+### `/emploi` complet : 3 candidatures, 1 relance, 1 refus
+- Suivi : **message d'AGSE sur Indeed** (question sur le niveau d'anglais), répondu par Nicolas le 15/10 (plus à l'aise à l'écrit, niveau scolaire amélioré, envie de progresser) ; relance AGSE reportée au 22/10. **Refus d'Eiffage** (poste pourvu). Accusés de réception de FAB Group, Sovitrat, Equipages et Eiffage. Guy Hoquet clôturé, rappel du 16/10 supprimé
+- **Loxam Rental** (commercial sédentaire) : candidature Indeed du 14/10 à 11h25, sans doute involontaire, pendant la candidature Equipages. **Piège : Indeed peut aussi cocher d'avance des offres suggérées**, comme HelloWork. Ajoutée au suivi sans relance
+- Bessière : pas de numéro trouvé, **relancée via la messagerie Indeed** le 15/10 avec la question « brut ou net ? »
+- **Central Pose** : candidature spontanée **envoyée par mail** à info@centralpose.fr (seule adresse publique), avec demande de transmission au responsable d'agence, lettre redatée
+- **Valorem Partners** (assistant SAV, Plaisir, intérim de 3 mois en vue d'un CDI, 32 500 €, le meilleur match du jour) et **Robert Half** (ADV pour un industriel, Coignières, intérim) déposées par Nicolas sur HelloWork et le site Robert Half
+- Dossiers prêts mais **non retenus par Nicolas** : Equans / Bouygues E&S (assistant technique génie civil, Guyancourt) et Talysio (assistant achat, Guyancourt), notés en pistes
+- Pistes ajoutées : Lynx RH (ADV, Trappes), DPD (CDD administratif, Trappes), Keolis (ADV, Le Chesnay), MEDIVIE (assistant commercial, Coignières). Une douzaine d'offres écartées (trop loin, terrain, anglais au cœur du poste)
+- Agenda nettoyé : Domaliance et Eiffage retirés des rappels, un rappel commun le 22/10
+- Total au 15/10 : 22 candidatures, 4 refus, 18 en cours
+
 ## 2026-10-14
 
 ### Prochaine session
