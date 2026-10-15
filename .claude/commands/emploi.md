@@ -92,8 +92,9 @@ Classe les offres restantes selon leur adéquation avec mon profil (double comp�
 ### B3. Préparer chaque candidature
 
 Pour chaque offre retenue, crée le dossier `livrables/taff/AAAA-MM-JJ_candidature-<entreprise>-<ville>/` avec :
-- **CV** `cv-nicolas-bideau_<entreprise>.docx` et `.pdf` : pars du CV existant le plus proche du poste (dossiers de candidature ou `2026-10-08_cv-cibles/`). Adapte le titre, l'accroche et l'ordre des expériences au vocabulaire de l'offre. Mise en page inchangée
-- **Lettre** `lettre-motivation_<entreprise>.docx` et `.pdf` : pars de la lettre existante la plus proche. Une lettre courte (moins d'une page), qui cite l'entreprise, le poste et 2 ou 3 exigences de l'offre reliées à des expériences réelles
+- **CV** `cv-nicolas-bideau.docx` et `.pdf` : pars du CV existant le plus proche du poste (dossiers de candidature ou `2026-10-08_cv-cibles/`). Adapte le titre, l'accroche et l'ordre des expériences au vocabulaire de l'offre. Mise en page inchangée
+- **Lettre** `lettre-motivation.docx` et `.pdf` : pars de la lettre existante la plus proche. Une lettre courte (moins d'une page), qui cite l'entreprise, le poste et 2 ou 3 exigences de l'offre reliées à des expériences réelles
+- **Noms de fichiers sans le nom de l'entreprise** : le dossier le porte déjà, et le fichier est déposé tel quel chez l'employeur, qui ne doit pas voir un nom d'entreprise (le sien ou un autre) dans le nom du fichier
 - **Mail** `mail.txt` : seulement si la candidature part par mail. Objet en 1re ligne (`Objet : ...`), puis le corps (court, vouvoiement, signature « Nicolas Bideau »)
 - **Fiche** `offre.md` : intitulé, entreprise, lieu, salaire, lien, mode de candidature (mail à telle adresse, ou dépôt sur tel site), points clés de l'offre
 
