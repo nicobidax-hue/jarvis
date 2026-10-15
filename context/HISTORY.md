@@ -26,7 +26,18 @@
 - AGSE : si entretien, préparer une courte présentation en anglais (parcours, Batidax, motivation)
 - Pistes non ouvertes : alertes Indeed IVS France (ADV, 31 000 €) et La Foncière du Parc (gestion locative), lieu inconnu
 - Qonto : confirmer à l'ouverture d'un compte réel (avec le SIRET de Nicolas) que la facture d'acompte et la facture de situation sont dans l'offre gratuite
-- Séances IA : séance 5 (Gmail dans n8n), puis branchement de n8n sur l'API Qonto
+- Séances IA : séance 6 (l'IA lit le corps des alertes HelloWork pour en extraire toutes les offres), puis branchement de n8n sur l'API Qonto
+- Connexion Gmail de n8n en mode Test : à refaire vers le 22/10 (expiration tous les 7 jours)
+- Disque C: à 26 Go libres (42 Go le 14/10) : faire du ménage avant de passer sous 15-20 Go
+
+### Séance IA 5 faite : Gmail dans n8n (OAuth)
+- Notion : mot de passe d'application (double complet des clés) ou OAuth (client ID et secret, écran de consentement, scopes, URI de redirection, jeton). Même schéma pour l'API Qonto
+- Projet Google Cloud `n8n-local` créé sans facturation (essai gratuit de 300 $ ignoré), API Gmail activée, écran de consentement en mode Test, Nicolas en utilisateur test, client Application Web redirigé vers `http://localhost:5678/rest/oauth2-credential/callback`. La console ne se chargeait pas dans le navigateur habituel : réglé en fenêtre privée
+- Consentement granulaire : 2 droits cochés sur 6 (libellés, consulter et envoyer), sans l'accès total avec suppression définitive. Leçon : le moindre privilège, argument de confiance face à un client
+- Workflow « Séance 5 - Alertes HelloWork » : Get many messages plutôt que le déclencheur « On message received » (on construit sur des données existantes, puis on change le déclencheur), recherche par adresse exacte (`notification@emails.hellowork.com`, les 3 autres adresses HelloWork servent à autre chose), Filter en OR avec Ignore Case (3 alertes gardées sur 4), Edit Fields : date lisible depuis `internalDate`, entreprise et poste extraits de l'objet
+- Erreurs faites et comprises par Nicolas : `.replace` avec un seul argument (résultat `undefined`), retour à la ligne tapé dans le champ (`\n`), espaces restés après la coupe. Notions : `split`, `[0]` et `[1]`, `replace`, `trim`, regex `/^une? /`. Le champ `poste` écrit seul par Nicolas
+- Limite trouvée : l'objet ne montre que la première des 3 à 14 offres d'une alerte, d'où des offres perdues et des doublons. Point de départ de la séance 6 et argument de vente (lire le contenu, pas seulement l'objet)
+- n8n (version avec Publish) enregistre tout seul, plus de bouton Save. Procédure et expressions notées dans `livrables/ia/2026-10-14_n8n/GUIDE.md`, document de parcours mis à jour (5 séances sur 24)
 
 ### Offre IA : facturation électronique et sandbox Qonto
 - Idée de Nicolas : ne pas faire de facturation électronique soi-même, mais automatiser autour d'un logiciel gratuit et agréé, puis vendre le service aux artisans
