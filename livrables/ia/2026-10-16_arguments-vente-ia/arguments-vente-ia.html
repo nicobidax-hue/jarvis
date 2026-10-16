@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Arguments de vente IA</title>
+<style>
+  @page { size: A4; margin: 16mm 16mm 18mm 16mm; }
+  :root {
+    --ink: #1f2428;
+    --muted: #5b646c;
+    --line: #d9dee2;
+    --accent: #2f5d62;
+    --accent-soft: #e8f0f0;
+    --warn: #8a5a00;
+    --warn-soft: #fbf3e2;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #fff;
+    color: var(--ink);
+    font-family: "Segoe UI", Calibri, Arial, sans-serif;
+    font-size: 10.2pt;
+    line-height: 1.45;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  h1 { font-family: Georgia, serif; font-size: 25pt; line-height: 1.15; margin: 0 0 6px; color: var(--accent); }
+  h2 {
+    font-family: Georgia, serif; font-size: 15pt; color: var(--accent);
+    margin: 22px 0 8px; padding-bottom: 4px; border-bottom: 2px solid var(--accent);
+    break-after: avoid;
+  }
+  h3 { font-size: 11pt; margin: 14px 0 5px; break-after: avoid; }
+  p { margin: 0 0 7px; }
+  ul, ol { margin: 0 0 8px; padding-left: 18px; }
+  li { margin-bottom: 3px; }
+  .sub { color: var(--muted); font-size: 10.5pt; margin-bottom: 14px; }
+  .meta { color: var(--muted); font-size: 9pt; border-top: 1px solid var(--line); padding-top: 6px; margin-bottom: 16px; }
+  .src { color: var(--accent); font-size: 8pt; vertical-align: super; font-weight: 600; }
+  .box { background: var(--accent-soft); border-left: 4px solid var(--accent); padding: 9px 12px; margin: 10px 0; break-inside: avoid; }
+  .warn { background: var(--warn-soft); border-left: 4px solid var(--warn); padding: 9px 12px; margin: 10px 0; break-inside: avoid; }
+  .warn strong { color: var(--warn); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; font-size: 9.4pt; }
+  th, td { border: 1px solid var(--line); padding: 5px 7px; text-align: left; vertical-align: top; }
+  th { background: var(--accent); color: #fff; font-weight: 600; }
+  tr { break-inside: avoid; }
+  .num { font-weight: 700; color: var(--accent); white-space: nowrap; }
+  .kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 10px 0 12px; }
+  .kpi { border: 1px solid var(--line); border-top: 3px solid var(--accent); padding: 7px 9px; break-inside: avoid; }
+  .kpi b { display: block; font-size: 17pt; color: var(--accent); line-height: 1.1; }
+  .kpi span { font-size: 8.8pt; color: var(--muted); }
+  .pitch { border: 1px dashed var(--accent); padding: 9px 12px; margin: 8px 0; font-style: italic; break-inside: avoid; }
+  .page-break { break-before: page; }
+  .sources li { font-size: 8.6pt; margin-bottom: 4px; word-break: break-word; }
+  .sources a { color: var(--accent); }
+  .tag { display: inline-block; font-size: 8pt; padding: 0 5px; border-radius: 3px; background: #eef1f3; color: var(--muted); }
+</style>
+</head>
+<body>
+
+<h1>Les arguments de vente de l'IA</h1>
+<div class="sub">Points positifs, chiffres et réponses aux objections, pour préparer mes rendez-vous avec les artisans, les TPE et les PME</div>
+<div class="meta">Document de travail de Nicolas Bideau · recherche du 16 octobre 2026 · les numéros entre crochets renvoient aux sources de la dernière page</div>
+
+<h2>1. L'essentiel en une page</h2>
+
+<div class="kpis">
+  <div class="kpi"><b>40 %</b><span>des TPE-PME utilisent l'IA en 2026, contre 13 % en 2024 <span class="src">[1]</span></span></div>
+  <div class="kpi"><b>30 %</b><span>seulement dans le bâtiment, contre 72 % dans le numérique <span class="src">[2]</span></span></div>
+  <div class="kpi"><b>85 %</b><span>des utilisateurs d'IA payante jugent son impact positif <span class="src">[1]</span></span></div>
+  <div class="kpi"><b>10 h</b><span>de gestion par semaine pour un chef d'entreprise artisanale, soit 22 % de son temps <span class="src">[5]</span></span></div>
+  <div class="kpi"><b>13 Md€</b><span>de trésorerie perdue par les PME et microentreprises à cause des retards de paiement <span class="src">[7]</span></span></div>
+  <div class="kpi"><b>1/09/2027</b><span>obligation d'émettre des factures électroniques pour les TPE-PME <span class="src">[8]</span></span></div>
+</div>
+
+<h3>Les 7 arguments les plus solides</h3>
+<ol>
+  <li><strong>Du temps rendu au métier.</strong> Les artisans qui utilisent déjà l'IA gagnent en moyenne 2,1 h par semaine, et le potentiel est estimé entre 1,7 et 4,3 h <span class="src">[5]</span>. Une heure de bureau en moins, c'est une heure de chantier ou de vie de famille en plus.</li>
+  <li><strong>De la trésorerie récupérée.</strong> Les très petites entreprises (moins de 3 salariés) sont payées en moyenne avec 14,6 jours de retard, et ce retard augmente depuis 2023 <span class="src">[7]</span>. Des relances automatiques, régulières et polies, c'est de l'argent qui rentre plus vite.</li>
+  <li><strong>Une obligation légale à passer sans stress.</strong> La facturation électronique est la priorité numérique n° 1 des TPE-PME (39 %), loin devant l'IA (18 %) <span class="src">[1]</span>. Je vends donc une solution à leur problème du moment, et l'IA vient en bonus.</li>
+  <li><strong>Moins d'oublis et moins d'erreurs.</strong> Une automatisation n'oublie pas une relance, un acompte ou une facture fournisseur. Elle applique toujours la même règle.</li>
+  <li><strong>Répondre plus vite aux clients.</strong> Une demande de devis triée et préparée en quelques minutes, même le soir ou pendant un chantier.</li>
+  <li><strong>Un retard du bâtiment qui devient une chance.</strong> Seulement 30 % des entreprises du bâtiment utilisent l'IA <span class="src">[2]</span>. Celles qui s'équipent maintenant prennent de l'avance sur leurs concurrents.</li>
+  <li><strong>Les outils seuls ne suffisent pas : il faut quelqu'un pour les brancher.</strong> Seul un tiers des entreprises qui utilisent l'IA générative voient un gain de productivité concret <span class="src">[3][4]</span>. Mon rôle : partir d'un vrai problème, l'automatiser de bout en bout et le faire fonctionner dans leur quotidien.</li>
+</ol>
+
+<div class="box"><strong>Le fil rouge à retenir :</strong> je ne vends pas « de l'IA ». Je vends du temps, de la trésorerie et de la tranquillité, avec une mise en conformité offerte en chemin. L'IA est l'outil, pas le produit.</div>
+
+<h2>2. Le marché en chiffres</h2>
+
+<h3>L'IA progresse vite chez les petites entreprises</h3>
+<ul>
+  <li><span class="num">40 %</span> des TPE-PME utilisent une solution d'IA en 2026 (+14 points en un an), <span class="num">53 %</span> des PME <span class="src">[1]</span>.</li>
+  <li><span class="num">55 %</span> des dirigeants de TPE-PME utilisent l'IA générative fin 2025, contre 15 % fin 2023, mais seulement <span class="num">17 %</span> de façon régulière <span class="src">[9]</span>.</li>
+  <li>Dans les entreprises de 20 à 49 salariés, <span class="num">64 %</span> utilisent l'IA générative, contre 83 % pour celles de 1 000 salariés ou plus <span class="src">[3]</span>. L'écart avec les grands groupes se creuse.</li>
+</ul>
+
+<h3>Mais les usages restent basiques</h3>
+<table>
+  <tr><th>Usage de l'IA dans les TPE-PME (2026)</th><th>Part</th></tr>
+  <tr><td>Générer du texte, de la voix ou des images</td><td class="num">34 %</td></tr>
+  <tr><td>Chatbots, assistants, recherche d'informations</td><td class="num">24 %</td></tr>
+  <tr><td>Analyser ou classer des documents</td><td class="num">13 %</td></tr>
+  <tr><td>Automatiser des tâches</td><td class="num">11 %</td></tr>
+</table>
+<p>Source : baromètre France Num 2026 <span class="src">[1]</span>. <strong>À retenir :</strong> l'automatisation, mon cœur d'offre, n'est utilisée que par 11 % des entreprises. Le marché est presque vierge.</p>
+
+<h3>Ceux qui paient sont plus satisfaits</h3>
+<ul>
+  <li><span class="num">19 %</span> seulement des TPE-PME paient une solution d'IA (32 % des PME) <span class="src">[1]</span>.</li>
+  <li><span class="num">68 %</span> des utilisateurs jugent l'impact positif, et <span class="num">85 %</span> chez ceux qui paient <span class="src">[1]</span>. Argument utile face à « ChatGPT gratuit me suffit ».</li>
+</ul>
+
+<h3>Le bâtiment est en retard</h3>
+<ul>
+  <li><span class="num">30 %</span> d'utilisation de l'IA dans le bâtiment, contre 60 % dans les services spécialisés et 72 % dans le numérique <span class="src">[2]</span>.</li>
+  <li>Le poids de l'administratif fait partie des 3 premières sources de stress des chefs d'entreprise du BTP (<span class="num">41 %</span>), et 19 % travaillent plus de 60 h par semaine <span class="src">[6]</span>.</li>
+</ul>
+
+<h2 class="page-break">3. Les points positifs de l'IA et de l'automatisation</h2>
+
+<table>
+  <tr><th style="width:26%">Bénéfice</th><th>Ce que ça change concrètement</th><th style="width:22%">Preuve ou chiffre</th></tr>
+  <tr><td><strong>Gain de temps</strong></td><td>Les tâches répétitives (relances, classement, saisie, réponses types) se font sans y penser.</td><td>2,1 h par semaine gagnées par les artisans utilisateurs <span class="src">[5]</span></td></tr>
+  <tr><td><strong>Trésorerie</strong></td><td>Relances envoyées à la bonne date, acomptes demandés dès la signature, factures parties le jour même.</td><td>Retard moyen de 14,6 jours chez les moins de 3 salariés <span class="src">[7]</span></td></tr>
+  <tr><td><strong>Fiabilité</strong></td><td>Une règle écrite une fois est appliquée à chaque fois. Moins d'oublis, moins d'erreurs de calcul (TVA, acompte).</td><td>Constat de bon sens, à prouver par une démo</td></tr>
+  <tr><td><strong>Réactivité client</strong></td><td>Les demandes de devis sont triées, complétées et préparées immédiatement, même hors des heures de bureau.</td><td>Mon trieur de devis (démo Atelier Facette)</td></tr>
+  <tr><td><strong>Conformité</strong></td><td>Facturation électronique en place avant l'échéance, traçabilité des factures, mentions obligatoires.</td><td>Émission obligatoire au 1/09/2027 <span class="src">[8]</span></td></tr>
+  <tr><td><strong>Visibilité sur l'activité</strong></td><td>Factures fournisseurs rangées par chantier, rentabilité suivie sans tableur à remplir à la main.</td><td>76 % des TPE-PME exploitent déjà leurs données pour piloter <span class="src">[1]</span></td></tr>
+  <tr><td><strong>Image moderne</strong></td><td>Réponses rapides, devis propres, suivi carré : le client voit une entreprise organisée.</td><td>46 % des TPE-PME tirent au moins 5 % de leurs clients d'internet <span class="src">[1]</span></td></tr>
+  <tr><td><strong>Moins de charge mentale</strong></td><td>Le chef d'entreprise n'a plus à tout garder en tête le soir.</td><td>Administratif : 41 % des sources de stress citées <span class="src">[6]</span></td></tr>
+</table>
+
+<h3>Le calcul à faire avec le client</h3>
+<p>Un chiffre parle plus qu'un discours. Exemple à adapter en rendez-vous, avec les vrais chiffres du client :</p>
+<div class="box">
+  2 h gagnées par semaine × 45 semaines travaillées = <strong>90 h par an</strong>.<br>
+  Si l'heure du patron vaut 45 € (ce qu'il facture sur chantier), cela représente <strong>environ 4 000 € par an</strong>, sans compter la trésorerie récupérée grâce aux relances.<br>
+  <span class="tag">Exemple illustratif, pas une promesse : toujours partir du temps réel que le client passe sur la tâche.</span>
+</div>
+
+<h2>4. Les arguments pour les artisans et les TPE du bâtiment</h2>
+
+<h3>Ce qu'ils vivent</h3>
+<ul>
+  <li>Environ <strong>10 h par semaine</strong> de gestion, soit 22 % du temps de travail <span class="src">[5]</span>, souvent le soir et le week-end.</li>
+  <li>Des retards de paiement qui pèsent plus sur les très petites entreprises : <strong>14,6 jours</strong> de retard moyen pour les moins de 3 salariés, contre 11,9 jours pour les 3 à 9 salariés <span class="src">[7]</span>.</li>
+  <li>Une échéance qui inquiète : l'émission de factures électroniques au <strong>1er septembre 2027</strong>, après l'obligation de réception déjà en place depuis le 1er septembre 2026 <span class="src">[8]</span>.</li>
+</ul>
+
+<h3>Mon offre en clair : automatiser autour d'un logiciel de facturation gratuit et agréé</h3>
+<table>
+  <tr><th style="width:32%">Automatisation</th><th>Argument</th></tr>
+  <tr><td>Acompte calculé selon le devis</td><td>Le bon montant, réparti selon les taux de TVA (10 %, 5,5 %, 20 %), demandé dès la signature. Le logiciel seul ne gère qu'un taux par formulaire.</td></tr>
+  <tr><td>Relances automatiques</td><td>Payantes chez la plupart des éditeurs, faites ici par l'automatisation à 0 € d'abonnement en plus. Ton poli, calendrier fixé avec l'artisan.</td></tr>
+  <tr><td>Factures fournisseurs par chantier</td><td>Chaque facture reçue est rangée sur le bon chantier : l'artisan voit si le chantier est rentable.</td></tr>
+  <tr><td>Envoi au comptable</td><td>Plus de sac de factures en fin de mois. Le comptable reçoit tout, classé, au fil de l'eau.</td></tr>
+  <tr><td>Tri des demandes de devis</td><td>Les demandes du site ou des mails sont lues, classées (urgent, hors zone, incomplet) et une réponse est préparée. L'artisan valide.</td></tr>
+</table>
+
+<h3>Mes atouts face à un artisan</h3>
+<ul>
+  <li><strong>Je connais le métier :</strong> 6 ans gérant de Batidax (devis, facturation, relances, sous-traitants), puis responsable chantier. Je parle leur langue, je sais ce qu'est une situation de travaux.</li>
+  <li><strong>Je suis local :</strong> Yvelines, je me déplace, je ne suis pas une plateforme anonyme.</li>
+  <li><strong>Je m'appuie sur un logiciel gratuit et agréé :</strong> pas d'abonnement imposé, l'artisan reste propriétaire de ses données et de son compte.</li>
+</ul>
+
+<h2 class="page-break">5. Les arguments pour les PME</h2>
+
+<h3>Ce qu'elles vivent</h3>
+<ul>
+  <li>Elles ont déjà essayé : 53 % des PME utilisent l'IA <span class="src">[1]</span>, mais seul un tiers des entreprises utilisatrices voit un gain de productivité concret <span class="src">[3][4]</span>.</li>
+  <li>Les usages restent individuels (chacun son ChatGPT), sans intégration dans les outils de l'entreprise. C'est la cause n° 1 des échecs relevée par le MIT : les outils ne sont pas branchés sur les processus réels <span class="src">[13]</span>.</li>
+  <li>Leurs freins principaux : manque de compétences internes (<span class="num">40 %</span>), coûts (<span class="num">38 %</span>), difficulté à mesurer le retour sur investissement (<span class="num">37 %</span>), sécurité des données (<span class="num">79 %</span> s'en inquiètent) <span class="src">[10]</span>.</li>
+  <li>Près d'une PME française sur deux dit manquer d'expertise pour sécuriser ses usages de l'IA <span class="src">[11]</span>.</li>
+</ul>
+
+<h3>Ce que je leur apporte, frein par frein</h3>
+<table>
+  <tr><th style="width:30%">Leur frein</th><th>Ma réponse</th></tr>
+  <tr><td>« On n'a pas les compétences »</td><td>Je construis, je documente et je forme la personne qui utilisera l'outil. Ils n'ont pas à recruter.</td></tr>
+  <tr><td>« Ça coûte cher »</td><td>Je commence petit : une seule automatisation, un prix fixe, des outils gratuits ou peu chers (n8n auto-hébergé). Pour les PME éligibles, le programme public IA Booster France 2030 peut prendre en charge une partie de l'accompagnement <span class="src">[12]</span>.</td></tr>
+  <tr><td>« On ne sait pas mesurer le retour »</td><td>On mesure avant / après : temps passé sur la tâche, nombre d'oublis, délai de réponse, délai d'encaissement.</td></tr>
+  <tr><td>« Nos données sont sensibles »</td><td>Moindre privilège (l'automatisation n'a accès qu'à ce dont elle a besoin), hébergement chez le client possible, aucune donnée client envoyée à une IA gratuite.</td></tr>
+  <tr><td>« On ne sait pas par où commencer »</td><td>Un diagnostic court : je liste les tâches répétitives, je choisis avec eux celle qui rapporte le plus et qui se fait le plus vite.</td></tr>
+</table>
+
+<h3>Les cas d'usage les plus faciles à vendre aux PME</h3>
+<ul>
+  <li><strong>Administration des ventes :</strong> lecture des bons de commande reçus par mail, saisie, accusés de réception.</li>
+  <li><strong>Facturation et relances :</strong> les mêmes arguments que pour les artisans, à plus grande échelle.</li>
+  <li><strong>Tri de la boîte mail commune :</strong> classement des demandes (devis, SAV, réclamations) et brouillons de réponse.</li>
+  <li><strong>Chatbot de site :</strong> réponses aux questions fréquentes, prise de demande, transmission à la bonne personne.</li>
+  <li><strong>Veille et synthèse :</strong> appels d'offres, offres fournisseurs, réglementation, résumés envoyés chaque matin.</li>
+</ul>
+
+<h3>Le volet conformité : un argument de conseil</h3>
+<ul>
+  <li><strong>AI Act, article 50 (depuis le 2 août 2026) :</strong> un chatbot doit indiquer clairement qu'il est une IA, au plus tard à la première interaction <span class="src">[14]</span>.</li>
+  <li><strong>AI Act, article 4 (depuis février 2025) :</strong> les entreprises qui utilisent l'IA doivent veiller à ce que leurs équipes en aient une maîtrise suffisante <span class="src">[14]</span>. Une formation courte est donc un service à proposer.</li>
+  <li>La plupart des PME sont « déployeurs », pas « fournisseurs » : leurs obligations restent légères, mais elles ne le savent pas. Les rassurer est déjà une valeur ajoutée.</li>
+</ul>
+
+<h2 class="page-break">6. Les objections et mes réponses</h2>
+
+<table>
+  <tr><th style="width:30%">Objection</th><th>Réponse possible</th></tr>
+  <tr><td>« C'est trop cher pour moi. »</td><td>« On part d'une seule tâche. Combien de temps y passez-vous par semaine ? » Puis faire le calcul heures × valeur de l'heure. Si le gain ne paie pas la mission en moins d'un an, ne pas vendre.</td></tr>
+  <tr><td>« Je n'ai pas le temps de mettre ça en place. »</td><td>« C'est justement moi qui le fais. Il me faut une heure avec vous au début, puis une demi-heure pour valider. »</td></tr>
+  <tr><td>« ChatGPT gratuit me suffit. »</td><td>« ChatGPT vous aide à écrire. Moi, je fais en sorte que les relances partent toutes seules, sans que vous ouvriez quoi que ce soit. » Et : 85 % des utilisateurs d'IA payante en sont satisfaits, contre 68 % en moyenne <span class="src">[1]</span>.</td></tr>
+  <tr><td>« J'ai peur pour mes données. »</td><td>Expliquer le moindre privilège avec un exemple concret (accès Gmail limité à 2 droits sur 6, pas de suppression possible). Aucune donnée client dans une IA gratuite.</td></tr>
+  <tr><td>« L'IA se trompe. »</td><td>« Oui, c'est pour ça que l'IA prépare et que vous décidez. Ce qui doit être exact à 100 % (montants, dates) est calculé par des règles, pas par l'IA. »</td></tr>
+  <tr><td>« Je ne suis pas informaticien. »</td><td>« Vous n'avez rien à apprendre. Vous recevez un mail ou une notification, vous validez. »</td></tr>
+  <tr><td>« Et si ça tombe en panne, ou si vous disparaissez ? »</td><td>Tout est documenté, l'outil est chez le client, les comptes sont à son nom. Proposer un forfait de maintenance.</td></tr>
+  <tr><td>« J'ai lu que 95 % des projets d'IA échouent. »</td><td>« Ce chiffre du MIT concerne surtout de grands projets pilotes jamais branchés sur le travail réel <span class="src">[13]</span>. Je fais l'inverse : une tâche précise, mesurée, en production en quelques semaines. »</td></tr>
+  <tr><td>« Ça va remplacer ma secrétaire. »</td><td>« Non, ça lui enlève les tâches répétitives pour qu'elle s'occupe des clients et des cas compliqués. »</td></tr>
+  <tr><td>« On verra plus tard. »</td><td>Pour les artisans : l'échéance du 1er septembre 2027 approche, mieux vaut s'organiser avant la saison haute. Pour les PME éligibles : le guichet IA Booster est annoncé jusqu'au 31 décembre 2026 <span class="src">[12]</span>.</td></tr>
+</table>
+
+<h2>7. Ce qu'il ne faut pas promettre</h2>
+
+<div class="warn">
+  <strong>Rester honnête, c'est aussi un argument de vente.</strong> Les dirigeants ont déjà entendu beaucoup de promesses sur l'IA.
+  <ul style="margin-top:6px">
+    <li><strong>Pas de chiffres magiques.</strong> Les « +30 % de devis signés » ou « DSO divisé par deux » qu'on lit sur les blogs d'éditeurs sont des estimations commerciales, pas des études. Je n'ai trouvé aucune étude indépendante qui mesure l'effet des relances automatiques sur le délai d'encaissement des PME. Mieux vaut mesurer chez le client, avant et après.</li>
+    <li><strong>Pas de « gratuit pour toujours ».</strong> Les offres gratuites changent (leçon Mistral, octobre 2026). Dire « gratuit aujourd'hui, vérifié à telle date ».</li>
+    <li><strong>Pas d'IA sans contrôle humain</strong> sur ce qui engage l'entreprise : envoi d'un devis, d'une facture, d'une réponse à un client mécontent.</li>
+    <li><strong>Ne pas surestimer les gains.</strong> La Banque de France note que les gains de productivité restent « encore limités » <span class="src">[3]</span>. C'est un argument pour bien cibler, pas pour promettre une révolution.</li>
+    <li><strong>Sanctions de la facturation électronique :</strong> on lit partout 15 € par facture non conforme, plafonnés à 15 000 € par an, avec une mise en demeure d'abord <span class="src">[8]</span>. Ce sont des sources d'éditeurs : vérifier sur impots.gouv.fr avant de les citer à un client, et ne pas en faire un argument de peur.</li>
+  </ul>
+</div>
+
+<h2 class="page-break">8. Pitchs prêts à dire</h2>
+
+<h3>Pour un artisan (30 secondes)</h3>
+<div class="pitch">« J'ai dirigé une entreprise de sols pendant six ans, je sais ce que c'est de faire ses devis et ses relances le dimanche soir. Aujourd'hui, j'installe un logiciel de facturation gratuit et agréé, celui qui vous met en règle pour septembre 2027, et je l'automatise : les acomptes sont calculés tout seuls, les relances partent toutes seules, les factures fournisseurs sont rangées par chantier et votre comptable reçoit tout. Vous gardez la main, vous validez, et vous récupérez vos soirées. »</div>
+
+<h3>Pour une PME (30 secondes)</h3>
+<div class="pitch">« La plupart des PME ont déjà essayé l'IA, mais seule une sur trois en tire un vrai gain, parce que l'outil reste à côté du travail. Moi, je pars d'une tâche précise qui vous coûte du temps chaque semaine, la saisie des commandes, le tri des mails ou les relances, et je l'automatise de bout en bout, avec un contrôle humain là où ça compte. On mesure avant et après. Si ça ne vous fait pas gagner de temps, on s'arrête là. »</div>
+
+<h3>Questions à poser pour trouver le bon besoin</h3>
+<ol>
+  <li>Quelle tâche faites-vous chaque semaine et que vous détestez ?</li>
+  <li>Combien de temps y passez-vous ? Qui la fait ?</li>
+  <li>Qu'est-ce qui se passe quand elle est oubliée ou faite en retard ?</li>
+  <li>Combien de factures sont payées en retard en ce moment ?</li>
+  <li>Comment recevez-vous vos demandes de devis, et en combien de temps y répondez-vous ?</li>
+  <li>Où en êtes-vous pour la facturation électronique de 2027 ?</li>
+</ol>
+
+<h3>Les preuves à préparer avant les premiers rendez-vous</h3>
+<ul>
+  <li>Une démo du <strong>trieur de demandes de devis</strong> (déjà construit pour Atelier Facette).</li>
+  <li>Une démo <strong>acompte + relance</strong> dans le sandbox Qonto branché à n8n.</li>
+  <li>Le <strong>tri des alertes d'offres</strong> (séance 6 : 25 offres extraites au lieu de 2), comme exemple de lecture automatique de mails.</li>
+  <li>Une fiche d'une page « Avant / Après » par démo, avec le temps gagné mesuré.</li>
+</ul>
+
+<h2>Sources</h2>
+<ol class="sources">
+  <li>DGE et Crédoc, <em>Baromètre France Num 2026</em>, 28/09/2026, 9 655 entreprises. <a href="https://www.entreprises.gouv.fr/espace-presse/barometre-france-num-2026-quatre-tpe-pme-sur-dix-utilisent-desormais-lintelligence">entreprises.gouv.fr</a></li>
+  <li>ActuIA, chiffres sectoriels du baromètre France Num 2026 (bâtiment 30 %). <a href="https://www.actuia.com/actualite/40-des-tpe-pme-utilisent-lia-mais-19-seulement-la-paient/">actuia.com</a> <span class="tag">source secondaire</span></li>
+  <li>Banque de France, <em>L'IA s'installe dans les entreprises françaises : une diffusion rapide, mais des gains de productivité encore limités</em>, Bulletin n° 266, 03/09/2026, environ 7 000 entreprises. <a href="https://www.banque-france.fr/fr/publications-et-statistiques/publications/lia-sinstalle-dans-les-entreprises-francaises-une-diffusion-rapide-mais-des-gains-de-productivite">banque-france.fr</a></li>
+  <li>Economie Matin, <em>IA générative : l'écart se creuse entre grandes entreprises et PME</em> (un tiers des utilisateurs constatent un gain concret). <a href="https://www.economiematin.fr/?p=231192">economiematin.fr</a> <span class="tag">source secondaire</span></li>
+  <li>Asterès pour le FAFCEA, <em>Impact de l'IA sur la productivité des entreprises artisanales</em>, fin 2024, 1 200 chefs d'entreprise artisanale. <a href="https://tpeactu.fr/2024/12/17/limpact-de-lia-sur-la-productivite-des-entreprises-artisanales/">tpeactu.fr</a> · <a href="https://asteres.fr/site/wp-content/uploads/2024/12/ASTERES-FAFCEA-Impact-de-lIA-06122024.pdf">rapport PDF</a> <span class="tag">chiffres de 2024</span></li>
+  <li>CAPEB, CNATP et IRIS-ST, <em>11e baromètre Artisanté</em>, juin 2025 (données 2024). <a href="https://www.capeb.fr/actualites/publication-de-la-11e-edition-du-barometre-artisante-des-chefs-d-entreprise-du-btp-et-du-paysage-toujours-sous-pression-malgre-une-volonte-de-mieux-concilier-vie-professionnelle-et-personnelle">capeb.fr</a></li>
+  <li>Observatoire des délais de paiement, rapport annuel 2025 (septembre 2026), relayé par TPE Actu. <a href="https://tpeactu.fr/2026/09/26/retards-paiement-13-milliards-tpe-pme-grandes-entreprises/">tpeactu.fr</a> · <a href="https://www.banque-france.fr/system/files/2026-09/CP_RA-ODP_20260923.pdf">communiqué Banque de France</a></li>
+  <li>Calendrier de la facturation électronique : <a href="https://www.cegid.com/fr/facture-electronique-obligatoire/calendrier-facture-electronique/">Cegid</a>, <a href="https://www.keobiz.fr/le-mag/facturation-electronique-calendrier-2026-2027/">Keobiz</a>. Sanctions : <a href="https://www.shine.fr/blog/sanctions-facturation-electronique/">Shine</a>. <span class="tag">éditeurs, à vérifier sur impots.gouv.fr</span></li>
+  <li>Bpifrance Le Lab, 82e baromètre des TPE-PME, janvier 2026 (55 % des dirigeants utilisent l'IA générative). <a href="https://www.actuia.com/acteur/bpifrance-le-lab/">actuia.com</a> <span class="tag">source secondaire</span></li>
+  <li>Étude Salesforce relayée par CB News, <em>Les entreprises françaises adoptent l'IA avec pragmatisme</em> (freins : compétences, coûts, retour sur investissement, sécurité). <a href="https://www.cbnews.fr/etudes/les-entreprises-francaises-adoptent-ia-avec-pragmatisme">cbnews.fr</a> <span class="tag">pas seulement des PME</span></li>
+  <li>IDC pour Sage, <em>IA et cybersécurité des PME</em>, 2026, 330 PME françaises. <a href="https://www.sage.com/fr-fr/actualites/communiques-presse/2026/05/ia-et-cybersecurite-pme/">sage.com</a></li>
+  <li>Programme <em>IA Booster France 2030</em> (Bpifrance) : jusqu'à 80 % de la prestation pris en charge, priorité aux entreprises de 10 à 2 000 salariés et plus de 250 000 € de chiffre d'affaires, guichet annoncé jusqu'au 31/12/2026. <a href="https://www.entreprises.gouv.fr/la-dge/actualites/lancement-du-programme-ia-booster-france-2030">entreprises.gouv.fr</a> <span class="tag">conditions 2026 à vérifier chez Bpifrance</span></li>
+  <li>MIT NANDA, <em>The GenAI Divide: State of AI in Business 2025</em>, relayé par Fortune. <a href="https://www.fortune.com/2025/08/21/an-mit-report-that-95-of-ai-pilots-fail-spooked-investors-but-the-reason-why-those-pilots-failed-is-what-should-make-the-c-suite-anxious">fortune.com</a> <span class="tag">méthode contestée</span></li>
+  <li>Leto, <em>AI Act : à la veille du 2 août 2026, ce que Bruxelles a vraiment changé sur la transparence</em>. <a href="https://www.leto.legal/news/ai-act-echeance-2-aout-2026-mode-emploi">leto.legal</a></li>
+</ol>
+
+</body>
+</html>

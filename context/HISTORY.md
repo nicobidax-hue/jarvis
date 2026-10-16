@@ -43,6 +43,12 @@
 - Écartées : DOGA (trilingue anglais et espagnol), ENVEA (anglais, 4 ans d'ADV export), ATEQ (responsable logistique aux Clayes, anglais professionnel et CACES), RATP Cap (en réalité à Châtenay-Malabry), CAP Intérim (réservé RQTH). Pistes ajoutées : CPAM des Yvelines à Poissy (4 CDD de gestionnaire administratif dès novembre), Robert Half approvisionneur à Coignières
 - Total au 16/10 : 26 candidatures, 4 refus, 22 en cours
 
+### Arguments de vente de l'IA (recherche et PDF)
+- PDF de 9 pages pour Nicolas (document de travail, pas une plaquette client), cibles artisans/TPE du bâtiment et PME : `livrables/ia/2026-10-16_arguments-vente-ia/` (HTML source + PDF généré avec Edge, Python absent du PC)
+- Chiffres clés retenus : 40 % des TPE-PME utilisent l'IA mais 30 % dans le bâtiment et 11 % pour automatiser (France Num 2026) ; facturation électronique priorité n° 1 (39 %) devant l'IA (18 %) ; un tiers seulement des entreprises utilisatrices voient un gain concret (Banque de France, sept. 2026, via la presse) ; 10 h de gestion par semaine pour un artisan et 2,1 h gagnées avec l'IA (Asterès, 2024) ; retard de paiement de 14,6 jours pour les moins de 3 salariés (Observatoire des délais de paiement) ; IA Booster France 2030 jusqu'à 80 % pris en charge, guichet annoncé jusqu'au 31/12/2026
+- Fil rouge : vendre du temps, de la trésorerie et la mise en conformité, pas « de l'IA ». Contenu : 7 arguments, arguments par cible, 10 objections et réponses, ce qu'il ne faut pas promettre, 2 pitchs de 30 secondes, questions de découverte, démos à préparer
+- À vérifier avant de citer à un client : sanctions de la facturation électronique (15 € par facture, plafond 15 000 €, sources d'éditeurs), conditions 2026 d'IA Booster. Aucune étude indépendante trouvée sur l'effet des relances automatiques ou de la rapidité de réponse aux devis : mesurer chez les premiers clients
+
 ## 2026-10-15
 
 ### Prochaine session
