@@ -17,6 +17,33 @@
 - CV : `livrables/taff/2026-10-08_cv-cibles/cv-support-informatique_doublon.docx` toujours à trier
 - Clés d'API : sauvegarde dans un gestionnaire de mots de passe à confirmer par Nicolas
 
+## 2026-10-16
+
+### Prochaine session
+- 19/10 : Sol pro, MO Ingénierie, O'TOMAT ; 20/10 : mairie de Villepreux (2e relance, par téléphone), DLSI, Telstar (offre retirée de HelloWork, demander si le poste est pourvu), Airwell ; 21/10 : FAB Group, Sovitrat, Equipages, Eberspächer ; 22/10 : Central Pose, Bessière (2e et dernière, offre fermée : clôturer si rien), Valorem, Robert Half, AGSE ; 23/10 : Saudade, XEFI, Hilti, LHH (un rappel commun dans l'agenda) ; 30/10 : clôture de Fed Group si toujours rien
+- Fed Group : le message Indeed de relance (texte prêt dans la session) n'a pas été envoyé, seulement l'appel
+- **Abonnement Claude via Google Play annulé au 2 novembre** (mail du 15/10, en même temps que la clôture du profil de paiement Google). À vérifier par Nicolas : voulu ou non, et se réabonner (par exemple sur claude.ai) avant le 2/11 si besoin
+- Compte LHH à activer (lien dans le mail « Création de votre compte LHH »)
+- Robert Half : demander à être positionné aussi sur les postes d'approvisionneur (Coignières) et d'assistant de gestion (alerte HelloWork du 16/10), plutôt que de repostuler
+- Equans publie un poste d'assistant contrat Facility Management à Guyancourt : à proposer à Nicolas (Equans écarté le 15/10 pour un autre poste)
+- Toujours en attente : séance IA 7 (finir le workflow HelloWork), régénération de la clé Gemini passée dans la conversation le 15/10
+
+### `/mails`
+- 44 mails sur 24 h, 17 pubs lues, 2 mails IA rangés (Mistral, Notion dans IA/Outils). Aucun mail d'employeur demandant une réponse
+- Telstar : HelloWork signale l'offre retirée (« avez-vous été recruté ? »), sans réponse de Telstar. Valorem : CV consulté le 15/10. Robert Half : accusé de réception et espace candidat activé
+- Qonto relance le parcours payant « création de micro-entreprise » : à ignorer (piège déjà noté le 15/10)
+- Notification téléphone non envoyée : Remote Control inactif
+
+### `/emploi` complet : 4 candidatures envoyées
+- Sources : Indeed (une dizaine de recherches) et surtout HelloWork (recherches « assistant », « administratif », « logistique » sur 15 km, dernière semaine). HelloWork reste la source la plus riche
+- **4 candidatures envoyées par Nicolas le 16/10**, toutes confirmées par un accusé de réception : Saudade Distribution (assistant commercial sédentaire, CDD de remplacement, Les Loges-en-Josas, **portugais apprécié**, envoyée par mail à Bruno Gabriel), XEFI (assistant commercial, CDI, Les Clayes-sous-Bois, entreprise informatique, publiée le matin même), Hilti France (gestionnaire administratif parc, CDI, siège de Bois-d'Arcy, intitulé interne « Car fleet Specialist »), LHH Recruitment Solutions (assistant administratif de projet, intérim longue durée chez un industriel, Versailles, 30 à 35 k€)
+- Modèles utilisés avec `adapter-docx.ps1` : O'TOMAT pour XEFI, Eberspächer pour Saudade, Airwell pour Hilti, Talysio pour LHH. Fichiers nommés sans le nom de l'entreprise (`cv-nicolas-bideau`, `lettre-motivation`), comme le veut la règle de `/emploi`
+- Piège confirmé : un sous-titre de CV de plus de 100 caractères environ passe sur 2 lignes avec un mot orphelin. Les 4 sous-titres ont été raccourcis puis vérifiés sur le PDF
+- Points d'attention notés dans chaque `offre.md` : Sage Gestion Commerciale demandé chez Saudade (jamais utilisé), 3 ans d'assistant demandés chez LHH, prospection téléphonique chez XEFI. Formulaire LHH : salaire souhaité conseillé à 30 000 à 35 000 € (fourchette de l'offre) plutôt que 25 000 à 30 000 €
+- Fed Group : offre fermée ou expirée sur Indeed (comme celle de Bessière), appel à Laure Evain le 16/10 sans réponse, compté comme 2e relance. Conseil : une offre fermée n'est pas un refus, et Fed Supply est un cabinet qui place d'autres assistants ADV. AGSE : statut Indeed « Candidature consultée »
+- Écartées : DOGA (trilingue anglais et espagnol), ENVEA (anglais, 4 ans d'ADV export), ATEQ (responsable logistique aux Clayes, anglais professionnel et CACES), RATP Cap (en réalité à Châtenay-Malabry), CAP Intérim (réservé RQTH). Pistes ajoutées : CPAM des Yvelines à Poissy (4 CDD de gestionnaire administratif dès novembre), Robert Half approvisionneur à Coignières
+- Total au 16/10 : 26 candidatures, 4 refus, 22 en cours
+
 ## 2026-10-15
 
 ### Prochaine session
