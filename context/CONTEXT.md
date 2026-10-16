@@ -53,6 +53,9 @@ Je mène de front plusieurs activités : la rénovation intérieure pour les par
 - **Offre visée :** conseil, intégration de l'IA en entreprise, chatbots, automatisations
 - **Cible à terme :** les entreprises, notamment les PME de ma région
 - **Piste d'offre retenue (2026-10-15) :** automatisations autour d'un logiciel de facturation gratuit et agréé, pour les artisans. Nicolas installe le logiciel et vend les automatisations (acompte calculé selon le devis, relances, factures fournisseurs par chantier, envoi au comptable). Contexte : la réforme impose la réception des factures électroniques depuis le 1er septembre 2026, et leur émission pour les TPE-PME au 1er septembre 2027. Logiciel favori : **Qonto Facturation** (gratuit sans compte bancaire, agréé, API complète). Comparatif dans `livrables/ia/2026-10-15_comparatif-facturation-gratuite/`
+- **Contenu de l'offre (2026-10-16) :** diagnostic (repérer les tâches à automatiser en premier), mise en place et formation (prise en main des outils, bases de l'IA pour l'équipe), suivi des résultats (temps gagné, paiements encaissés plus vite), maintenance (surveiller, réparer, adapter). Face au prix : une seule tâche, prix fixe, calcul heures gagnées × valeur de l'heure
+- **Aides publiques écartées de l'argumentaire (2026-10-16) :** le diagnostic subventionné par Bpifrance passe par un expert habilité (risque de perdre le client), et le Prêt Boost IA est un prêt, peu vendeur pour des artisans. Plus tard : financement de la formation par le FAFCEA ou l'OPCO, qui suppose la certification Qualiopi
+- **Arguments de vente :** recherche du 2026-10-16 et présentations Canva v1 et v2 dans `livrables/ia/2026-10-16_arguments-vente-ia/`
 
 ### Création de contenu (à venir)
 
